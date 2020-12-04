@@ -24,3 +24,5 @@
 # Miscellaneous
 *.dll
 *.log
+
+.idea/*
