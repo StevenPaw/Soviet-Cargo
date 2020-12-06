@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f4e785a3-e1dc-4fa9-a8e9-18102ceb2f11","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Towers",
+    "path": "folders/Sprites/Towers.yy",
   },
   "resourceVersion": "1.0",
   "name": "Tower_Head",

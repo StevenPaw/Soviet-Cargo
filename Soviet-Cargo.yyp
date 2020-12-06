@@ -1,8 +1,8 @@
 {
   "resources": [
     {"id":{"name":"obj_TowerHead","path":"objects/obj_TowerHead/obj_TowerHead.yy",},"order":0,},
-    {"id":{"name":"Tower_Head","path":"sprites/Tower_Head/Tower_Head.yy",},"order":0,},
-    {"id":{"name":"Tower_Base","path":"sprites/Tower_Base/Tower_Base.yy",},"order":1,},
+    {"id":{"name":"Tower_Head","path":"sprites/Tower_Head/Tower_Head.yy",},"order":1,},
+    {"id":{"name":"Tower_Base","path":"sprites/Tower_Base/Tower_Base.yy",},"order":0,},
     {"id":{"name":"obj_TowerBase","path":"objects/obj_TowerBase/obj_TowerBase.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
@@ -37,6 +37,9 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Textures.yy","order":0,"resourceVersion":"1.0","name":"Textures","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Towers.yy","order":1,"resourceVersion":"1.0","name":"Towers","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Enemys.yy","order":2,"resourceVersion":"1.0","name":"Enemys","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
