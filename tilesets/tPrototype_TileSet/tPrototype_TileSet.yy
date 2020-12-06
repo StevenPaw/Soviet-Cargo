@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sTileSet",
+    "path": "sprites/sTileSet/sTileSet.yy",
+  },
   "tileWidth": 128,
   "tileHeight": 128,
   "tilexoff": 0,
@@ -14,7 +17,7 @@
   "out_tilehborder": 2,
   "out_tilevborder": 2,
   "out_columns": 2,
-  "tile_count": 3,
+  "tile_count": 4,
   "autoTileSets": [],
   "tileAnimationFrames": [],
   "tileAnimationSpeed": 15.0,
@@ -23,6 +26,7 @@
       0,
       1,
       2,
+      3,
     ],
     "SerialiseFrameCount": 1,
   },

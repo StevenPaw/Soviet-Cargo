@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":0,},
     {"id":{"name":"obj_TowerHead","path":"objects/obj_TowerHead/obj_TowerHead.yy",},"order":0,},
     {"id":{"name":"EnergieKugel","path":"sprites/EnergieKugel/EnergieKugel.yy",},"order":2,},
     {"id":{"name":"DarkStone","path":"sprites/DarkStone/DarkStone.yy",},"order":0,},
@@ -8,6 +9,7 @@
     {"id":{"name":"EarthPath","path":"sprites/EarthPath/EarthPath.yy",},"order":1,},
     {"id":{"name":"Tower_Head","path":"sprites/Tower_Head/Tower_Head.yy",},"order":1,},
     {"id":{"name":"tPrototype_TileSet","path":"tilesets/tPrototype_TileSet/tPrototype_TileSet.yy",},"order":0,},
+    {"id":{"name":"sTileSet","path":"sprites/sTileSet/sTileSet.yy",},"order":4,},
     {"id":{"name":"Tower_Base","path":"sprites/Tower_Base/Tower_Base.yy",},"order":0,},
     {"id":{"name":"obj_TowerBase","path":"objects/obj_TowerBase/obj_TowerBase.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
