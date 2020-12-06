@@ -7,6 +7,7 @@
     {"id":{"name":"LightStone","path":"sprites/LightStone/LightStone.yy",},"order":2,},
     {"id":{"name":"EarthPath","path":"sprites/EarthPath/EarthPath.yy",},"order":1,},
     {"id":{"name":"Tower_Head","path":"sprites/Tower_Head/Tower_Head.yy",},"order":1,},
+    {"id":{"name":"Prototype_TileSet","path":"tilesets/Prototype_TileSet/Prototype_TileSet.yy",},"order":0,},
     {"id":{"name":"Tower_Base","path":"sprites/Tower_Base/Tower_Base.yy",},"order":0,},
     {"id":{"name":"obj_TowerBase","path":"objects/obj_TowerBase/obj_TowerBase.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
