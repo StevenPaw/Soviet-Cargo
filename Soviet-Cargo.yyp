@@ -1,6 +1,11 @@
 {
   "resources": [
     {"id":{"name":"obj_TowerHead","path":"objects/obj_TowerHead/obj_TowerHead.yy",},"order":0,},
+    {"id":{"name":"EnergieKugel","path":"sprites/EnergieKugel/EnergieKugel.yy",},"order":2,},
+    {"id":{"name":"DarkStone","path":"sprites/DarkStone/DarkStone.yy",},"order":0,},
+    {"id":{"name":"Bridge","path":"sprites/Bridge/Bridge.yy",},"order":3,},
+    {"id":{"name":"LightStone","path":"sprites/LightStone/LightStone.yy",},"order":2,},
+    {"id":{"name":"EarthPath","path":"sprites/EarthPath/EarthPath.yy",},"order":1,},
     {"id":{"name":"Tower_Head","path":"sprites/Tower_Head/Tower_Head.yy",},"order":1,},
     {"id":{"name":"Tower_Base","path":"sprites/Tower_Base/Tower_Base.yy",},"order":0,},
     {"id":{"name":"obj_TowerBase","path":"objects/obj_TowerBase/obj_TowerBase.yy",},"order":1,},
