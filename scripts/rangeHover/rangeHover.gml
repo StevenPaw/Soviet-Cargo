@@ -1,3 +1,6 @@
+
+function isInRange(arg0, arg1, arg2, arg3)
+{
 var xx = argument0;
 var yy = argument1;
 var width = argument2;
@@ -11,3 +14,4 @@ if(mouse_x > xx && mouse_x < xx + width){
 		return true;
 	}else return false;
 }else return false;
+}

@@ -1,5 +1,5 @@
 draw_self();
-if(rangeHover(x,y,sprite_width,sprite_height))
+if(oRangeHover.isInRange(x,y,sprite_width,sprite_height))
 	draw_circle(x,y,range,true);
 
 

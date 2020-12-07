@@ -5,6 +5,7 @@
     {"id":{"name":"Tree4","path":"sprites/Tree4/Tree4.yy",},"order":8,},
     {"id":{"name":"EnergieKugel","path":"sprites/EnergieKugel/EnergieKugel.yy",},"order":2,},
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},"order":7,},
+    {"id":{"name":"oRangeHover","path":"objects/oRangeHover/oRangeHover.yy",},"order":8,},
     {"id":{"name":"oTower1D","path":"objects/oTower1D/oTower1D.yy",},"order":0,},
     {"id":{"name":"DarkStone","path":"sprites/DarkStone/DarkStone.yy",},"order":0,},
     {"id":{"name":"rangeHover","path":"scripts/rangeHover/rangeHover.yy",},"order":0,},

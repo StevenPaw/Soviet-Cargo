@@ -16,6 +16,7 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oSpawn","path":"objects/oSpawn/oSpawn.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":183.0,"y":-79.0,"resourceVersion":"1.0","name":"inst_130B0AE0","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oTower1C","path":"objects/oTower1C/oTower1C.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1083.0,"y":956.0,"resourceVersion":"1.0","name":"inst_1BC4DD90","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oRangeHover","path":"objects/oRangeHover/oRangeHover.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":864.0,"y":1056.0,"resourceVersion":"1.0","name":"inst_1A7CBA1","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":96,"gridY":96,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"Tree5","path":"sprites/Tree5/Tree5.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":0.62499994,"scaleY":0.625,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-80.0,"y":784.0,"resourceVersion":"1.0","name":"graphic_3169716A","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -63,6 +64,7 @@
   "instanceCreationOrder": [
     {"name":"inst_130B0AE0","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_1BC4DD90","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_1A7CBA1","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
