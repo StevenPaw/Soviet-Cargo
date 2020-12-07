@@ -20,15 +20,18 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oTower1D","path":"objects/oTower1D/oTower1D.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"parent":{"name":"oTower1D","path":"objects/oTower1D/oTower1D.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Tower Dragged",
+    "path": "folders/Objects/Tower Dragged.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_TowerHead",
+  "name": "oTower1D",
   "tags": [],
   "resourceType": "GMObject",
 }

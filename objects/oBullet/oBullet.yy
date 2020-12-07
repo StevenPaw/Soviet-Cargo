@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Tower_Head",
-    "path": "sprites/Tower_Head/Tower_Head.yy",
+    "name": "sBullet",
+    "path": "sprites/sBullet/sBullet.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_TowerHead",
+  "name": "oBullet",
   "tags": [],
   "resourceType": "GMObject",
 }
