@@ -15,8 +15,8 @@
     {"speed":100.0,"x":1600.0,"y":-32.0,},
   ],
   "parent": {
-    "name": "Soviet-Cargo",
-    "path": "Soviet-Cargo.yyp",
+    "name": "Paths",
+    "path": "folders/Paths.yy",
   },
   "resourceVersion": "1.0",
   "name": "Path1",
