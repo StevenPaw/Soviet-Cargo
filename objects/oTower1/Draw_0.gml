@@ -12,6 +12,8 @@ if(enemy != noone){
 			}
 			
 			objectToShoot = enemy;
+			objectToShoot_x = objectToShoot.x;
+			objectToShoot_y = objectToShoot.y;
 			if(rangeHover(x,y,sprite_width,sprite_height))
 				draw_line(x,y,enemy.x,enemy.y);
 			}else {
