@@ -3,6 +3,7 @@ fire_rate = room_speed / 3;
 shooting = false;
 objectToShoot = noone;
 
+effect_create_below(ef_explosion, x, y, 1.7, c_gray);
 
 tower_base = instance_create_depth(x, y, -1, obj_TowerBase);
 

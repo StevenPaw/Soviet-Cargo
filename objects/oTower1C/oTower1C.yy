@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Tower_Head",
-    "path": "sprites/Tower_Head/Tower_Head.yy",
+    "name": "sTower_HeadInv",
+    "path": "sprites/sTower_HeadInv/sTower_HeadInv.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,8 +22,11 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oTower1C","path":"objects/oTower1C/oTower1C.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"oTower1C","path":"objects/oTower1C/oTower1C.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"parent":{"name":"oTower1C","path":"objects/oTower1C/oTower1C.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":10,"eventType":6,"collisionObjectId":null,"parent":{"name":"oTower1C","path":"objects/oTower1C/oTower1C.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":11,"eventType":6,"collisionObjectId":null,"parent":{"name":"oTower1C","path":"objects/oTower1C/oTower1C.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oTower1C","path":"objects/oTower1C/oTower1C.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"oTower1C","path":"objects/oTower1C/oTower1C.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

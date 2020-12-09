@@ -10,3 +10,5 @@ global.spd = 1; // initial enemy speed
 global.level = 1; // initial enemy level
 
 global.coins = 100; // player currency
+global.poweruse = 10; // initial enemy level
+global.maxPoweruse = 10; // initial enemy level
