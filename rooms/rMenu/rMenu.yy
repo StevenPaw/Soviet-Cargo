@@ -15,6 +15,11 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"MainMenuTemplate","path":"objects/MainMenuTemplate/MainMenuTemplate.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_293F1C21","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oLoadGame","path":"objects/oLoadGame/oLoadGame.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":660.0,"y":235.0,"resourceVersion":"1.0","name":"inst_2E37A0B4","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oNewGame","path":"objects/oNewGame/oNewGame.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":660.0,"y":351.0,"resourceVersion":"1.0","name":"inst_4EF04D38","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oEndlessMode","path":"objects/oEndlessMode/oEndlessMode.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":660.0,"y":467.0,"resourceVersion":"1.0","name":"inst_733C05E4","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oOptions","path":"objects/oOptions/oOptions.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":660.0,"y":583.0,"resourceVersion":"1.0","name":"inst_5BDE264B","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oExitGame","path":"objects/oExitGame/oExitGame.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":660.0,"y":699.0,"resourceVersion":"1.0","name":"inst_3BA360DE","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"MenuLayer","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"Tree5","path":"sprites/Tree5/Tree5.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":0.62499994,"scaleY":0.625,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-80.0,"y":784.0,"resourceVersion":"1.0","name":"graphic_3169716A","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -61,6 +66,11 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_293F1C21","path":"rooms/rMenu/rMenu.yy",},
+    {"name":"inst_4EF04D38","path":"rooms/rMenu/rMenu.yy",},
+    {"name":"inst_5BDE264B","path":"rooms/rMenu/rMenu.yy",},
+    {"name":"inst_733C05E4","path":"rooms/rMenu/rMenu.yy",},
+    {"name":"inst_3BA360DE","path":"rooms/rMenu/rMenu.yy",},
+    {"name":"inst_2E37A0B4","path":"rooms/rMenu/rMenu.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
