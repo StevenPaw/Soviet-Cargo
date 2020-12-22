@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Tower Clickables",
-    "path": "folders/Objects/Tower Clickables.yy",
+    "path": "folders/Objects/GUI/Tower Clickables.yy",
   },
   "resourceVersion": "1.0",
   "name": "oTower1C",

@@ -33,7 +33,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Menu",
-    "path": "folders/Objects/Menu.yy",
+    "path": "folders/Objects/GUI/Menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "oNewGame",
