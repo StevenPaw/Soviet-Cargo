@@ -1,4 +1,6 @@
-path_start(Path1,global.spd,0,1);
+Path = oSpawn.Path;
+
+path_start(Path,global.spd,0,1);
 hp = global.hp;
 
 startsize = sprite_width;

@@ -12,3 +12,20 @@ global.level = 1; // initial enemy level
 global.coins = 100; // player currency
 global.poweruse = 10; // initial enemy level
 global.maxPoweruse = 10; // initial enemy level
+
+switch(room) {
+	case rMenu:
+		break;
+	case rLevel1:
+		Path = pLevel1;
+		break;
+	case rLevel2:
+		Path = pLevel2;
+		break;
+	case rLevel3:
+		Path = pLevel3;
+		break;
+	default:
+		Path = pLevel1;
+		break;
+}
