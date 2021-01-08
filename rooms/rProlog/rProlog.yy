@@ -14,6 +14,7 @@
   ],
   "layers": [
     {"instances":[
+        {"properties":[],"isDnd":false,"objectId":{"name":"oLevelManager","path":"objects/oLevelManager/oLevelManager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-32.0,"y":-128.0,"resourceVersion":"1.0","name":"inst_12D9DF34","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"prologManager","path":"objects/prologManager/prologManager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.491184,"scaleY":1.71237743,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":1024.0,"resourceVersion":"1.0","name":"inst_12B35166","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oPrologText","path":"objects/oPrologText/oPrologText.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":1120.0,"resourceVersion":"1.0","name":"inst_2DB8452","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oSkipProlog","path":"objects/oSkipProlog/oSkipProlog.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.4415708,"scaleY":0.5256796,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1952.0,"y":0.0,"resourceVersion":"1.0","name":"inst_5E09075E","tags":[],"resourceType":"GMRInstance",},
@@ -94,6 +95,7 @@
     {"name":"inst_5E09075E","path":"rooms/rProlog/rProlog.yy",},
     {"name":"inst_12B35166","path":"rooms/rProlog/rProlog.yy",},
     {"name":"inst_2DB8452","path":"rooms/rProlog/rProlog.yy",},
+    {"name":"inst_12D9DF34","path":"rooms/rProlog/rProlog.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
