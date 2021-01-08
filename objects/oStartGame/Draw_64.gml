@@ -9,7 +9,7 @@ draw_set_color(c_white);
 draw_set_halign(fa_center);
 draw_set_valign(fa_center);
 draw_set_font(fMenu);
-draw_text(x + sprite_width / 2, 7 + y + sprite_height / 2, "SELECT LEVEL");
+draw_text(x + sprite_width / 2, 7 + y + sprite_height / 2, "BEGIN GAME");
 
 //3 regain old Settings
 draw_set_color(oldColor);
