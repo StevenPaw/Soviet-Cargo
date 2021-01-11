@@ -5,7 +5,7 @@ if(spawnActive) {
 		spawn_amount++;
 		global.level++;
 		global.wave++;
-		global.hp += 10;
+		global.hp += 20;
 		//global.spd += 0.1; <--- increases enemy speed per wave
 		spawn_rate -= 3.5;
 		}

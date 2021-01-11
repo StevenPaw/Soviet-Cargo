@@ -1,4 +1,4 @@
-hp -= 33.4;
+hp -= 35;
 with(other) instance_destroy();
 
 effect_create_below(ef_explosion, x, y, 0.05, c_orange);
