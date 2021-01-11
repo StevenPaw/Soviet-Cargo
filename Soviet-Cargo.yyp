@@ -2,7 +2,6 @@
   "resources": [
     {"id":{"name":"ButtonSquare","path":"sprites/ButtonSquare/ButtonSquare.yy",},"order":1,},
     {"id":{"name":"MainMenuTemplate","path":"objects/MainMenuTemplate/MainMenuTemplate.yy",},"order":1,},
-    {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":0,},
     {"id":{"name":"pLevel2","path":"paths/pLevel2/pLevel2.yy",},"order":1,},
     {"id":{"name":"PrologOverlay","path":"sprites/PrologOverlay/PrologOverlay.yy",},"order":0,},
     {"id":{"name":"WaterStone","path":"sprites/WaterStone/WaterStone.yy",},"order":14,},
@@ -83,6 +82,7 @@
     {"id":{"name":"Sniper_Tower_Head","path":"sprites/Sniper_Tower_Head/Sniper_Tower_Head.yy",},"order":4,},
     {"id":{"name":"sTopInv","path":"sprites/sTopInv/sTopInv.yy",},"order":4,},
     {"id":{"name":"oLevelManager","path":"objects/oLevelManager/oLevelManager.yy",},"order":11,},
+    {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":1,},
     {"id":{"name":"sCircleMenu_Reposition","path":"sprites/sCircleMenu_Reposition/sCircleMenu_Reposition.yy",},"order":2,},
     {"id":{"name":"obj_TowerBase","path":"objects/obj_TowerBase/obj_TowerBase.yy",},"order":1,},
     {"id":{"name":"Tree2","path":"sprites/Tree2/Tree2.yy",},"order":5,},
