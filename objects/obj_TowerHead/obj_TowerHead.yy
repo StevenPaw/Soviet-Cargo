@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Tower_Head",
-    "path": "sprites/Tower_Head/Tower_Head.yy",
+    "name": "Double_Tower_Head",
+    "path": "sprites/Double_Tower_Head/Double_Tower_Head.yy",
   },
   "solid": false,
   "visible": true,

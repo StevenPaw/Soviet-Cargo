@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Tower_Head",
-    "path": "sprites/Tower_Head/Tower_Head.yy",
+    "name": "Sniper_Tower_Head",
+    "path": "sprites/Sniper_Tower_Head/Sniper_Tower_Head.yy",
   },
   "solid": false,
   "visible": true,

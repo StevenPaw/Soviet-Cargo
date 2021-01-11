@@ -5,9 +5,23 @@ objectToShoot = noone;
 
 effect_create_below(ef_explosion, x, y, 1.7, c_gray);
 
-tower_base = instance_create_depth(x, y, -1, obj_TowerBase);
+tower_base = instance_create_layer(x, y, "Enemies", obj_TowerBase);
 
 move_snap(64, 64);
+
+//Start Enemy-Waves if first tower is build
+if(!oSpawn.spawnActive)
+{
+	oSpawn.spawnActive = true;
+}
+
+
+//Find Price of Tower and lower coins by cost
+clickable = instance_find(oTower1C,0);
+cost = clickable.cost;
+powerCost = clickable.powerCost;
+global.coins -= cost;
+global.poweruse += powerCost;
 
 
 //FOR ROTATION

@@ -1,29 +1,35 @@
+//First make sure that variables exist
 levelComplete[0] = false;
-levelComplete[1] = false;
-levelComplete[2] = false;
-levelComplete[3] = true;
-levelComplete[4] = false;
-levelComplete[5] = false;
-levelComplete[6] = false;
-levelComplete[7] = false;
-levelComplete[8] = false;
-levelComplete[9] = false;
-levelComplete[10] = true;
-levelComplete[11] = false;
-levelComplete[12] = false;
-levelComplete[13] = false;
-
 Room[0] = rMenu;
-Room[1] = rLevel1;
-Room[2] = rLevel2;
-Room[3] = rLevel3;
-Room[4] = rLevel3;
-Room[5] = rLevel3;
-Room[6] = rLevel3;
-Room[7] = rMenu;
-Room[8] = rLevel1;
-Room[9] = rLevel2;
-Room[10] = rLevel3;
-Room[11] = rLevel3;
-Room[12] = rLevel3;
-Room[13] = rLevel3;
+maxWaves[0] = 0;
+levelCount = 0;
+
+//Create Function to make new Levels easier
+function newLevel(roomObject, wavecount){
+	levelCount += 1;
+	levelComplete[levelCount] = false;
+	Room[levelCount] = roomObject;
+	maxWaves[levelCount] = wavecount;
+}
+
+
+//Create Levels
+newLevel(rLevel1, 5);
+newLevel(rLevel2, 10);
+newLevel(rLevel3, 15);
+
+
+//Function to get current Level ID
+function getCurrentLevelID(roomObject) {
+	for(i = 0; i <= array_length(Room); i++) {
+		if (Room[i] == roomObject){
+			return i;
+		}
+	}
+	return 0;
+}
+
+function getMaxWaves(roomObject) {
+	currentID = getCurrentLevelID(roomObject);
+	return maxWaves[currentID];
+}
