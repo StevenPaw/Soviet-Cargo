@@ -5,7 +5,7 @@ if(instance_number(oEnemy) <= 0){
 	global.level++;
 	global.hp += 10;
 	//global.spd += 0.1; <--- increases enemy speed per wave
-	spawn_rate -= 2.5;
+	spawn_rate -= 3.5;
 	alarm[0] = spawn_rate;
 }
 
