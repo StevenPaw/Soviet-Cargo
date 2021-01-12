@@ -17,17 +17,4 @@ global.coins = 20; // player currency
 global.poweruse = 0; // initial enemy level
 global.maxPoweruse = 10; // initial enemy level
 
-switch(oLevelManager.getCurrentLevelID(room)) {
-	case 1:
-		Path = pLevel1;
-		break;
-	case 2:
-		Path = pLevel2;
-		break;
-	case 3:
-		Path = pLevel3;
-		break;
-	default:
-		Path = pLevel1;
-		break;
-}
+Path = oLevelManager.levelPath[oLevelManager.getCurrentLevelID(room)];
