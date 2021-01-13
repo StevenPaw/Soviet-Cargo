@@ -33,6 +33,7 @@
     {"id":{"name":"fMenuSmall","path":"fonts/fMenuSmall/fMenuSmall.yy",},"order":2,},
     {"id":{"name":"rLevel2","path":"rooms/rLevel2/rLevel2.yy",},"order":2,},
     {"id":{"name":"Box","path":"sprites/Box/Box.yy",},"order":16,},
+    {"id":{"name":"sEnemyFix","path":"sprites/sEnemyFix/sEnemyFix.yy",},"order":2,},
     {"id":{"name":"OakTree","path":"sprites/OakTree/OakTree.yy",},"order":18,},
     {"id":{"name":"GreatJobTemplate","path":"sprites/GreatJobTemplate/GreatJobTemplate.yy",},"order":1,},
     {"id":{"name":"oTower2","path":"objects/oTower2/oTower2.yy",},"order":2,},
