@@ -1,5 +1,5 @@
 //First make sure that variables exist
-levelComplete[0] = false;
+levelComplete[0] = 0;
 Room[0] = rMenu;
 maxWaves[0] = 0;
 levelPath[0] = pLevel1;
@@ -8,7 +8,7 @@ levelCount = 0;
 //Create Function to make new Levels easier
 function newLevel(roomObject, wavecount, levelpath){
 	levelCount += 1;
-	levelComplete[levelCount] = false;
+	levelComplete[levelCount] = 0;
 	Room[levelCount] = roomObject;
 	maxWaves[levelCount] = wavecount;
 	levelPath[levelCount] = levelpath;

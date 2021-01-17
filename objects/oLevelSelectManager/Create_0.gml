@@ -34,11 +34,7 @@ for (i = 1; i < array_length(Roomlist); i++)
 	roomButton[i].levelNumber = i;
 	
 	roomCheckmark[i] = instance_create_layer(curX, curY, "LevelCheckmarks", oLevelCheckmark);
-	if(oLevelManager.levelComplete[i]){
-		roomCheckmark[i].isActive = true;
-	} else {
-		roomCheckmark[i].isActive = false;	
-	}
+	roomCheckmark[i].stars = oLevelManager.levelComplete[i];
 	
 	maxY = curY;
 }

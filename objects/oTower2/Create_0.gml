@@ -2,6 +2,8 @@ range = 450;
 fire_rate = room_speed / 0.5;
 shooting = false;
 objectToShoot = noone;
+draggableObject = oTower2D;
+towerObject = oTower2;
 
 effect_create_below(ef_explosion, x, y, 1.7, c_gray);
 

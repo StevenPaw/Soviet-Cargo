@@ -46,7 +46,6 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"oTopGUI","path":"objects/oTopGUI/oTopGUI.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_590AA8E9","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oTower1C","path":"objects/oTower1C/oTower1C.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1024.0,"y":769.0,"resourceVersion":"1.0","name":"inst_1BC4DD90","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oTower2C","path":"objects/oTower2C/oTower2C.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":641.0,"y":768.0,"resourceVersion":"1.0","name":"inst_471E550E","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"oLevelManager","path":"objects/oLevelManager/oLevelManager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":-320.0,"resourceVersion":"1.0","name":"inst_1FAD11A2","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":64,"gridY":64,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"GUI1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"OrangeTree","path":"sprites/OrangeTree/OrangeTree.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":0.765136659,"scaleY":0.765136659,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-77.74997,"y":-228.749969,"resourceVersion":"1.0","name":"graphic_57245AB5","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -140,7 +139,6 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_1FAD11A2","path":"rooms/rLevel4/rLevel4.yy",},
     {"name":"inst_130B0AE0","path":"rooms/rLevel4/rLevel4.yy",},
     {"name":"inst_1A7CBA1","path":"rooms/rLevel4/rLevel4.yy",},
     {"name":"inst_59C2B00","path":"rooms/rLevel4/rLevel4.yy",},
