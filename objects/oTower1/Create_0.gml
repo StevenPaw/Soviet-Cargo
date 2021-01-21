@@ -22,7 +22,10 @@ if(!oSpawn.spawnActive)
 clickable = instance_find(oTower1C,0);
 cost = clickable.cost;
 powerCost = clickable.powerCost;
-global.coins -= cost;
+if (global.isBuying) {
+	global.coins -= cost;
+	global.isBuying = false;
+}
 global.poweruse += powerCost;
 
 
@@ -30,4 +33,3 @@ global.poweruse += powerCost;
 objectToShoot_x = room_width; //Sets the x-Position of the Enemy to determine to shooting direction
 objectToShoot_y = y + 1; //Sets the y-Position of the Enemy to determine to shooting direction
 rspeed = 5; //Speed of the Rotation
-Point_dir = 0; //the variable that will store what direction to rotate to

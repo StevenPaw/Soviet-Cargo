@@ -22,7 +22,10 @@ if(!oSpawn.spawnActive)
 clickable = instance_find(oTower2C,0);
 cost = clickable.cost;
 powerCost = clickable.powerCost;
-global.coins -= cost;
+if (global.isBuying) {
+	global.coins -= cost;
+	global.isBuying = false;
+}
 global.poweruse += powerCost;
 
 

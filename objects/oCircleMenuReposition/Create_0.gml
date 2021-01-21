@@ -9,7 +9,8 @@ function onClick() {
 		
 	if(global.coins >= nearest.cost / 2){
 		instance_create_depth(mouse_x, mouse_y, -9, nearest.draggableObject);
-		global.coins += nearest.cost / 2;
+		global.coins -= nearest.cost / 2;
+		global.poweruse -= nearest.powerCost;
 		instance_destroy(nearest);
 	}
 }

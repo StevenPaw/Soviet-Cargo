@@ -77,6 +77,7 @@
     {"id":{"name":"sCircleMenu_Sell","path":"sprites/sCircleMenu_Sell/sCircleMenu_Sell.yy",},"order":4,},
     {"id":{"name":"oLevelButton","path":"objects/oLevelButton/oLevelButton.yy",},"order":1,},
     {"id":{"name":"sCircleMenu_Info","path":"sprites/sCircleMenu_Info/sCircleMenu_Info.yy",},"order":0,},
+    {"id":{"name":"oGameManager","path":"objects/oGameManager/oGameManager.yy",},"order":15,},
     {"id":{"name":"rLevel5","path":"rooms/rLevel5/rLevel5.yy",},"order":7,},
     {"id":{"name":"oMenuManager","path":"objects/oMenuManager/oMenuManager.yy",},"order":0,},
     {"id":{"name":"oCircleMenuReposition","path":"objects/oCircleMenuReposition/oCircleMenuReposition.yy",},"order":4,},
