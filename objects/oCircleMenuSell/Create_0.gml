@@ -1,7 +1,7 @@
 active = false;
-clickedTower = oTower1;
+clickedTower = oTowerDouble;
 
-nearest = instance_nearest(x,y,oTowerParent);
+nearest = instance_nearest(x,y,par_Tower);
 moneyback = nearest.cost;
 powerback = nearest.powerCost;
 

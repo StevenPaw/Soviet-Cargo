@@ -1,5 +1,5 @@
 mouseOnMenu = true;
-clickedTower = oTower1;
+clickedTower = oTowerDouble;
 
 buttonSell = instance_create_depth(x,y,-100,oCircleMenuSell);
 buttonInfo = instance_create_depth(x,y,-100,oCircleMenuInfo);

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Box",
-    "path": "sprites/Box/Box.yy",
+    "name": "ph_3_128x128",
+    "path": "sprites/ph_3_128x128/ph_3_128x128.yy",
   },
   "solid": false,
   "visible": true,

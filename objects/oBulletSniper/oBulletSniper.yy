@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "sBullet",
-    "path": "sprites/sBullet/sBullet.yy",
+    "name": "ph_1_16x16",
+    "path": "sprites/ph_1_16x16/ph_1_16x16.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "par_Bullet",
+    "path": "objects/par_Bullet/par_Bullet.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -22,12 +25,13 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":7,"collisionObjectId":null,"parent":{"name":"oBulletSniper","path":"objects/oBulletSniper/oBulletSniper.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oBulletSniper","path":"objects/oBulletSniper/oBulletSniper.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Bullets",
+    "path": "folders/Objects/Bullets.yy",
   },
   "resourceVersion": "1.0",
   "name": "oBulletSniper",

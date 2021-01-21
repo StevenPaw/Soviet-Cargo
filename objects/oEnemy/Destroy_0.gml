@@ -1,1 +1,0 @@
-global.coins += 2.5;

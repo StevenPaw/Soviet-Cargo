@@ -1,0 +1,1 @@
+image_angle += rspeed; //rotates the image to the target
