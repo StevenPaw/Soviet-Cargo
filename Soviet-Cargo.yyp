@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"ButtonSquare","path":"sprites/ButtonSquare/ButtonSquare.yy",},"order":1,},
+    {"id":{"name":"sEnergy_Tower_Inv","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"order":11,},
     {"id":{"name":"MainMenuTemplate","path":"objects/MainMenuTemplate/MainMenuTemplate.yy",},"order":1,},
     {"id":{"name":"FailedTemplate","path":"sprites/FailedTemplate/FailedTemplate.yy",},"order":0,},
     {"id":{"name":"pLevel2","path":"paths/pLevel2/pLevel2.yy",},"order":1,},

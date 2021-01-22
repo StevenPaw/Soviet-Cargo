@@ -95,4 +95,8 @@ if (debug) {
 	} else if(keyboard_check_pressed(ord("P"))) {
 		global.maxPoweruse += 1;
 	}
+	
+	if(keyboard_check_pressed(ord("C"))) {
+		global.coins += 10;
+	}
 }

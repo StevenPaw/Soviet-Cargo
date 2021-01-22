@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "ph_2_128x128",
-    "path": "sprites/ph_2_128x128/ph_2_128x128.yy",
+    "name": "sEnergy_Tower_Inv",
+    "path": "sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",
   },
   "solid": false,
   "visible": true,
