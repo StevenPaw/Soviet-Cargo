@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "ph_2_128x128",
-    "path": "sprites/ph_2_128x128/ph_2_128x128.yy",
+    "name": "Energy_Tower_Head_Placeholder",
+    "path": "sprites/Energy_Tower_Head_Placeholder/Energy_Tower_Head_Placeholder.yy",
   },
   "solid": false,
   "visible": true,
