@@ -59,6 +59,7 @@
     {"id":{"name":"par_Enemy","path":"objects/par_Enemy/par_Enemy.yy",},"order":1,},
     {"id":{"name":"pLevel4","path":"paths/pLevel4/pLevel4.yy",},"order":3,},
     {"id":{"name":"oEndlessMode","path":"objects/oEndlessMode/oEndlessMode.yy",},"order":5,},
+    {"id":{"name":"sShieldEnemy","path":"sprites/sShieldEnemy/sShieldEnemy.yy",},"order":3,},
     {"id":{"name":"par_Tower_Dragged","path":"objects/par_Tower_Dragged/par_Tower_Dragged.yy",},"order":2,},
     {"id":{"name":"oTowerDouble_C","path":"objects/oTowerDouble_C/oTowerDouble_C.yy",},"order":0,},
     {"id":{"name":"oCircleMenuInfo","path":"objects/oCircleMenuInfo/oCircleMenuInfo.yy",},"order":3,},
