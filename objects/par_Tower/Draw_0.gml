@@ -41,3 +41,8 @@ if(enemy != noone){
 				objectToShoot = noone;
 		}
 }
+
+//Debuginfo
+if(oDebugManager.debug) {
+	draw_text(x,y,"Next Shoot: " + string(alarm[0]))
+}

@@ -46,6 +46,8 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"oTopGUI","path":"objects/oTopGUI/oTopGUI.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_590AA8E9","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oTowerDouble_C","path":"objects/oTowerDouble_C/oTowerDouble_C.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1024.0,"y":769.0,"resourceVersion":"1.0","name":"inst_1BC4DD90","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oTowerSniper_C","path":"objects/oTowerSniper_C/oTowerSniper_C.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":641.0,"y":768.0,"resourceVersion":"1.0","name":"inst_471E550E","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oSpeedButton","path":"objects/oSpeedButton/oSpeedButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1401.0,"y":4.0,"resourceVersion":"1.0","name":"inst_184A8FC3","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oPauseButton","path":"objects/oPauseButton/oPauseButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1318.0,"y":4.0,"resourceVersion":"1.0","name":"inst_675A1F63","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":64,"gridY":64,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"GUI1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"OrangeTree","path":"sprites/OrangeTree/OrangeTree.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":0.765136659,"scaleY":0.765136659,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-77.74997,"y":-228.749969,"resourceVersion":"1.0","name":"graphic_57245AB5","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -168,6 +170,8 @@
     {"name":"inst_8D0987C","path":"rooms/rLevel4/rLevel4.yy",},
     {"name":"inst_15F440F9","path":"rooms/rLevel4/rLevel4.yy",},
     {"name":"inst_488241C2","path":"rooms/rLevel4/rLevel4.yy",},
+    {"name":"inst_184A8FC3","path":"rooms/rLevel4/rLevel4.yy",},
+    {"name":"inst_675A1F63","path":"rooms/rLevel4/rLevel4.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

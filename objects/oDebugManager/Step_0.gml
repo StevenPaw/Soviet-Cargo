@@ -53,6 +53,8 @@ if (debug) {
 	textValue[10] = string(global.wave);
 	textInfo[11] = "ROOM";
 	textValue[11] = string(room_get_name(room));
+	textInfo[12] = "GAMESPEED";
+	textValue[12] = string(global.gameSpeed);
 	
 	//CHEAT-CODES
 	//Room-Change
@@ -98,5 +100,15 @@ if (debug) {
 	
 	if(keyboard_check_pressed(ord("C"))) {
 		global.coins += 10;
+	}
+	
+	if(keyboard_check_pressed(ord("1"))) {
+		global.gameSpeed = 1;
+	} else if(keyboard_check_pressed(ord("2"))) {
+		global.gameSpeed = 2;
+	} else if(keyboard_check_pressed(ord("3"))) {
+		global.gameSpeed = 5;
+	} else if(keyboard_check_pressed(ord("0"))) {
+		global.gameSpeed = 0;
 	}
 }

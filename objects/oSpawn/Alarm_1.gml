@@ -9,7 +9,7 @@ if(spawnActive) {
 		//global.spd += 0.1; <--- increases enemy speed per wave
 		spawn_rate -= 3.5;
 		}
-		alarm[0] = spawn_rate;
+		alarm[0] = spawn_rate / global.gameSpeed;
 	}
 } else {
 	global.wave = 0;	

@@ -10,3 +10,5 @@ global.playerHP = 1;
 global.poweruse = 0;
 global.spd = 1;
 global.wave = 0;
+
+global.gameSpeed = 1;

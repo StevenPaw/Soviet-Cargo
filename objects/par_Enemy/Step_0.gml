@@ -6,3 +6,5 @@ if (loaded) {
 	}
 	image_angle = direction + 90;
 }
+
+path_speed = global.spd * enemySpeed * global.gameSpeed;

@@ -46,6 +46,8 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"oRestriction","path":"objects/oRestriction/oRestriction.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":8.111111,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":768.0,"y":960.0,"resourceVersion":"1.0","name":"inst_2190427A","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oTopGUI","path":"objects/oTopGUI/oTopGUI.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_590AA8E9","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oTowerDouble_C","path":"objects/oTowerDouble_C/oTowerDouble_C.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":704.0,"y":768.0,"resourceVersion":"1.0","name":"inst_1BC4DD90","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oPauseButton","path":"objects/oPauseButton/oPauseButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1318.0,"y":4.5,"resourceVersion":"1.0","name":"inst_46324AE","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oSpeedButton","path":"objects/oSpeedButton/oSpeedButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1401.0,"y":4.5,"resourceVersion":"1.0","name":"inst_35030162","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":64,"gridY":64,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"GUI1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"Box","path":"sprites/Box/Box.yy",},"headPosition":0.0,"rotation":11.2776508,"scaleX":0.222656235,"scaleY":0.222656235,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1087.0,"y":184.0,"resourceVersion":"1.0","name":"graphic_410B6903","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -145,6 +147,8 @@
     {"name":"inst_37B8B0F1","path":"rooms/rLevel1/rLevel1.yy",},
     {"name":"inst_67306742","path":"rooms/rLevel1/rLevel1.yy",},
     {"name":"inst_3F4A67C0","path":"rooms/rLevel1/rLevel1.yy",},
+    {"name":"inst_46324AE","path":"rooms/rLevel1/rLevel1.yy",},
+    {"name":"inst_35030162","path":"rooms/rLevel1/rLevel1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

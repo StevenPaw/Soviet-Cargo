@@ -7,6 +7,6 @@ if(spawnActive){
 			instance_create_layer(x,y,"Enemies",oEnemy);
 			spawn_count++;
 		}
-		alarm[0] = spawn_rate;
+		alarm[0] = spawn_rate / global.gameSpeed;
 	}
 }
