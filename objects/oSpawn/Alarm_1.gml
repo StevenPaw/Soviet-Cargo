@@ -1,3 +1,5 @@
+if (global.gameSpeed > 0) {
+
 if(spawnActive) {
 	if(instance_number(oEnemy) <= 0){
 		if(!oWinScreen.isActive && !oFailScreen.isActive){
@@ -12,7 +14,7 @@ if(spawnActive) {
 		alarm[0] = spawn_rate / global.gameSpeed;
 	}
 } else {
-	global.wave = 0;	
+	global.wave = 0;
 }
 
 if(global.wave > oLevelManager.getMaxWaves(room)) {
@@ -29,6 +31,7 @@ if(global.wave > oLevelManager.getMaxWaves(room)) {
 
 	oLevelManager.levelComplete[oLevelManager.getCurrentLevelID(room)] = 3;
 	global.wave = oLevelManager.getMaxWaves(room);
+}
 }
 
 alarm[1] = room_speed * 3;

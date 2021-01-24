@@ -73,9 +73,9 @@ if (debug) {
 	}
 	
 	if(keyboard_check_released(ord("H"))) {
-		global.playerHP -= 1;
-	} else if(keyboard_check_pressed(ord("J"))) {
 		global.playerHP += 1;
+	} else if(keyboard_check_pressed(ord("J"))) {
+		global.playerHP -= 1;
 	} else if(keyboard_check_pressed(ord("K"))) {
 		global.playerHP = global.maxPlayerHP;
 	}
