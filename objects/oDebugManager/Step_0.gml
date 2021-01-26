@@ -110,5 +110,7 @@ if (debug) {
 		global.gameSpeed = 5;
 	} else if(keyboard_check_pressed(ord("0"))) {
 		global.gameSpeed = 0;
+	} else if(keyboard_check_pressed(ord("4"))) {
+		global.gameSpeed = 10;
 	}
 }

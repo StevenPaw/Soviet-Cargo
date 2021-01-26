@@ -13,6 +13,6 @@ function onButtonPushed() {
 	if(oLevelManager.getCurrentLevelID(room) < array_length(oLevelManager.Room) - 1){
 		room_goto(oLevelManager.Room[oLevelManager.getCurrentLevelID(room) + 1]);
 	} else {
-		room_goto(rMenu);	
+		room_goto(rMenu);
 	}
 }
