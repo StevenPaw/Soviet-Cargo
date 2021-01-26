@@ -1,12 +1,14 @@
+//clickableObjectType = oTowerDouble_C;
+
 /// @description Initialize Variables
-minrange = 0;
-maxrange = 300;
-fire_rate = room_speed / 1;
-draggableObject = oTowerDouble_D;
-clickableObjectType = oTowerDouble_C;
-towerObject = oTowerDouble;
-rspeed = 5; //Speed of the Rotation
-bulletType = oBulletDouble;
+minrange = clickableObjectType.minrange;
+maxrange = clickableObjectType.maxrange;
+fire_rate = clickableObjectType.fire_rate;
+draggableObject = clickableObjectType.draggableObject;
+towerObject = clickableObjectType.towerObject;
+rspeed = clickableObjectType.rspeed; //Speed of the Rotation
+bulletType = clickableObjectType.bulletType;
+maxPowerIncrease = clickableObjectType.maxPowerIncrease;
 
 shooting = false;
 objectToShoot = noone;

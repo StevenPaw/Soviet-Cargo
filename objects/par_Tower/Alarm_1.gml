@@ -8,3 +8,4 @@ if (global.isBuying) {
 	global.isBuying = false;
 }
 global.poweruse += powerCost;
+global.maxPoweruse += maxPowerIncrease;
