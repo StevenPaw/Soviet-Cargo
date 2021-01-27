@@ -96,6 +96,7 @@
     {"id":{"name":"oTowerEnergy","path":"objects/oTowerEnergy/oTowerEnergy.yy",},"order":4,},
     {"id":{"name":"prologManager","path":"objects/prologManager/prologManager.yy",},"order":0,},
     {"id":{"name":"Double_Tower_Head","path":"sprites/Double_Tower_Head/Double_Tower_Head.yy",},"order":1,},
+    {"id":{"name":"oEnemyShield","path":"objects/oEnemyShield/oEnemyShield.yy",},"order":2,},
     {"id":{"name":"tPrototype_TileSet","path":"tilesets/tPrototype_TileSet/tPrototype_TileSet.yy",},"order":0,},
     {"id":{"name":"fTooltipError","path":"fonts/fTooltipError/fTooltipError.yy",},"order":7,},
     {"id":{"name":"sTileSet","path":"sprites/sTileSet/sTileSet.yy",},"order":4,},

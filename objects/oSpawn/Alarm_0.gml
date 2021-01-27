@@ -1,4 +1,4 @@
-// spawn enemies till spawn amount is reached
+//spawn enemies till spawn amount is reached
 
 if(spawnActive){
 	if(spawn_count < spawn_amount){
@@ -7,6 +7,6 @@ if(spawnActive){
 			instance_create_layer(x,y,"Enemies",oEnemy);
 			spawn_count++;
 		}
-		alarm[0] = spawn_rate / global.gameSpeed;
+		alarm[0] = spawn_delay;
 	}
 }
