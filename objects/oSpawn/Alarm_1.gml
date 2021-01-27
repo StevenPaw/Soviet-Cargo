@@ -1,7 +1,7 @@
 if (global.gameSpeed > 0) {
 
 if(spawnActive) {
-	if(instance_number(oEnemy) <= 0){
+	if(instance_number(par_Enemy) <= 0){
 		if(!oWinScreen.isActive && !oFailScreen.isActive){
 		spawn_count = 0;
 		spawn_amount++;
@@ -16,6 +16,7 @@ if(spawnActive) {
 } else {
 	global.wave = 0;
 }
+
 
 if(global.wave > oLevelManager.getMaxWaves(room)) {
 	oWinScreen.isActive = true;

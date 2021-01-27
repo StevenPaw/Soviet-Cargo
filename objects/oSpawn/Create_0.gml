@@ -10,3 +10,5 @@ Path = oLevelManager.levelPath[oLevelManager.getCurrentLevelID(room)];
 
 global.gameSpeed = 1;
 global.maxPoweruse = 10;
+
+oWaveManager.loadWaves();
