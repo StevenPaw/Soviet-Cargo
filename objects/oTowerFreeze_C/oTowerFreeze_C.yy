@@ -24,7 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oTowerSniper_C","path":"objects/oTowerSniper_C/oTowerSniper_C.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oTowerFreeze_C","path":"objects/oTowerFreeze_C/oTowerFreeze_C.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +33,7 @@
     "path": "folders/Objects/GUI/Tower Clickables.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oTowerSniper_C",
+  "name": "oTowerFreeze_C",
   "tags": [],
   "resourceType": "GMObject",
 }

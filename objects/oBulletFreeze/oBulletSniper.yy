@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "sSniper_Tower_Inv",
-    "path": "sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",
+    "name": "ph_1_16x16",
+    "path": "sprites/ph_1_16x16/ph_1_16x16.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "par_Tower_clickables",
-    "path": "objects/par_Tower_clickables/par_Tower_clickables.yy",
+    "name": "par_Bullet",
+    "path": "objects/par_Bullet/par_Bullet.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,16 +24,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oTowerSniper_C","path":"objects/oTowerSniper_C/oTowerSniper_C.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oBulletSniper","path":"objects/oBulletSniper/oBulletSniper.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Tower Clickables",
-    "path": "folders/Objects/GUI/Tower Clickables.yy",
+    "name": "Bullets",
+    "path": "folders/Objects/Bullets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oTowerSniper_C",
+  "name": "oBulletSniper",
   "tags": [],
   "resourceType": "GMObject",
 }

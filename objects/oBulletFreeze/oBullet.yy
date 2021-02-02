@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "Sniper_Tower_Head",
-    "path": "sprites/Sniper_Tower_Head/Sniper_Tower_Head.yy",
+    "name": "sBullet",
+    "path": "sprites/sBullet/sBullet.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "par_Tower_Dragged",
-    "path": "objects/par_Tower_Dragged/par_Tower_Dragged.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,17 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oTowerSniper_D","path":"objects/oTowerSniper_D/oTowerSniper_D.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Tower Dragged",
-    "path": "folders/Objects/Tower Dragged.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oTowerSniper_D",
+  "name": "oBullet",
   "tags": [],
   "resourceType": "GMObject",
 }

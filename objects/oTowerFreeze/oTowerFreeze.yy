@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "sSniper_Tower_Inv",
-    "path": "sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",
+    "name": "Double_Tower_Head",
+    "path": "sprites/Double_Tower_Head/Double_Tower_Head.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "par_Tower_clickables",
-    "path": "objects/par_Tower_clickables/par_Tower_clickables.yy",
+    "name": "par_Tower",
+    "path": "objects/par_Tower/par_Tower.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,16 +24,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oTowerSniper_C","path":"objects/oTowerSniper_C/oTowerSniper_C.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oTowerFreeze","path":"objects/oTowerFreeze/oTowerFreeze.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Tower Clickables",
-    "path": "folders/Objects/GUI/Tower Clickables.yy",
+    "name": "Towers",
+    "path": "folders/Objects/Towers.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oTowerSniper_C",
+  "name": "oTowerFreeze",
   "tags": [],
   "resourceType": "GMObject",
 }

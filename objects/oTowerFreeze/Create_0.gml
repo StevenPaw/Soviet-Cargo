@@ -1,7 +1,6 @@
 /// @description Initialize Variables
 
+clickableObjectType = oTowerFreeze_C;
+
 // Inherit the parent event
 event_inherited();
-
-BulletDamage = 5;
-BulletSpeed = 10;
