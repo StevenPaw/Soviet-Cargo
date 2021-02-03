@@ -1,5 +1,5 @@
 {
-  "bboxMode": 0,
+  "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
   "origin": 0,
@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 88,
-  "bbox_right": 295,
-  "bbox_top": 77,
-  "bbox_bottom": 383,
+  "bbox_left": 54,
+  "bbox_right": 201,
+  "bbox_top": 16,
+  "bbox_bottom": 127,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 384,
-  "height": 384,
+  "width": 256,
+  "height": 128,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -103,15 +103,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5c37bb0d-6ea3-4d88-8a04-2dad977118a5","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5c37bb0d-6ea3-4d88-8a04-2dad977118a5","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"LayerId":{"name":"a20756b0-6f34-4e79-8885-4b221b028ccc","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sSniper_Tower_Inv","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"resourceVersion":"1.0","name":"5c37bb0d-6ea3-4d88-8a04-2dad977118a5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a05ad3d6-50e7-4b3f-9fa2-f8055be19aa9","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a05ad3d6-50e7-4b3f-9fa2-f8055be19aa9","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"LayerId":{"name":"a20756b0-6f34-4e79-8885-4b221b028ccc","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sSniper_Tower_Inv","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"resourceVersion":"1.0","name":"a05ad3d6-50e7-4b3f-9fa2-f8055be19aa9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a2fcf5a8-68bf-4ea1-a488-578a49d0ad08","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a2fcf5a8-68bf-4ea1-a488-578a49d0ad08","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"LayerId":{"name":"a20756b0-6f34-4e79-8885-4b221b028ccc","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sSniper_Tower_Inv","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"resourceVersion":"1.0","name":"a2fcf5a8-68bf-4ea1-a488-578a49d0ad08","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fa6690bb-e62e-421c-af5b-62f3f71178c7","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fa6690bb-e62e-421c-af5b-62f3f71178c7","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"LayerId":{"name":"a5e0effc-baf8-49a9-ba80-85c86b028a70","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sSniper_Tower_Inv","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"resourceVersion":"1.0","name":"fa6690bb-e62e-421c-af5b-62f3f71178c7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f7cca458-d353-4dd3-af16-7ef1211071fc","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f7cca458-d353-4dd3-af16-7ef1211071fc","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"LayerId":{"name":"a5e0effc-baf8-49a9-ba80-85c86b028a70","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sSniper_Tower_Inv","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"resourceVersion":"1.0","name":"f7cca458-d353-4dd3-af16-7ef1211071fc","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d99a24cd-302e-4144-bacd-0489bd2b4820","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d99a24cd-302e-4144-bacd-0489bd2b4820","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"LayerId":{"name":"a5e0effc-baf8-49a9-ba80-85c86b028a70","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sSniper_Tower_Inv","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"resourceVersion":"1.0","name":"d99a24cd-302e-4144-bacd-0489bd2b4820","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sSniper_Tower_Inv","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},
@@ -126,9 +126,9 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"cb193467-e811-42e9-9ad3-c73b9dbd7cbe","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5c37bb0d-6ea3-4d88-8a04-2dad977118a5","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"d5f374ed-48aa-41b1-b66c-ce925d596b46","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a05ad3d6-50e7-4b3f-9fa2-f8055be19aa9","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"99291dbb-204e-488f-9911-c119908a7c41","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a2fcf5a8-68bf-4ea1-a488-578a49d0ad08","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f434bcd1-e94b-4ffe-a7e8-3542fd705c38","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fa6690bb-e62e-421c-af5b-62f3f71178c7","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"21a110be-20d6-4252-9458-4d726994cf7f","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f7cca458-d353-4dd3-af16-7ef1211071fc","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"27ff7002-74db-454e-b8f6-4d14e78bf6cb","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d99a24cd-302e-4144-bacd-0489bd2b4820","path":"sprites/sSniper_Tower_Inv/sSniper_Tower_Inv.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -152,11 +152,11 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a20756b0-6f34-4e79-8885-4b221b028ccc","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a5e0effc-baf8-49a9-ba80-85c86b028a70","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "GUI",
-    "path": "folders/Sprites/GUI.yy",
+    "name": "Tower Clickables",
+    "path": "folders/Sprites/GUI/Tower Clickables.yy",
   },
   "resourceVersion": "1.0",
   "name": "sSniper_Tower_Inv",

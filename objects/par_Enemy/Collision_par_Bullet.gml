@@ -1,6 +1,6 @@
 hp -= other.BulletDamage;
 if(other.BulletSlow > 0) {
-	enemySpeed = other.BulletSlow;
+	enemySpeed = startSpeed * other.BulletSlow;
 	isSlowed = true;
 }
 with(other) instance_destroy();

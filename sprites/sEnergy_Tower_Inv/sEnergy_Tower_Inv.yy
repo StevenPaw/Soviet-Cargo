@@ -1,21 +1,21 @@
 {
-  "bboxMode": 0,
+  "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
-  "origin": 0,
+  "origin": 1,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 88,
-  "bbox_right": 295,
-  "bbox_top": 77,
-  "bbox_bottom": 383,
+  "bbox_left": 54,
+  "bbox_right": 201,
+  "bbox_top": 16,
+  "bbox_bottom": 127,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 384,
-  "height": 384,
+  "width": 256,
+  "height": 128,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -103,15 +103,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5c37bb0d-6ea3-4d88-8a04-2dad977118a5","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5c37bb0d-6ea3-4d88-8a04-2dad977118a5","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"LayerId":{"name":"a20756b0-6f34-4e79-8885-4b221b028ccc","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnergy_Tower_Inv","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"resourceVersion":"1.0","name":"5c37bb0d-6ea3-4d88-8a04-2dad977118a5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a05ad3d6-50e7-4b3f-9fa2-f8055be19aa9","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a05ad3d6-50e7-4b3f-9fa2-f8055be19aa9","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"LayerId":{"name":"a20756b0-6f34-4e79-8885-4b221b028ccc","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnergy_Tower_Inv","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"resourceVersion":"1.0","name":"a05ad3d6-50e7-4b3f-9fa2-f8055be19aa9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a2fcf5a8-68bf-4ea1-a488-578a49d0ad08","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a2fcf5a8-68bf-4ea1-a488-578a49d0ad08","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"LayerId":{"name":"a20756b0-6f34-4e79-8885-4b221b028ccc","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnergy_Tower_Inv","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"resourceVersion":"1.0","name":"a2fcf5a8-68bf-4ea1-a488-578a49d0ad08","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"506ef6c1-ef7b-461c-ae66-37ade0442656","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"506ef6c1-ef7b-461c-ae66-37ade0442656","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"LayerId":{"name":"b436cc3f-5c78-4114-820f-1fb9b21e87ef","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sEnergy_Tower_Inv","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"resourceVersion":"1.0","name":"506ef6c1-ef7b-461c-ae66-37ade0442656","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b09a26d4-bd1e-4afc-bde8-b002bdb6d41c","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b09a26d4-bd1e-4afc-bde8-b002bdb6d41c","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"LayerId":{"name":"b436cc3f-5c78-4114-820f-1fb9b21e87ef","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sEnergy_Tower_Inv","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"resourceVersion":"1.0","name":"b09a26d4-bd1e-4afc-bde8-b002bdb6d41c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ba723213-683b-48ff-9804-9117aec571e5","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ba723213-683b-48ff-9804-9117aec571e5","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"LayerId":{"name":"b436cc3f-5c78-4114-820f-1fb9b21e87ef","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sEnergy_Tower_Inv","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"resourceVersion":"1.0","name":"ba723213-683b-48ff-9804-9117aec571e5","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sEnergy_Tower_Inv","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},
@@ -126,9 +126,9 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"5c103ddc-7e8d-4ce6-82a0-e7c1296cbf12","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5c37bb0d-6ea3-4d88-8a04-2dad977118a5","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"d71f50c0-1b53-4300-bcb2-18be24c351e9","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a05ad3d6-50e7-4b3f-9fa2-f8055be19aa9","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"3d146c2b-da52-4366-a2bd-ba261455c49e","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a2fcf5a8-68bf-4ea1-a488-578a49d0ad08","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"529f7833-3576-4a12-92e8-327aa7a0400b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"506ef6c1-ef7b-461c-ae66-37ade0442656","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6d673daf-17c5-44a4-bec4-29d4b1afa46d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b09a26d4-bd1e-4afc-bde8-b002bdb6d41c","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"17234b86-570d-4326-bbbd-3a31228cbb38","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ba723213-683b-48ff-9804-9117aec571e5","path":"sprites/sEnergy_Tower_Inv/sEnergy_Tower_Inv.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -141,7 +141,7 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
+    "xorigin": 128,
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
@@ -152,11 +152,11 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a20756b0-6f34-4e79-8885-4b221b028ccc","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b436cc3f-5c78-4114-820f-1fb9b21e87ef","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "GUI",
-    "path": "folders/Sprites/GUI.yy",
+    "name": "Tower Clickables",
+    "path": "folders/Sprites/GUI/Tower Clickables.yy",
   },
   "resourceVersion": "1.0",
   "name": "sEnergy_Tower_Inv",

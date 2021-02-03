@@ -8,7 +8,7 @@ if(instance_exists(oTowerTooltip)){
 	instance_destroy(instance_find(oTowerTooltip, 0));
 }
 
-tooltip = instance_create_layer(x + sprite_width / 2,y,"GUI1",oTowerTooltip);
+tooltip = instance_create_layer(x,y,"GUI1",oTowerTooltip);
 tooltip.towerName = infoName;
 tooltip.towerShortText = infoShortText;
 tooltip.enoughMoney = enoughMoney;

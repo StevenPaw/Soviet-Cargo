@@ -5,4 +5,4 @@ event_inherited();
 
 BulletDamage = 10;
 BulletSpeed = 10;
-BulletSlow = 0.8;
+BulletSlow = 0.7;

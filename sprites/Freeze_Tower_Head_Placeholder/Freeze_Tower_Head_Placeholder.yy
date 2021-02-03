@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"84edad97-2bb5-4953-8a45-7d92a44440c0","path":"sprites/Freeze_Tower_Head_Placeholder/Freeze_Tower_Head_Placeholder.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"84edad97-2bb5-4953-8a45-7d92a44440c0","path":"sprites/Freeze_Tower_Head_Placeholder/Freeze_Tower_Head_Placeholder.yy",},"LayerId":{"name":"8ad0813a-a728-474c-9944-e9ebb5a345dd","path":"sprites/Freeze_Tower_Head_Placeholder/Freeze_Tower_Head_Placeholder.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Freeze_Tower_Head_Placeholder","path":"sprites/Freeze_Tower_Head_Placeholder/Freeze_Tower_Head_Placeholder.yy",},"resourceVersion":"1.0","name":"84edad97-2bb5-4953-8a45-7d92a44440c0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1ff9defa-b259-4c34-a8e9-ac8b0b467c3d","path":"sprites/Freeze_Tower_Head_Placeholder/Freeze_Tower_Head_Placeholder.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1ff9defa-b259-4c34-a8e9-ac8b0b467c3d","path":"sprites/Freeze_Tower_Head_Placeholder/Freeze_Tower_Head_Placeholder.yy",},"LayerId":{"name":"25b6fd25-d502-4c83-8ee8-c31c19f933ea","path":"sprites/Freeze_Tower_Head_Placeholder/Freeze_Tower_Head_Placeholder.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Freeze_Tower_Head_Placeholder","path":"sprites/Freeze_Tower_Head_Placeholder/Freeze_Tower_Head_Placeholder.yy",},"resourceVersion":"1.0","name":"1ff9defa-b259-4c34-a8e9-ac8b0b467c3d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"Freeze_Tower_Head_Placeholder","path":"sprites/Freeze_Tower_Head_Placeholder/Freeze_Tower_Head_Placeholder.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"0b8d0ab6-d55e-4c87-80ed-5278bccae4ef","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"84edad97-2bb5-4953-8a45-7d92a44440c0","path":"sprites/Freeze_Tower_Head_Placeholder/Freeze_Tower_Head_Placeholder.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a9f1b913-c20f-41ce-8d20-8a5932c01d3c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1ff9defa-b259-4c34-a8e9-ac8b0b467c3d","path":"sprites/Freeze_Tower_Head_Placeholder/Freeze_Tower_Head_Placeholder.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8ad0813a-a728-474c-9944-e9ebb5a345dd","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"25b6fd25-d502-4c83-8ee8-c31c19f933ea","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Towers",

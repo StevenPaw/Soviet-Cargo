@@ -11,6 +11,6 @@ if(global.coins >= cost && global.poweruse + powerCost <= global.maxPoweruse){
 	global.isBuying = true;
 }
 
-if(instance_exists(oTowerTooltip)){
-	instance_destroy(instance_find(oTowerTooltip, 0));
+if(instance_exists(oTrapTooltip)){
+	instance_destroy(instance_find(oTrapTooltip, 0));
 }

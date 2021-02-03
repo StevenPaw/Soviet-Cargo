@@ -1,7 +1,6 @@
 cost = 10; // cost of tower
 powerCost = 0; //energycost of tower
-costPlace_start = 115;
-costPlace_y = costPlace_start;
+costPlace_start = -35;
 draggableTrap = oTrapSlow_D;
 placedTrap = oTrapSlow;
 
@@ -11,7 +10,7 @@ fire_rate = 0;
 draggableObject = oTrapSlow_D;
 clickableObjectType = oTrapSlow_C;
 trapObject = oTrapSlow;
-rspeed = 5; //Speed of the Rotation
+rspeed = 0; //Speed of the Rotation
 bulletType = oBulletDouble;
 maxPowerIncrease = 0;
 
