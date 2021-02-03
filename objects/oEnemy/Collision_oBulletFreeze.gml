@@ -1,4 +1,4 @@
-enemySpeed = 1;
+enemySpeed = 0.5;
 hp -= other.BulletDamage;
 with(other) instance_destroy();
 

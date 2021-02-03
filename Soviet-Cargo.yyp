@@ -9,6 +9,7 @@
     {"id":{"name":"PrologOverlay","path":"sprites/PrologOverlay/PrologOverlay.yy",},"order":0,},
     {"id":{"name":"WaterStone","path":"sprites/WaterStone/WaterStone.yy",},"order":14,},
     {"id":{"name":"oToMenu","path":"objects/oToMenu/oToMenu.yy",},"order":3,},
+    {"id":{"name":"Freeze_Tower_Head_Placeholder","path":"sprites/Freeze_Tower_Head_Placeholder/Freeze_Tower_Head_Placeholder.yy",},"order":6,},
     {"id":{"name":"Tree4","path":"sprites/Tree4/Tree4.yy",},"order":8,},
     {"id":{"name":"Stone","path":"sprites/Stone/Stone.yy",},"order":15,},
     {"id":{"name":"oRestriction","path":"objects/oRestriction/oRestriction.yy",},"order":8,},
