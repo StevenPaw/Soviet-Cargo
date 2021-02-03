@@ -8,23 +8,23 @@ costPlace_y = costPlace_start;
 draggableTrap = oTrapSlow_D;
 
 
-maxrange = 300;
+maxrange = 128;
 minrange = 0;
-fire_rate = room_speed / 1;
+fire_rate = 0;
 draggableObject = oTrapSlow_D;
 clickableObjectType = oTrapSlow_C;
 towerObject = oTrapSlow;
-rspeed = 5; //Speed of the Rotation
+rspeed = 0; //Speed of the Rotation
 bulletType = oBulletDouble;
 
 
 //Info-Variables
-infoName = "Double-Tower";
+infoName = "Slime-Trap";
 infoRange = maxrange;
 infoSpeed = fire_rate;
 infoCost = clickableObjectType.cost;
 infoEnergy = clickableObjectType.powerCost;
 infoSell = infoCost / 2;
-infoDescription[0] = "The standard tower";
-infoDescription[1] = "Shoots standard Bullets";
-infoShortText = "Standard Tower";
+infoDescription[0] = "Slows down Enemies";
+infoDescription[1] = "with 5 uses";
+infoShortText = "Slows down Enemies";

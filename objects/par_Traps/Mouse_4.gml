@@ -1,7 +1,13 @@
-if(instance_exists(oCircleMenuHolder)) {
-	infBox = instance_find(oCircleMenuHolder, 0);
-	instance_destroy(infBox);
-} 
+if (hovering) {
+	if(instance_exists(oTowerTooltip)){
+		instance_destroy(instance_find(oTowerTooltip, 0));
+	}
 
-circleMenu = instance_create_depth(x,y,-99,oCircleMenuHolder);
-circleMenu.clickedTower = self.id;
+	tooltip = instance_create_layer(x,y - sprite_height /2,"GUI1",oTowerTooltip);
+	tooltip.towerName = clickableObjectType.infoName;
+	tooltip.towerShortText = clickableObjectType.infoShortText;
+	tooltip.enoughMoney = true;
+	tooltip.enoughEnergy = true;
+	
+	tooltipActive = true;
+}

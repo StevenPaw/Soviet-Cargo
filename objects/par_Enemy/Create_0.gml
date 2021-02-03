@@ -1,4 +1,7 @@
-enemySpeed = 1; //is multiplied by the room speed!
+startSpeed = 1;
+enemySpeed = startSpeed; //is multiplied by the room speed!
+isSlowed = false;
+regainSpeed = 0.001;
 enemyHealth = 1; //is multiplied by the global hp
 enemyDeathColor = c_orange; //The Color of the effect when dead
 enemyBloodColor = c_orange; //The Color of the effect when hit

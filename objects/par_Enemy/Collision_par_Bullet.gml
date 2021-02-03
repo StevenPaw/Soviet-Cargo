@@ -1,5 +1,8 @@
 hp -= other.BulletDamage;
-enemySpeed = other.BulletSlow;
+if(other.BulletSlow > 0) {
+	enemySpeed = other.BulletSlow;
+	isSlowed = true;
+}
 with(other) instance_destroy();
 
 effect_create_below(ef_explosion, x, y, 0.05, enemyBloodColor);

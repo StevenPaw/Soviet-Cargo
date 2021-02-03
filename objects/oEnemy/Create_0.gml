@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-enemySpeed = 1; //is multiplied by the room speed!
+startSpeed = 1; //is multiplied by the room speed!
 enemyHealth = 1; //is multiplied by the global hp
 enemyDeathColor = c_orange; //The Color of the effect when dead
 enemyBloodColor = c_orange; //The Color of the effect when hit

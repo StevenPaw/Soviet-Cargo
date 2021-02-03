@@ -91,6 +91,7 @@
     {"id":{"name":"Bridge","path":"sprites/Bridge/Bridge.yy",},"order":2,},
     {"id":{"name":"PrologText","path":"sprites/PrologText/PrologText.yy",},"order":1,},
     {"id":{"name":"oTowerSniper_D","path":"objects/oTowerSniper_D/oTowerSniper_D.yy",},"order":1,},
+    {"id":{"name":"Slime1","path":"sprites/Slime1/Slime1.yy",},"order":22,},
     {"id":{"name":"pLevel1","path":"paths/pLevel1/pLevel1.yy",},"order":0,},
     {"id":{"name":"Tree1","path":"sprites/Tree1/Tree1.yy",},"order":7,},
     {"id":{"name":"oDebugManager","path":"objects/oDebugManager/oDebugManager.yy",},"order":18,},
@@ -160,6 +161,7 @@
     {"id":{"name":"sCircleMenu_Reposition","path":"sprites/sCircleMenu_Reposition/sCircleMenu_Reposition.yy",},"order":2,},
     {"id":{"name":"obj_TowerBase","path":"objects/obj_TowerBase/obj_TowerBase.yy",},"order":3,},
     {"id":{"name":"oTrapSlow","path":"objects/oTrapSlow/oTrapSlow.yy",},"order":1,},
+    {"id":{"name":"sSlime_Trap_Inv","path":"sprites/sSlime_Trap_Inv/sSlime_Trap_Inv.yy",},"order":15,},
     {"id":{"name":"Tree2","path":"sprites/Tree2/Tree2.yy",},"order":5,},
     {"id":{"name":"oBulletFreeze","path":"objects/oBulletFreeze/oBulletFreeze.yy",},"order":3,},
     {"id":{"name":"DarkOakTree","path":"sprites/DarkOakTree/DarkOakTree.yy",},"order":17,},
@@ -243,6 +245,7 @@
     {"folderPath":"folders/Objects/Trap Dragged.yy","order":22,"resourceVersion":"1.0","name":"Trap Dragged","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Traps.yy","order":23,"resourceVersion":"1.0","name":"Traps","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/GUI/Trap Clickables.yy","order":10,"resourceVersion":"1.0","name":"Trap Clickables","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Traps.yy","order":4,"resourceVersion":"1.0","name":"Traps","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

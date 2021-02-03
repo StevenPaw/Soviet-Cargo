@@ -7,6 +7,7 @@ hp = global.hp * enemyHealth;
 
 startsize = sprite_width;
 starthp = hp;
+enemySpeed = startSpeed;
 
 image_xscale = 1.2;
 image_yscale = 1.2;

@@ -1,6 +1,6 @@
-oGridManager.drawSnapped(x,y,sprite_index,image_index);
+//oGridManager.drawSnapped(x,y,sprite_index,image_index);
 
-//draw_self();
+draw_self();
 if(oRangeHover.isInRange(x,y,sprite_width,sprite_height))
 {
 	draw_circle(x,y,maxrange,true);
@@ -46,5 +46,5 @@ if(enemy != noone){
 
 //Debuginfo
 if(oDebugManager.debug) {
-	draw_text(x,y,"Next Shoot: " + string(alarm[0]))
+	draw_text(x,y,"Uses left: " + string(uses) + "/" + string(maxuses));
 }

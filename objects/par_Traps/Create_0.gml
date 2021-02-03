@@ -1,5 +1,4 @@
 //clickableObjectType = oTowerDouble_C;
-
 /// @description Initialize Variables
 minrange = clickableObjectType.minrange;
 maxrange = clickableObjectType.maxrange;
@@ -13,9 +12,10 @@ maxPowerIncrease = clickableObjectType.maxPowerIncrease;
 shooting = false;
 objectToShoot = noone;
 
-effect_create_below(ef_explosion, x, y, 1.7, c_gray);
+hovering = false;
+tooltipActive = false;
 
-tower_base = instance_create_layer(x, y, "Enemies", obj_TowerBase);
+effect_create_below(ef_explosion, x, y, 1.7, c_gray);
 
 move_snap(64, 64);
 

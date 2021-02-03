@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "ph_1_64x64",
-    "path": "sprites/ph_1_64x64/ph_1_64x64.yy",
+    "name": "sSlime_Trap_Inv",
+    "path": "sprites/sSlime_Trap_Inv/sSlime_Trap_Inv.yy",
   },
   "solid": false,
   "visible": true,

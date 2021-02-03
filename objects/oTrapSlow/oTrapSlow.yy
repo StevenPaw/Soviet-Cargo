@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "ph_1_64x64",
-    "path": "sprites/ph_1_64x64/ph_1_64x64.yy",
+    "name": "Slime1",
+    "path": "sprites/Slime1/Slime1.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,6 +25,8 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oTrapSlow","path":"objects/oTrapSlow/oTrapSlow.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"par_Enemy","path":"objects/par_Enemy/par_Enemy.yy",},"parent":{"name":"oTrapSlow","path":"objects/oTrapSlow/oTrapSlow.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oTrapSlow","path":"objects/oTrapSlow/oTrapSlow.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

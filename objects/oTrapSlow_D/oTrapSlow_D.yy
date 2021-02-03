@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "ph_1_64x64",
-    "path": "sprites/ph_1_64x64/ph_1_64x64.yy",
+    "name": "Slime1",
+    "path": "sprites/Slime1/Slime1.yy",
   },
   "solid": false,
   "visible": true,

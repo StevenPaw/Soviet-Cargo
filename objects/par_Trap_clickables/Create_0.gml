@@ -1,13 +1,13 @@
 cost = 10; // cost of tower
-powerCost = 1; //energycost of tower
+powerCost = 0; //energycost of tower
 costPlace_start = 115;
 costPlace_y = costPlace_start;
 draggableTrap = oTrapSlow_D;
 placedTrap = oTrapSlow;
 
-maxrange = 300;
+maxrange = 10;
 minrange = 0;
-fire_rate = room_speed / 1;
+fire_rate = 0;
 draggableObject = oTrapSlow_D;
 clickableObjectType = oTrapSlow_C;
 trapObject = oTrapSlow;
@@ -22,9 +22,9 @@ infoSpeed = fire_rate;
 infoCost = clickableObjectType.cost;
 infoEnergy = clickableObjectType.powerCost;
 infoSell = infoCost / 2;
-infoDescription[0] = "The standard tower";
-infoDescription[1] = "Shoots standard Bullets";
-infoShortText = "Standard Tower";
+infoDescription[0] = "The standard trap";
+infoDescription[1] = "Traps Enemys with... something?";
+infoShortText = "Standard Trap";
 
 
 enoughMoney = false;
