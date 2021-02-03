@@ -93,7 +93,7 @@
     {"id":{"name":"Bridge","path":"sprites/Bridge/Bridge.yy",},"order":2,},
     {"id":{"name":"PrologText","path":"sprites/PrologText/PrologText.yy",},"order":1,},
     {"id":{"name":"oTowerSniper_D","path":"objects/oTowerSniper_D/oTowerSniper_D.yy",},"order":1,},
-    {"id":{"name":"Slime1","path":"sprites/Slime1/Slime1.yy",},"order":22,},
+    {"id":{"name":"Slime1","path":"sprites/Slime1/Slime1.yy",},"order":0,},
     {"id":{"name":"pLevel1","path":"paths/pLevel1/pLevel1.yy",},"order":0,},
     {"id":{"name":"Tree1","path":"sprites/Tree1/Tree1.yy",},"order":7,},
     {"id":{"name":"oDebugManager","path":"objects/oDebugManager/oDebugManager.yy",},"order":18,},
