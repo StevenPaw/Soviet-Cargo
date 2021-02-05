@@ -147,8 +147,8 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_130B0AE0","path":"rooms/rLevel2/rLevel2.yy",},
-    {"name":"inst_1BC4DD90","path":"rooms/rLevel2/rLevel2.yy",},
     {"name":"inst_1A7CBA1","path":"rooms/rLevel2/rLevel2.yy",},
+    {"name":"inst_1BC4DD90","path":"rooms/rLevel2/rLevel2.yy",},
     {"name":"inst_2190427A","path":"rooms/rLevel2/rLevel2.yy",},
     {"name":"inst_590AA8E9","path":"rooms/rLevel2/rLevel2.yy",},
     {"name":"inst_62212400","path":"rooms/rLevel2/rLevel2.yy",},

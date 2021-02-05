@@ -14,20 +14,20 @@ draw_set_valign(fa_center);
 
 if(errorState = 0) {
 	draw_set_font(fTooltipName);
-	draw_text(x - sprite_width/2, y - 5, towerName);
+	draw_text(x - sprite_width/2 - 15, y - 5, towerName);
 
 	draw_set_font(fTooltipDescription);
-	draw_text(x - sprite_width/2, y + 10, towerShortText);
+	draw_text(x - sprite_width/2 - 15, y + 10, towerShortText);
 }else {
 	draw_set_font(fTooltipName);
-	draw_text(x - sprite_width/2, y - 10, towerName);
+	draw_text(x - sprite_width/2 - 15, y - 10, towerName);
 
 	draw_set_font(fTooltipDescription);
-	draw_text(x - sprite_width/2, y + 5, towerShortText);
+	draw_text(x - sprite_width/2 - 15, y + 5, towerShortText);
 		
 	draw_set_color(c_red);
 	draw_set_font(fTooltipError);
-	draw_text(x - sprite_width/2, y + 20, errorMessage[errorState]);
+	draw_text(x - sprite_width/2 - 15, y + 20, errorMessage[errorState]);
 }
 
 //3 regain old Settings

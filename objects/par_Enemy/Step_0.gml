@@ -11,7 +11,7 @@ path_speed = global.spd * enemySpeed * global.gameSpeed;
 
 if(isSlowed) {
 	if(enemySpeed < startSpeed){
-		enemySpeed += regainSpeed;
+		enemySpeed += regainSpeed * global.gameSpeed;
 	} else {
 		isSlowed = false;
 	}

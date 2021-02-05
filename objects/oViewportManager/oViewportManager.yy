@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "sButton",
-    "path": "sprites/sButton/sButton.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
-  "persistent": false,
-  "parentObjectId": {
-    "name": "par_MenuButton",
-    "path": "objects/par_MenuButton/par_MenuButton.yy",
-  },
+  "persistent": true,
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,16 +18,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oToMenuFail","path":"objects/oToMenuFail/oToMenuFail.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oViewportManager","path":"objects/oViewportManager/oViewportManager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "WinFailScreen",
-    "path": "folders/Objects/GUI/WinFailScreen.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oToMenuFail",
+  "name": "oViewportManager",
   "tags": [],
   "resourceType": "GMObject",
 }
