@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"27291fb0-57c5-4386-96fe-ade1b67dfe2a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "WinFailScreen",
-    "path": "folders/Sprites/GUI/WinFailScreen.yy",
+    "name": "WinFailPauseScreen",
+    "path": "folders/Sprites/GUI/WinFailPauseScreen.yy",
   },
   "resourceVersion": "1.0",
   "name": "FailedTemplate",

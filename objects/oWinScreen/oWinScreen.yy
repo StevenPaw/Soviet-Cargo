@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "WinFailScreen",
-    "path": "folders/Objects/GUI/WinFailScreen.yy",
+    "name": "WinFailPauseScreen",
+    "path": "folders/Objects/GUI/WinFailPauseScreen.yy",
   },
   "resourceVersion": "1.0",
   "name": "oWinScreen",

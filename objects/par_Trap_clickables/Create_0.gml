@@ -25,6 +25,7 @@ infoDescription[0] = "The standard trap";
 infoDescription[1] = "Traps Enemys with... something?";
 infoShortText = "Standard Trap";
 
+available = true;
 
 enoughMoney = false;
 enoughEnergy = false;

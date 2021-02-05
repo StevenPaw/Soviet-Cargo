@@ -1,11 +1,4 @@
-tutFinished = true;
-if(instance_exists(oTutorialManager)) {
-	if (!oTutorialManager.tutorialFinished) {
-		tutFinished = false;
-	}
-}
-	
-if(tutFinished) {
+if(available) {
 if(global.coins >= cost && global.poweruse + powerCost <= global.maxPoweruse){
 	if(instance_exists(par_Trap_Dragged)) {
 		infBox = instance_find(par_Trap_Dragged, 0);

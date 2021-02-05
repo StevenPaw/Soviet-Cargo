@@ -26,6 +26,7 @@ infoDescription[0] = "The standard tower";
 infoDescription[1] = "Shoots standard Bullets";
 infoShortText = "Standard Tower";
 
+available = true;
 
 enoughMoney = false;
 enoughEnergy = false;

@@ -12,7 +12,17 @@ if(global.poweruse + powerCost > global.maxPoweruse)
 	enoughEnergy = true;
 }
 
-if(enoughEnergy && enoughMoney)
+available = true;
+if(instance_exists(oTutorialManager)) {
+	if (!oTutorialManager.tutorialFinished) {
+		available = false;
+	}
+}
+if (oPauseScreen.isActive) {
+	available = false;
+}
+
+if(enoughEnergy && enoughMoney && available)
 {
 	if (hovering) {
 		image_index = 1;

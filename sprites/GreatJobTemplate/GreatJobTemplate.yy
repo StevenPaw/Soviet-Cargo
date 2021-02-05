@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3b87f87b-5d47-481c-80b2-4bca926ab24f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "WinFailScreen",
-    "path": "folders/Sprites/GUI/WinFailScreen.yy",
+    "name": "WinFailPauseScreen",
+    "path": "folders/Sprites/GUI/WinFailPauseScreen.yy",
   },
   "resourceVersion": "1.0",
   "name": "GreatJobTemplate",

@@ -1,4 +1,6 @@
+draw_set_alpha(0.5);
 draw_self();
+draw_set_alpha(1);
 
 if(isLoading){
 //1 get old Settings
@@ -12,7 +14,7 @@ draw_set_color(c_white);
 draw_set_halign(fa_center);
 draw_set_valign(fa_center);
 draw_set_font(fMenuSmall);
-draw_text(room_width / 2, room_height / 2, "LOADING...");
+draw_text(room_width / 2, room_height -100, "LOADING...");
 
 //3 regain old Settings
 draw_set_color(oldColor);

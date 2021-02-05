@@ -1,3 +1,5 @@
+draw_self();
+
 //1 get old Settings
 oldColor = draw_get_color();
 oldhAlign = draw_get_halign();
