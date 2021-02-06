@@ -1,0 +1,58 @@
+function loadGame() {
+	ini_open("sovietCargoSave.ini");
+	global.effectsVolume = ini_read_real("Options","effectsVolume",1); //The third value here will set the score variable if there is no save file
+	global.musicVolume = ini_read_real("Options","musicVolume",1);
+
+	if (instance_exists(oLevelManager)) {
+		for(i = 0; i < array_length(oLevelManager.levelComplete); i++)
+		{
+			oLevelManager.levelComplete[i] = ini_read_real("Progress","levelComplete-" + string(i), 0);
+		}
+	}
+	if (instance_exists(oAchivementManager)) {
+		for(i = 0; i < array_length(oAchivementManager.achGot); i++)
+		{
+			 oAchivementManager.achGot[i] = ini_read_real("Achievements","ach-" + string(i), false);
+		}
+	}
+	ini_close();
+}
+
+function saveGame() {
+	ini_open("sovietCargoSave.ini");
+	ini_write_real("Options","effectsVolume", global.effectsVolume); //The third value here will set the score variable if there is no save file
+	ini_write_real("Options","musicVolume", global.musicVolume);
+
+	if (instance_exists(oLevelManager)) {
+		for(i = 0; i < array_length(oLevelManager.levelComplete); i++)
+		{
+			 ini_write_real("Progress","levelComplete-" + string(i), oLevelManager.levelComplete[i]);
+		}
+	}
+	if (instance_exists(oAchivementManager)) {
+		for(i = 0; i < array_length(oAchivementManager.achGot); i++)
+		{
+			 ini_write_real("Achievements","ach-" + string(i), oAchivementManager.achGot[i]);
+		}
+	}
+	ini_close();
+}
+
+function resetSaves() {
+	if (instance_exists(oLevelManager)) {
+		for(i = 0; i < array_length(oLevelManager.levelComplete); i++)
+		{
+			 oLevelManager.levelComplete[i] = 0;
+		}
+	}
+	if (instance_exists(oAchivementManager)) {
+		for(i = 0; i < array_length(oAchivementManager.achGot); i++)
+		{
+			 oAchivementManager.achGot[i] = false;
+		}
+	}
+	saveGame();
+	game_restart();
+}
+
+loadGame();
