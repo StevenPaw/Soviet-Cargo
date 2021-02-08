@@ -13,6 +13,7 @@ function loadGame() {
 		for(i = 0; i < array_length(oAchievementManager.achGot); i++)
 		{
 			 oAchievementManager.achGot[i] = ini_read_real("Achievements","ach-" + string(i), false);
+			 oAchievementManager.achTime[i] = ini_read_string("Achievements","achTime-" + string(i), "not yet earned");
 		}
 	}
 	ini_close();
@@ -33,6 +34,7 @@ function saveGame() {
 		for(i = 0; i < array_length(oAchievementManager.achGot); i++)
 		{
 			 ini_write_real("Achievements","ach-" + string(i), oAchievementManager.achGot[i]);
+			 ini_write_string("Achievements","achTime-" + string(i), oAchievementManager.achTime[i]);
 		}
 	}
 	ini_close();
@@ -49,6 +51,7 @@ function resetSaves() {
 		for(i = 0; i < array_length(oAchievementManager.achGot); i++)
 		{
 			 oAchievementManager.achGot[i] = false;
+			 oAchievementManager.achTime[i] = false;
 		}
 	}
 	saveGame();

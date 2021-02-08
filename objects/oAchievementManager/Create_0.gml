@@ -2,6 +2,7 @@ achievements = ds_list_create();
 achGot[0] = false;
 achImage[0] = ph_1_16x16;
 achDescription[0] = "ERROR";
+achTime[0] = "01.01.2000 - 00:00";
 achCount = 0;
 
 function AddAchievement(name, description, image){
@@ -10,6 +11,7 @@ function AddAchievement(name, description, image){
 	achGot[achCount] = false;
 	achImage[achCount] = image;
 	achDescription[achCount] = description;
+	achTime[achCount] = "not yet earned";
 }
 
 function giveAchievement(name) {
@@ -19,6 +21,7 @@ function giveAchievement(name) {
 		pointInList += 1;
 		if(!achGot[pointInList]) {
 			achGot[pointInList] = true;
+			achTime[pointInList] = string(current_day) + "." + string(current_month) + "." + string(current_year) + " - " + string(current_hour) + ":" + string(current_minute);
 
 			achievementMessage = instance_create_layer(room_width, room_height / 2, "Achievements", oAchievementBox)
 

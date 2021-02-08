@@ -8,5 +8,5 @@ function onButtonRelease() {
 }
 
 function onButtonPushed() {
-	room_goto(rOptions);
+	room_goto(rAchievementSelect);
 }
