@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sTileSet",
-    "path": "sprites/sTileSet/sTileSet.yy",
+    "name": "TileSetNewTest",
+    "path": "sprites/TileSetNewTest/TileSetNewTest.yy",
   },
   "tileWidth": 128,
   "tileHeight": 128,

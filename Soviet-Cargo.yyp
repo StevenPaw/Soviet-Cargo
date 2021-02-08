@@ -144,6 +144,7 @@
     {"id":{"name":"oCircleMenuReposition","path":"objects/oCircleMenuReposition/oCircleMenuReposition.yy",},"order":4,},
     {"id":{"name":"ph_2_128x128","path":"sprites/ph_2_128x128/ph_2_128x128.yy",},"order":1,},
     {"id":{"name":"par_Trap_clickables","path":"objects/par_Trap_clickables/par_Trap_clickables.yy",},"order":0,},
+    {"id":{"name":"TileSetNewTest","path":"sprites/TileSetNewTest/TileSetNewTest.yy",},"order":22,},
     {"id":{"name":"oGridManager","path":"objects/oGridManager/oGridManager.yy",},"order":24,},
     {"id":{"name":"OrangeTree","path":"sprites/OrangeTree/OrangeTree.yy",},"order":19,},
     {"id":{"name":"ph_3_128x128","path":"sprites/ph_3_128x128/ph_3_128x128.yy",},"order":2,},
