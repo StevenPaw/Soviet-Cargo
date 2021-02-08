@@ -6,3 +6,7 @@ image_angle += sin(degtorad(Point_dir - image_angle))*rspeed * global.gameSpeed;
 if(alarm[0] < -1 && global.gameSpeed > 0) {
 	alarm[0] = 1;
 }
+
+if(!instance_exists(objectToShoot)) {
+	image_angle += aiSpeed * global.gameSpeed;
+}

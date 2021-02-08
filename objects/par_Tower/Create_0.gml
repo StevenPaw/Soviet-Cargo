@@ -9,6 +9,7 @@ towerObject = clickableObjectType.towerObject;
 rspeed = clickableObjectType.rspeed; //Speed of the Rotation
 bulletType = clickableObjectType.bulletType;
 maxPowerIncrease = clickableObjectType.maxPowerIncrease;
+aiSpeed = 1;
 
 shooting = false;
 objectToShoot = noone;
@@ -26,6 +27,7 @@ if(!oSpawn.spawnActive)
 }
 
 alarm[1] = 2;
+alarm[2] = 1;
 
 
 //FOR ROTATION

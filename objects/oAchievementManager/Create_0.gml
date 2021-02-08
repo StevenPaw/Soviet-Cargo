@@ -46,6 +46,11 @@ AddAchievement("Prolog", "You started a new Game with Prolog", sAchStory, false)
 AddAchievement("1 Star", "You finished a level with 1 Star", sAch1Star, false);
 AddAchievement("2 Stars", "You finished a level with 2 Stars", sAch2Star, false);
 AddAchievement("3 Stars", "You finished a level with 3 Stars", sAch3Star, false);
+
+for(i = 0; i < oLevelManager.levelCount; i++) {
+	AddAchievement("Level " + string(i+1), "You finished Level " + string(i+1), sAchLevel, false);
+}
+
 AddAchievement("Fastest", "You used the fastest speed available", sAchFastest, false);
 AddAchievement("First Enemy", "Kill your first enemy", sAchImageTemplate, false);
 AddAchievement("50 Enemies", "Kill 50 enemies", sAchImageTemplate, false);

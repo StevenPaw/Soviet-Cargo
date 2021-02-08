@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c4fae893-e654-488b-8408-13a94950bae8","path":"sprites/Bridge/Bridge.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c4fae893-e654-488b-8408-13a94950bae8","path":"sprites/Bridge/Bridge.yy",},"LayerId":{"name":"2181c692-8db7-4d64-a490-4cb555dae2f5","path":"sprites/Bridge/Bridge.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Bridge","path":"sprites/Bridge/Bridge.yy",},"resourceVersion":"1.0","name":"c4fae893-e654-488b-8408-13a94950bae8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3e537562-e595-4715-a674-e779971c21c0","path":"sprites/Br_ckeNeu/Br_ckeNeu.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3e537562-e595-4715-a674-e779971c21c0","path":"sprites/Br_ckeNeu/Br_ckeNeu.yy",},"LayerId":{"name":"58d3dbc2-8e18-4a96-b401-0512247b7572","path":"sprites/Br_ckeNeu/Br_ckeNeu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Br_ckeNeu","path":"sprites/Br_ckeNeu/Br_ckeNeu.yy",},"resourceVersion":"1.0","name":"3e537562-e595-4715-a674-e779971c21c0","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Bridge","path":"sprites/Bridge/Bridge.yy",},
+    "spriteId": {"name":"Br_ckeNeu","path":"sprites/Br_ckeNeu/Br_ckeNeu.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"71ca074f-f560-4205-b883-bcd766700835","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c4fae893-e654-488b-8408-13a94950bae8","path":"sprites/Bridge/Bridge.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"44a8baa1-2f01-4bd2-b96b-380b332bd05b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3e537562-e595-4715-a674-e779971c21c0","path":"sprites/Br_ckeNeu/Br_ckeNeu.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Bridge","path":"sprites/Bridge/Bridge.yy",},
+    "parent": {"name":"Br_ckeNeu","path":"sprites/Br_ckeNeu/Br_ckeNeu.yy",},
     "resourceVersion": "1.3",
-    "name": "Bridge",
+    "name": "Br_ckeNeu",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2181c692-8db7-4d64-a490-4cb555dae2f5","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"58d3dbc2-8e18-4a96-b401-0512247b7572","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Textures",
     "path": "folders/Sprites/Textures.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Bridge",
+  "name": "Br_ckeNeu",
   "tags": [],
   "resourceType": "GMSprite",
 }
