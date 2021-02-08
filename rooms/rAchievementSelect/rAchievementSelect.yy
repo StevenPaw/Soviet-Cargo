@@ -15,6 +15,7 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oProgressSlider","path":"objects/oProgressSlider/oProgressSlider.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1536.0,"y":288.0,"resourceVersion":"1.0","name":"inst_4C8F5FDB","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oProgressSliderSecret","path":"objects/oProgressSliderSecret/oProgressSliderSecret.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1536.0,"y":416.0,"resourceVersion":"1.0","name":"inst_584434A4","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Achievements","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oAchievementSelectManager","path":"objects/oAchievementSelectManager/oAchievementSelectManager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_353CD5BC","tags":[],"resourceType":"GMRInstance",},
@@ -32,6 +33,7 @@
     {"name":"inst_353CD5BC","path":"rooms/rAchievementSelect/rAchievementSelect.yy",},
     {"name":"inst_1FF0B393","path":"rooms/rAchievementSelect/rAchievementSelect.yy",},
     {"name":"inst_4C8F5FDB","path":"rooms/rAchievementSelect/rAchievementSelect.yy",},
+    {"name":"inst_584434A4","path":"rooms/rAchievementSelect/rAchievementSelect.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

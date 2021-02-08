@@ -89,6 +89,7 @@
     {"id":{"name":"rangeHover","path":"scripts/rangeHover/rangeHover.yy",},"order":0,},
     {"id":{"name":"tPrototype_river","path":"tilesets/tPrototype_river/tPrototype_river.yy",},"order":1,},
     {"id":{"name":"par_Enemy","path":"objects/par_Enemy/par_Enemy.yy",},"order":1,},
+    {"id":{"name":"oProgressSliderSecret","path":"objects/oProgressSliderSecret/oProgressSliderSecret.yy",},"order":4,},
     {"id":{"name":"oTrapSlow_D","path":"objects/oTrapSlow_D/oTrapSlow_D.yy",},"order":1,},
     {"id":{"name":"pLevel4","path":"paths/pLevel4/pLevel4.yy",},"order":3,},
     {"id":{"name":"oEndlessMode","path":"objects/oEndlessMode/oEndlessMode.yy",},"order":5,},
