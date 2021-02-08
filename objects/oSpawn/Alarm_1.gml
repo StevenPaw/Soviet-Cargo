@@ -27,12 +27,15 @@ if(global.wave > oLevelManager.getMaxWaves(room)) {
 	if(global.playerHP < (global.maxPlayerHP / 2)) {
 			oLevelManager.levelComplete[oLevelManager.getCurrentLevelID(room)] = 1;
 			debugStars = 1;
+			oAchievementManager.giveAchievement("1 Star");
 	} else if(global.playerHP < global.maxPlayerHP) {
 			oLevelManager.levelComplete[oLevelManager.getCurrentLevelID(room)] = 2;
 			debugStars = 2;
+			oAchievementManager.giveAchievement("2 Stars");
 	} else if(global.playerHP == global.maxPlayerHP) {
 			oLevelManager.levelComplete[oLevelManager.getCurrentLevelID(room)] = 3;
 			debugStars = 3;
+			oAchievementManager.giveAchievement("3 Stars");
 	}
 	
 	global.wave = oLevelManager.getMaxWaves(room);

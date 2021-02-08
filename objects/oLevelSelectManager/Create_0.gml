@@ -20,7 +20,7 @@ for (i = 1; i < array_length(Roomlist); i++)
 	}else if(curX = 400){
 		curX = 700;	
 	}else if(curX = 400){
-		curX = 700;	
+		curX = 700;	 
 	}else if(curX = 700){
 		curX = 1000;	
 	} else {

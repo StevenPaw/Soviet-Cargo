@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1920"
+   height="1024"
+   viewBox="0 0 508.00003 270.93334"
+   version="1.1"
+   id="svg926"
+   inkscape:export-filename="E:\Git-Workspace\_UE\Soviet-Cargo\GRAFIKEN\DeleteSaveWarning.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="DeleteSaveWarning.svg">
+  <defs
+     id="defs920">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1264"
+       x="-0.076845051"
+       width="1.1536901"
+       y="-0.13676142"
+       height="1.2735228">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="6.5529671"
+         id="feGaussianBlur1266" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="884.46987"
+     inkscape:cy="540.98837"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:snap-global="false"
+     inkscape:window-width="1858"
+     inkscape:window-height="1057"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata923">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-26.06665)">
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:0.55011135;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="rect938"
+       width="525.98645"
+       height="280.633"
+       x="-8.5526247"
+       y="22.24691"
+       ry="0.41341144" />
+    <g
+       id="g994"
+       transform="translate(-179.38394,116.21762)"
+       style="fill:#000000;fill-opacity:0.55011135;stroke:#000000;stroke-opacity:1;filter:url(#filter1264)">
+      <g
+         transform="matrix(1.788329,0,0,1.788329,-29.362164,-218.83738)"
+         id="g992"
+         style="fill:#000000;fill-opacity:0.55011135;stroke:#000000;stroke-opacity:1">
+        <rect
+           style="opacity:1;fill:#000000;fill-opacity:0.55011135;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           id="rect940"
+           width="114.27121"
+           height="64.21859"
+           x="201.62334"
+           y="115.60015"
+           ry="8.6134882"
+           rx="0" />
+        <rect
+           rx="0"
+           ry="5.9119468"
+           y="115.51471"
+           x="201.53787"
+           height="44.077019"
+           width="114.44212"
+           id="rect942"
+           style="opacity:1;fill:#000000;fill-opacity:0.55011135;stroke:#000000;stroke-width:0.82908732;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:24.10149574px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:0.55011135;stroke:#000000;stroke-width:0.60253733;stroke-opacity:1"
+           x="216.64685"
+           y="135.9576"
+           id="text946"><tspan
+             sodipodi:role="line"
+             id="tspan944"
+             x="216.64685"
+             y="135.9576"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Soviet;-inkscape-font-specification:Soviet;fill:#000000;fill-opacity:0.55011135;stroke-width:0.60253733;stroke:#000000;stroke-opacity:1">WARNING!</tspan></text>
+        <g
+           id="g956"
+           transform="translate(1.8851606)"
+           style="fill:#000000;fill-opacity:0.55011135;stroke:#000000;stroke-opacity:1">
+          <path
+             inkscape:connector-curvature="0"
+             id="path948"
+             d="m 258.09481,176.50605 v -4.00904"
+             style="fill:#000000;fill-opacity:0.55011135;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+          <path
+             style="fill:#000000;fill-opacity:0.55011135;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 258.09481,166.88435 v -4.00904"
+             id="path950"
+             inkscape:connector-curvature="0" />
+          <text
+             id="text954"
+             y="171.44751"
+             x="258.01965"
+             style="font-style:normal;font-weight:normal;font-size:4.89977026px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:0.55011135;stroke:#000000;stroke-width:0.12249426;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Soviet;-inkscape-font-specification:Soviet;fill:#000000;fill-opacity:0.55011135;stroke-width:0.12249426;stroke:#000000;stroke-opacity:1"
+               y="171.44751"
+               x="258.01965"
+               id="tspan952"
+               sodipodi:role="line">or</tspan></text>
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:6.6215663px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:0.55011135;stroke:#000000;stroke-width:0.16553916;stroke-opacity:1"
+           x="258.849"
+           y="145.25998"
+           id="text962"><tspan
+             sodipodi:role="line"
+             id="tspan958"
+             x="258.849"
+             y="145.25998"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1;font-family:'Apex New';-inkscape-font-specification:'Apex New Bold';stroke-width:0.16553916;fill:#000000;fill-opacity:0.55011135;stroke:#000000;stroke-opacity:1">THIS WILL DELETE</tspan><tspan
+             sodipodi:role="line"
+             x="258.849"
+             y="153.53694"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1;font-family:'Apex New';-inkscape-font-specification:'Apex New Bold';stroke-width:0.16553916;fill:#000000;fill-opacity:0.55011135;stroke:#000000;stroke-opacity:1"
+             id="tspan960">YOUR COMPLETE SAVE FILE!!!</tspan></text>
+        <g
+           id="g976"
+           transform="translate(1.5452135)"
+           style="fill:#000000;fill-opacity:0.55011135;stroke:#000000;stroke-opacity:1">
+          <text
+             id="text966"
+             y="165.62187"
+             x="234.34137"
+             style="font-style:normal;font-weight:normal;font-size:3.70767045px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:0.55011135;stroke:#000000;stroke-width:0.09269176;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Apex New';-inkscape-font-specification:'Apex New Semi-Bold';fill:#000000;fill-opacity:0.55011135;stroke-width:0.09269176;stroke:#000000;stroke-opacity:1"
+               y="165.62187"
+               x="234.34137"
+               id="tspan964"
+               sodipodi:role="line">press</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:7.43207836px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:0.55011135;stroke:#000000;stroke-width:0.18580195;stroke-opacity:1"
+             x="234.22839"
+             y="172.79681"
+             id="text970"><tspan
+               sodipodi:role="line"
+               id="tspan968"
+               x="234.22839"
+               y="172.79681"
+               style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Apex New';-inkscape-font-specification:'Apex New Semi-Bold';fill:#000000;fill-opacity:0.55011135;stroke-width:0.18580195;stroke:#000000;stroke-opacity:1">ENTER</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:3.70767045px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:0.55011135;stroke:#000000;stroke-width:0.09269176;stroke-opacity:1"
+             x="234.34137"
+             y="176.17902"
+             id="text974"><tspan
+               sodipodi:role="line"
+               id="tspan972"
+               x="234.34137"
+               y="176.17902"
+               style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Apex New';-inkscape-font-specification:'Apex New Semi-Bold';fill:#000000;fill-opacity:0.55011135;stroke-width:0.09269176;stroke:#000000;stroke-opacity:1">to continue</tspan></text>
+        </g>
+        <g
+           id="g990"
+           transform="translate(1.5452153)"
+           style="fill:#000000;fill-opacity:0.55011135;stroke:#000000;stroke-opacity:1">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:3.70767045px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:0.55011135;stroke:#000000;stroke-width:0.09269176;stroke-opacity:1"
+             x="281.24716"
+             y="165.62187"
+             id="text980"><tspan
+               sodipodi:role="line"
+               id="tspan978"
+               x="281.24716"
+               y="165.62187"
+               style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Apex New';-inkscape-font-specification:'Apex New Semi-Bold';fill:#000000;fill-opacity:0.55011135;stroke-width:0.09269176;stroke:#000000;stroke-opacity:1">press</tspan></text>
+          <text
+             id="text984"
+             y="172.79681"
+             x="281.13419"
+             style="font-style:normal;font-weight:normal;font-size:7.43207836px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:0.55011135;stroke:#000000;stroke-width:0.18580195;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Apex New';-inkscape-font-specification:'Apex New Semi-Bold';fill:#000000;fill-opacity:0.55011135;stroke-width:0.18580195;stroke:#000000;stroke-opacity:1"
+               y="172.79681"
+               x="281.13419"
+               id="tspan982"
+               sodipodi:role="line">ESC</tspan></text>
+          <text
+             id="text988"
+             y="176.17902"
+             x="281.24716"
+             style="font-style:normal;font-weight:normal;font-size:3.70767045px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:0.55011135;stroke:#000000;stroke-width:0.09269176;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Apex New';-inkscape-font-specification:'Apex New Semi-Bold';fill:#000000;fill-opacity:0.55011135;stroke-width:0.09269176;stroke:#000000;stroke-opacity:1"
+               y="176.17902"
+               x="281.24716"
+               id="tspan986"
+               sodipodi:role="line">to stop here</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g
+       transform="translate(-179.38394,116.21762)"
+       id="g906">
+      <g
+         id="g936"
+         transform="matrix(1.788329,0,0,1.788329,-29.362164,-218.83738)">
+        <rect
+           rx="0"
+           ry="8.6134882"
+           y="115.60015"
+           x="201.62334"
+           height="64.21859"
+           width="114.27121"
+           id="rect871"
+           style="opacity:1;fill:#bb4237;fill-opacity:1;stroke:#cca164;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+        <rect
+           style="opacity:1;fill:#cca164;fill-opacity:1;stroke:#cca164;stroke-width:0.82908732;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           id="rect873"
+           width="114.44212"
+           height="44.077019"
+           x="201.53787"
+           y="115.51471"
+           ry="5.9119468"
+           rx="0" />
+        <text
+           id="text827"
+           y="135.9576"
+           x="216.64685"
+           style="font-style:normal;font-weight:normal;font-size:24.10149574px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#db0000;fill-opacity:1;stroke:none;stroke-width:0.60253733"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Soviet;-inkscape-font-specification:Soviet;fill:#db0000;fill-opacity:1;stroke-width:0.60253733"
+             y="135.9576"
+             x="216.64685"
+             id="tspan825"
+             sodipodi:role="line">WARNING!</tspan></text>
+        <g
+           style="fill:#ffffff;fill-opacity:1"
+           transform="translate(1.8851606)"
+           id="g908">
+          <path
+             style="fill:#ffffff;fill-opacity:1;stroke:#fdfdfd;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 258.09481,176.50605 v -4.00904"
+             id="path829"
+             inkscape:connector-curvature="0" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path831"
+             d="m 258.09481,166.88435 v -4.00904"
+             style="fill:#ffffff;fill-opacity:1;stroke:#fdfdfd;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:4.89977026px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.12249426"
+             x="258.01965"
+             y="171.44751"
+             id="text835"><tspan
+               sodipodi:role="line"
+               id="tspan833"
+               x="258.01965"
+               y="171.44751"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Soviet;-inkscape-font-specification:Soviet;fill:#ffffff;fill-opacity:1;stroke-width:0.12249426">or</tspan></text>
+        </g>
+        <text
+           id="text839"
+           y="145.25998"
+           x="258.849"
+           style="font-style:normal;font-weight:normal;font-size:6.6215663px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.16553916"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1;font-family:'Apex New';-inkscape-font-specification:'Apex New Bold';stroke-width:0.16553916"
+             y="145.25998"
+             x="258.849"
+             id="tspan837"
+             sodipodi:role="line">THIS WILL DELETE</tspan><tspan
+             id="tspan843"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1;font-family:'Apex New';-inkscape-font-specification:'Apex New Bold';stroke-width:0.16553916"
+             y="153.53694"
+             x="258.849"
+             sodipodi:role="line">YOUR COMPLETE SAVE FILE!!!</tspan></text>
+        <g
+           style="fill:#ffffff;fill-opacity:1"
+           transform="translate(1.5452135)"
+           id="g902">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:3.70767045px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.09269176"
+             x="234.34137"
+             y="165.62187"
+             id="text847"><tspan
+               sodipodi:role="line"
+               id="tspan845"
+               x="234.34137"
+               y="165.62187"
+               style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Apex New';-inkscape-font-specification:'Apex New Semi-Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.09269176">press</tspan></text>
+          <text
+             id="text851"
+             y="172.79681"
+             x="234.22839"
+             style="font-style:normal;font-weight:normal;font-size:7.43207836px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.18580195"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Apex New';-inkscape-font-specification:'Apex New Semi-Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.18580195"
+               y="172.79681"
+               x="234.22839"
+               id="tspan849"
+               sodipodi:role="line">ENTER</tspan></text>
+          <text
+             id="text859"
+             y="176.17902"
+             x="234.34137"
+             style="font-style:normal;font-weight:normal;font-size:3.70767045px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.09269176"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Apex New';-inkscape-font-specification:'Apex New Semi-Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.09269176"
+               y="176.17902"
+               x="234.34137"
+               id="tspan857"
+               sodipodi:role="line">to continue</tspan></text>
+        </g>
+        <g
+           style="fill:#ffffff;fill-opacity:1"
+           transform="translate(1.5452153)"
+           id="g894">
+          <text
+             id="text863"
+             y="165.62187"
+             x="281.24716"
+             style="font-style:normal;font-weight:normal;font-size:3.70767045px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.09269176"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Apex New';-inkscape-font-specification:'Apex New Semi-Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.09269176"
+               y="165.62187"
+               x="281.24716"
+               id="tspan861"
+               sodipodi:role="line">press</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:7.43207836px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.18580195"
+             x="281.13419"
+             y="172.79681"
+             id="text867"><tspan
+               sodipodi:role="line"
+               id="tspan865"
+               x="281.13419"
+               y="172.79681"
+               style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Apex New';-inkscape-font-specification:'Apex New Semi-Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.18580195">ESC</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:3.70767045px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.09269176"
+             x="281.24716"
+             y="176.17902"
+             id="text871"><tspan
+               sodipodi:role="line"
+               id="tspan869"
+               x="281.24716"
+               y="176.17902"
+               style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Apex New';-inkscape-font-specification:'Apex New Semi-Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.09269176">to stop here</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

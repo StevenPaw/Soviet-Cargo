@@ -10,3 +10,7 @@ enemyCoins = 2; //The amount of coins you get for defeating one of this
 alarm[0] = 1;
 loaded = false;
 hp = 0;
+
+function onDeath() {
+	
+}

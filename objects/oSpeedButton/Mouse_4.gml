@@ -18,6 +18,7 @@ switch (global.gameSpeed) {
 		break;
 	case 2:
 		global.gameSpeed = 5;
+		oAchievementManager.giveAchievement("Fastest");
 		break;
 }
 }

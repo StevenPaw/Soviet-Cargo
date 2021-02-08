@@ -9,3 +9,7 @@ enemyHealth = 1; //is multiplied by the global hp
 enemyDeathColor = c_orange; //The Color of the effect when dead
 enemyBloodColor = c_orange; //The Color of the effect when hit
 enemyCoins = 2; //The amount of coins you get for defeating one of this
+
+function onDeath() {
+	oStats.killedStandardEnemies += 1;
+}

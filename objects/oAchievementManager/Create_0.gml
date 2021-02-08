@@ -40,6 +40,14 @@ function giveAchievement(name) {
 	}
 }
 
-AddAchievement("Started Game", "You started the Game", sAchStartGame, false);
 AddAchievement("Test", "Tested Achievements", sAchDebug, true);
-AddAchievement("2 Stars", "You finished a level with 2 Stars", ph_1_16x16, false);
+AddAchievement("Started Game", "You started the Game", sAchStartGame, false);
+AddAchievement("Prolog", "You started a new Game with Prolog", sAchStory, false);
+AddAchievement("1 Star", "You finished a level with 1 Star", sAch1Star, false);
+AddAchievement("2 Stars", "You finished a level with 2 Stars", sAch2Star, false);
+AddAchievement("3 Stars", "You finished a level with 3 Stars", sAch3Star, false);
+AddAchievement("Fastest", "You used the fastest speed available", sAchFastest, false);
+AddAchievement("First Enemy", "Kill your first enemy", sAchImageTemplate, false);
+AddAchievement("50 Enemies", "Kill 50 enemies", sAchImageTemplate, false);
+AddAchievement("100 Enemies", "Kill 100 enemies", sAchImageTemplate, false);
+AddAchievement("250 Enemies", "Kill 250 enemies", sAchImageTemplate, false);

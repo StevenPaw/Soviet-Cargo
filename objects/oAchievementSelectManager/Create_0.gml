@@ -21,19 +21,21 @@ for (i = 1; i <= array_length(Achievementlist); i++)
 	
 	if(shown){
 		if(curX = 0){
-			curX = 100;	
-		}else if(curX = 100){
-			curX = 470;	
-		}else if(curX = 470){
-			curX = 840;	
-		} else if(curX = 840){
-			curX = 1010;	
-		} else {
-			curY += 300;
-			curX = 100;
+			curX = 300;	
+		}else if(curX = 300){
+			curX = 670;	
+		}else if(curX = 670){
+			curX = 1040;	
+		}else {
+			curY += 100;
+			curX = 300;
 		}
 		
 		achievementMessage[i] = instance_create_layer(curX, curY, "Achievements", oAchievementBox)
+	} else {
+		achievementMessage[i] = instance_create_layer(room_width, 0, "Achievements", oAchievementBox)
+	}
+	
 	
 		achievementMessage[i].info = oAchievementManager.achTime[i];
 		achievementMessage[i].title = ds_list_find_value(oAchievementManager.achievements, i - 1);
@@ -43,5 +45,5 @@ for (i = 1; i <= array_length(Achievementlist); i++)
 		achievementMessage[i].hasAch = oAchievementManager.achGot[i];
 	
 		maxY = curY;
-	}
+	//}
 }

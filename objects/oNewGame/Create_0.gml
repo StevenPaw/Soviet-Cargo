@@ -8,5 +8,6 @@ function onButtonRelease() {
 }
 
 function onButtonPushed() {
+	oAchievementManager.giveAchievement("Prolog");
 	room_goto(rProlog);
 }
