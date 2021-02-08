@@ -9,10 +9,10 @@ function loadGame() {
 			oLevelManager.levelComplete[i] = ini_read_real("Progress","levelComplete-" + string(i), 0);
 		}
 	}
-	if (instance_exists(oAchivementManager)) {
-		for(i = 0; i < array_length(oAchivementManager.achGot); i++)
+	if (instance_exists(oAchievementManager)) {
+		for(i = 0; i < array_length(oAchievementManager.achGot); i++)
 		{
-			 oAchivementManager.achGot[i] = ini_read_real("Achievements","ach-" + string(i), false);
+			 oAchievementManager.achGot[i] = ini_read_real("Achievements","ach-" + string(i), false);
 		}
 	}
 	ini_close();
@@ -29,10 +29,10 @@ function saveGame() {
 			 ini_write_real("Progress","levelComplete-" + string(i), oLevelManager.levelComplete[i]);
 		}
 	}
-	if (instance_exists(oAchivementManager)) {
-		for(i = 0; i < array_length(oAchivementManager.achGot); i++)
+	if (instance_exists(oAchievementManager)) {
+		for(i = 0; i < array_length(oAchievementManager.achGot); i++)
 		{
-			 ini_write_real("Achievements","ach-" + string(i), oAchivementManager.achGot[i]);
+			 ini_write_real("Achievements","ach-" + string(i), oAchievementManager.achGot[i]);
 		}
 	}
 	ini_close();
@@ -45,10 +45,10 @@ function resetSaves() {
 			 oLevelManager.levelComplete[i] = 0;
 		}
 	}
-	if (instance_exists(oAchivementManager)) {
-		for(i = 0; i < array_length(oAchivementManager.achGot); i++)
+	if (instance_exists(oAchievementManager)) {
+		for(i = 0; i < array_length(oAchievementManager.achGot); i++)
 		{
-			 oAchivementManager.achGot[i] = false;
+			 oAchievementManager.achGot[i] = false;
 		}
 	}
 	saveGame();

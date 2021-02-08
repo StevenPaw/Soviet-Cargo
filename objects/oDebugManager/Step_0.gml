@@ -102,6 +102,10 @@ if (debug) {
 		global.coins += 10;
 	}
 	
+	if(keyboard_check_pressed(ord("A"))) {
+		oAchievementManager.giveAchievement("Test");
+	}
+	
 	if(keyboard_check_pressed(ord("1"))) {
 		global.gameSpeed = 1;
 	} else if(keyboard_check_pressed(ord("2"))) {
