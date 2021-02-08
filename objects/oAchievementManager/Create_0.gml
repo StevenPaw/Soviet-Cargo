@@ -23,7 +23,27 @@ function giveAchievement(name) {
 		pointInList += 1;
 		if(!achGot[pointInList]) {
 			achGot[pointInList] = true;
-			achTime[pointInList] = string(current_day) + "." + string(current_month) + "." + string(current_year) + " - " + string(current_hour) + ":" + string(current_minute);
+			if (current_minute < 10) {
+				minute = "0" + string(current_minute);
+			} else {
+				minute = string(current_minute);
+			}
+			if (current_hour < 10) {
+				hour = "0" + string(current_hour);
+			} else {
+				hour = string(current_hour);
+			}
+			if (current_day < 10) {
+				day = "0" + string(current_day);
+			} else {
+				day = string(current_day);
+			}
+			if (current_month < 10) {
+				month = "0" + string(current_month);
+			} else {
+				month = string(current_month);
+			}
+			achTime[pointInList] = day + "." + month + "." + string(current_year) + " - " + hour + ":" + minute;
 
 			achievementMessage = instance_create_layer(room_width, room_height / 2, "Achievements", oAchievementBox)
 
@@ -56,3 +76,13 @@ AddAchievement("First Enemy", "Kill your first enemy", sAchImageTemplate, false)
 AddAchievement("50 Enemies", "Kill 50 enemies", sAchImageTemplate, false);
 AddAchievement("100 Enemies", "Kill 100 enemies", sAchImageTemplate, false);
 AddAchievement("250 Enemies", "Kill 250 enemies", sAchImageTemplate, false);
+AddAchievement("First Tower", "Build your first tower", sAchImageTemplate, false);
+AddAchievement("25 Towers", "Build 25 towers", sAchImageTemplate, false);
+AddAchievement("50 Towers", "Build 50 towers", sAchImageTemplate, false);
+AddAchievement("100 Towers", "Build 100 towers", sAchImageTemplate, false);
+AddAchievement("200 Towers", "Build 200 towers", sAchImageTemplate, false);
+AddAchievement("First Trap", "Use your first trap", sAchImageTemplate, false);
+AddAchievement("25 Traps", "Build 25 traps", sAchImageTemplate, false);
+AddAchievement("50 Traps", "Build 50 traps", sAchImageTemplate, false);
+AddAchievement("100 Traps", "Build 100 traps", sAchImageTemplate, false);
+AddAchievement("200 Traps", "Build 200 traps", sAchImageTemplate, false);
