@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sButton",
-    "path": "sprites/sButton/sButton.yy",
+    "name": "sButtonOptions",
+    "path": "sprites/sButtonOptions/sButtonOptions.yy",
   },
   "solid": false,
   "visible": true,
