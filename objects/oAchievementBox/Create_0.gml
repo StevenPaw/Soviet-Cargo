@@ -4,6 +4,7 @@ description = "Something happened?";
 image = sAchStartGame;
 onlyDisplay = false;
 hasAch = true;
+hidden = false;
 
 moveSpeed = 12;
 distanceToWall = 20;

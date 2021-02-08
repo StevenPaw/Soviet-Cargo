@@ -11,19 +11,23 @@ scrollableDown = true;
 scrollableUp = false;
 scrollSpeed = 10;
 
-for (i = 1; i < array_length(Achievementlist); i++)
+for (i = 1; i <= array_length(Achievementlist); i++)
 {
-	//if(oAchievementManager.achGot[i]){
+	shown = true;
+	
+	if(oAchievementManager.achHidden[i] && !oAchievementManager.achGot[i]){
+		shown = false;	
+	}
+	
+	if(shown){
 		if(curX = 0){
 			curX = 100;	
 		}else if(curX = 100){
-			curX = 400;	
-		}else if(curX = 400){
-			curX = 700;	
-		}else if(curX = 400){
-			curX = 700;	
-		}else if(curX = 700){
-			curX = 1000;	
+			curX = 470;	
+		}else if(curX = 470){
+			curX = 840;	
+		} else if(curX = 840){
+			curX = 1010;	
 		} else {
 			curY += 300;
 			curX = 100;
@@ -39,5 +43,5 @@ for (i = 1; i < array_length(Achievementlist); i++)
 		achievementMessage[i].hasAch = oAchievementManager.achGot[i];
 	
 		maxY = curY;
-	//}
+	}
 }

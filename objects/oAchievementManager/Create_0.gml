@@ -3,15 +3,17 @@ achGot[0] = false;
 achImage[0] = ph_1_16x16;
 achDescription[0] = "ERROR";
 achTime[0] = "01.01.2000 - 00:00";
+achHidden[0] = false;
 achCount = 0;
 
-function AddAchievement(name, description, image){
+function AddAchievement(name, description, image, hidden){
 	achCount += 1;
 	ds_list_add(achievements, name);
 	achGot[achCount] = false;
 	achImage[achCount] = image;
 	achDescription[achCount] = description;
 	achTime[achCount] = "not yet earned";
+	achHidden[achCount] = hidden;
 }
 
 function giveAchievement(name) {
@@ -29,6 +31,7 @@ function giveAchievement(name) {
 			achievementMessage.title = ds_list_find_value(achievements, pointInList - 1);
 			achievementMessage.description = achDescription[pointInList];
 			achievementMessage.image = achImage[pointInList];
+			achievementMessage.hidden = achHidden[pointInList];
 		} else {
 			show_debug_message("Already got Achievement!");
 		}
@@ -37,6 +40,6 @@ function giveAchievement(name) {
 	}
 }
 
-AddAchievement("Started Game", "You started the Game", sAchStartGame);
-AddAchievement("Test", "Tested Achievements", sAchDebug);
-AddAchievement("Level2", "You finished a level with 2 Stars", ph_1_16x16);
+AddAchievement("Started Game", "You started the Game", sAchStartGame, false);
+AddAchievement("Test", "Tested Achievements", sAchDebug, true);
+AddAchievement("2 Stars", "You finished a level with 2 Stars", ph_1_16x16, false);

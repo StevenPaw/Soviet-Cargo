@@ -1,4 +1,8 @@
-draw_sprite(image, 0, x, y);
+if (hasAch) {
+	draw_sprite(image, 0, x, y);
+} else {
+	draw_sprite(sAchNotEarned, 0, x, y);
+}
 
 draw_self();
 

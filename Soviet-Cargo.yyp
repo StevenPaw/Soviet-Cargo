@@ -191,6 +191,7 @@
     {"id":{"name":"oAchievementSelectManager","path":"objects/oAchievementSelectManager/oAchievementSelectManager.yy",},"order":1,},
     {"id":{"name":"oTrapSlow","path":"objects/oTrapSlow/oTrapSlow.yy",},"order":1,},
     {"id":{"name":"SelectBackground","path":"sprites/SelectBackground/SelectBackground.yy",},"order":23,},
+    {"id":{"name":"sAchNotEarned","path":"sprites/sAchNotEarned/sAchNotEarned.yy",},"order":3,},
     {"id":{"name":"oRestart","path":"objects/oRestart/oRestart.yy",},"order":8,},
     {"id":{"name":"sSlime_Trap_Inv","path":"sprites/sSlime_Trap_Inv/sSlime_Trap_Inv.yy",},"order":0,},
     {"id":{"name":"Tree2","path":"sprites/Tree2/Tree2.yy",},"order":5,},

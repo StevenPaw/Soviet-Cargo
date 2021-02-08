@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 276,
+  "bbox_right": 349,
   "bbox_top": 0,
   "bbox_bottom": 75,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 277,
+  "width": 350,
   "height": 76,
   "textureGroupId": {
     "name": "Default",
@@ -24,9 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6f9bc9d8-03ba-44e8-a6dd-8982034973d6","path":"sprites/AchievementBox/AchievementBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6f9bc9d8-03ba-44e8-a6dd-8982034973d6","path":"sprites/AchievementBox/AchievementBox.yy",},"LayerId":{"name":"8cf52734-3403-476d-bd8e-10879f4b8a60","path":"sprites/AchievementBox/AchievementBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"AchievementBox","path":"sprites/AchievementBox/AchievementBox.yy",},"resourceVersion":"1.0","name":"6f9bc9d8-03ba-44e8-a6dd-8982034973d6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"47e15006-a23e-42f0-ba5d-e9845d5c489e","path":"sprites/AchievementBox/AchievementBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"47e15006-a23e-42f0-ba5d-e9845d5c489e","path":"sprites/AchievementBox/AchievementBox.yy",},"LayerId":{"name":"bd55ff0b-e93a-4bdc-b04e-15acbcb64495","path":"sprites/AchievementBox/AchievementBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"AchievementBox","path":"sprites/AchievementBox/AchievementBox.yy",},"resourceVersion":"1.0","name":"47e15006-a23e-42f0-ba5d-e9845d5c489e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a1f2d424-7f67-4686-b08b-6376e465c114","path":"sprites/AchievementBox/AchievementBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a1f2d424-7f67-4686-b08b-6376e465c114","path":"sprites/AchievementBox/AchievementBox.yy",},"LayerId":{"name":"bd55ff0b-e93a-4bdc-b04e-15acbcb64495","path":"sprites/AchievementBox/AchievementBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"AchievementBox","path":"sprites/AchievementBox/AchievementBox.yy",},"resourceVersion":"1.0","name":"a1f2d424-7f67-4686-b08b-6376e465c114","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"AchievementBox","path":"sprites/AchievementBox/AchievementBox.yy",},
@@ -36,12 +39,13 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 2.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"49aff284-a62d-4d4b-ae09-fc3da7ad802f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6f9bc9d8-03ba-44e8-a6dd-8982034973d6","path":"sprites/AchievementBox/AchievementBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f4332d5d-2d1f-4ee6-8a33-2270c1486fb5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"47e15006-a23e-42f0-ba5d-e9845d5c489e","path":"sprites/AchievementBox/AchievementBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f1ad9406-94a6-4eac-94cc-e90f66b6ccbc","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a1f2d424-7f67-4686-b08b-6376e465c114","path":"sprites/AchievementBox/AchievementBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +69,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8cf52734-3403-476d-bd8e-10879f4b8a60","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bd55ff0b-e93a-4bdc-b04e-15acbcb64495","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Achievements",

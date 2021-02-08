@@ -1,5 +1,8 @@
 if (!hasAch) {
 	info = "not yet earned";
+	image_index = 1;
+} else {
+	image_index = 0;
 }
 
 if (!onlyDisplay){
