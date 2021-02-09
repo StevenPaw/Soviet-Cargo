@@ -34,7 +34,7 @@ if(global.wave > oLevelManager.getMaxWaves(room)) {
 			oAchievementManager.giveAchievement("3 Stars");
 	}
 	
-	oAchievementManager.giveAchievement("Level " + string(oLevelManager.getCurrentLevelID(room)+1));
+	oAchievementManager.giveAchievement("Level " + string(oLevelManager.getCurrentLevelID(room)));
 	
 	global.wave = oLevelManager.getMaxWaves(room);
 }
