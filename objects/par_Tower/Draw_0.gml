@@ -23,6 +23,7 @@ if(oRangeHover.isInRange(x,y,sprite_width,sprite_height))
 }
 
 
+
 var enemy = instance_nearest(x,y,par_Enemy);
 if(enemy != noone){
 	if(point_distance(x,y,enemy.x,enemy.y) <= maxrange+15){

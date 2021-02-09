@@ -1,7 +1,9 @@
+
+// initial enemy variables
 startSpeed = 1;
 enemySpeed = startSpeed; //is multiplied by the room speed!
 isSlowed = false;
-regainSpeed = 0.001;
+regainSpeed = 0.001; // regain speed after x amount of time when slowed
 enemyHealth = 1; //is multiplied by the global hp
 enemyDeathColor = c_orange; //The Color of the effect when dead
 enemyBloodColor = c_orange; //The Color of the effect when hit

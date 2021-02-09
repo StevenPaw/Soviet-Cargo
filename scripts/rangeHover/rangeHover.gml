@@ -1,4 +1,4 @@
-
+// hover range script for towers
 function isInRange(arg0, arg1, arg2, arg3)
 {
 var xx = argument0;
