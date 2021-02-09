@@ -11,7 +11,7 @@ draw_set_color(c_white);
 draw_set_halign(fa_center);
 draw_set_valign(fa_center);
 draw_set_font(fMenuSmall);
-draw_text(x + sprite_width / 2, 7 + y + sprite_height / 2, "BACK TO MENU");
+draw_text(x + sprite_width / 2, 5 + y + sprite_height / 2, "BACK TO MENU");
 
 //3 regain old Settings
 draw_set_color(oldColor);
