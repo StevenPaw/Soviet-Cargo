@@ -8,7 +8,7 @@ global.hp = 0;
 global.level = 0;
 global.playerHP = 1;
 global.poweruse = 0;
-global.spd = 1;
+global.spd = 0;
 global.wave = 0;
 
 global.gameSpeed = 1;
