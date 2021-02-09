@@ -1,24 +1,24 @@
 //clickableObjectType = oTowerDouble_C;
 
 /// @description Initialize Variables
-minrange = clickableObjectType.minrange;
-maxrange = clickableObjectType.maxrange;
-fire_rate = clickableObjectType.fire_rate;
-draggableObject = clickableObjectType.draggableObject;
-towerObject = clickableObjectType.towerObject;
+minrange = clickableObjectType.minrange; //Sets the minimum range of the tower
+maxrange = clickableObjectType.maxrange; //Sets the maximum range of the tower
+fire_rate = clickableObjectType.fire_rate; //Sets the speed in which the tower is firing
+draggableObject = clickableObjectType.draggableObject; //sets the draggable object for this tower
+towerObject = clickableObjectType.towerObject; //Sets the towerObject based on the clickable object
 rspeed = clickableObjectType.rspeed; //Speed of the Rotation
-bulletType = clickableObjectType.bulletType;
-maxPowerIncrease = clickableObjectType.maxPowerIncrease;
-aiSpeed = 1;
+bulletType = clickableObjectType.bulletType; //sets the type of bullet the tower is using
+maxPowerIncrease = clickableObjectType.maxPowerIncrease; //sets how much this tower increases the max power usage
+aiSpeed = 1; //Set in code. Controls the speed of the random movements a tower does
 
-shooting = false;
-objectToShoot = noone;
+shooting = false; //Defines if the tower is shooting or not
+objectToShoot = noone; //Defines the object the tower is shooting
 
-effect_create_below(ef_explosion, x, y, 1.7, c_gray);
+effect_create_below(ef_explosion, x, y, 1.7, c_gray); //create a small dust explosion below the tower when its build
 
-tower_base = instance_create_layer(x, y, "Enemies", obj_TowerBase);
+tower_base = instance_create_layer(x, y, "Enemies", obj_TowerBase); //create the base for the tower
 
-move_snap(64, 64);
+move_snap(64, 64); //snap the tower on the grid (doublecheck after gridManager)
 
 //Start Enemy-Waves if first tower is build
 if(!oSpawn.spawnActive)

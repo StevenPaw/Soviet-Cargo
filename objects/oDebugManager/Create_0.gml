@@ -14,7 +14,7 @@ textValue[0] = "ACTIVE";
 /// @param x
 /// @param y
 /// @param string
-function draw_debug_text(){
+function draw_debug_text(x,y,text){
     var _x, _y, _string;
     _x = argument[0];
     _y = argument[1];

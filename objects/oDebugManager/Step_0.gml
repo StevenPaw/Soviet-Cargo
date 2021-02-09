@@ -1,4 +1,5 @@
 /// @description Activate image and cheats
+//Shows a small indicator in the top left corner that you have Debuginfo enabled
 if (debug) {
 	image_index = 1;
 } else {
@@ -7,6 +8,7 @@ if (debug) {
 
 if (debug) {
 	//MOVE DEBUG-INFO
+	//Makes it possible to move the Debuginfo
 	if(keyboard_check_direct(vk_down)) {
 		moveDebugY += 1;
 		if(moveDebugY > room_height) 
@@ -29,6 +31,7 @@ if (debug) {
 	}
 	
 	//UPDATE INFO
+	//Sets the Variables that gets shown in the Debuginfo
 	textInfo[0] = "DEBUG MODE";
 	textValue[0] = "ACTIVE";
 	textInfo[1] = "COINS";
@@ -37,8 +40,8 @@ if (debug) {
 	textValue[2] = string(global.hp);
 	textInfo[3] = "IS BUYING";
 	textValue[3] = string(global.isBuying);
-	textInfo[4] = "LEVEL";
-	textValue[4] = string(global.level);
+	textInfo[4] = "TOWERS BUILD";
+	textValue[4] = string(oStats.towersBuild);
 	textInfo[5] = "MAX PLAYER HP";
 	textValue[5] = string(global.maxPlayerHP);
 	textInfo[6] = "MAX POWERUSE";
