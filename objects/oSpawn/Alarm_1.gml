@@ -4,11 +4,7 @@ if(spawnActive) {
 	if(instance_number(par_Enemy) <= 0){
 		if(!oWinScreen.isActive && !oFailScreen.isActive){
 		spawn_count = 0;
-		spawn_amount++;
-		global.level++;
 		global.wave++;
-		global.hp += 20;
-		//global.spd += 0.1; <--- increases enemy speed per wave
 		spawn_rate -= 3.5;
 		}
 		alarm[0] = spawn_rate / global.gameSpeed;

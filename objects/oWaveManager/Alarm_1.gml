@@ -6,7 +6,7 @@ ds_list_add(waveList[0], "Placeholder?");
 
 //Level 1:
 ds_list_add(waveList[1], "Level 1");
-ds_list_add(waveList[1], "1;1;0;2;");
+ds_list_add(waveList[1], "0;0;0;0;");
 ds_list_add(waveList[1], "0;0;0;0;0;0;");
 ds_list_add(waveList[1], "0;0;0;0;0;0;0;0;");
 ds_list_add(waveList[1], "0;0;0;0;0;0;0;0;0;0;0;0;");

@@ -5,7 +5,6 @@ global.isBuying = false; //is set to true if the player is directly before buyin
 //Set global variables to make them accessible everywhere
 global.coins = 0;
 global.hp = 0;
-global.level = 0;
 global.playerHP = 1;
 global.poweruse = 0;
 global.spd = 0;
