@@ -1,7 +1,7 @@
 // Inherit the parent event
 event_inherited();
 
-cost = 10; // cost of tower
+cost = 15; // cost of tower
 powerCost = 1; //energycost of tower
 draggableTower = oTowerDouble_D;
 

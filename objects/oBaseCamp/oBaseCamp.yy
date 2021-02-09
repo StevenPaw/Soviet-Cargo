@@ -22,6 +22,8 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"parent":{"name":"oBaseCamp","path":"objects/oBaseCamp/oBaseCamp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oEnemyShield","path":"objects/oEnemyShield/oEnemyShield.yy",},"parent":{"name":"oBaseCamp","path":"objects/oBaseCamp/oBaseCamp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oEnemySpeed","path":"objects/oEnemySpeed/oEnemySpeed.yy",},"parent":{"name":"oBaseCamp","path":"objects/oBaseCamp/oBaseCamp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
