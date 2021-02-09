@@ -3,5 +3,5 @@
 // Inherit the parent event
 event_inherited();
 
-BulletDamage = 25;
+BulletDamage = 16.6;
 BulletSpeed = 10;
