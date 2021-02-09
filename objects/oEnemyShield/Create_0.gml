@@ -5,7 +5,7 @@
 event_inherited();
 
 // individual variables
-startSpeed = 0.7;
+startSpeed = 1;
 enemySpeed = 1; //is multiplied by the room speed!
 enemyHealth = 5; //is multiplied by the global hp
 enemyDeathColor = c_orange; //The Color of the effect when dead
