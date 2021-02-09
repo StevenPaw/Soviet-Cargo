@@ -1,0 +1,1 @@
+global.maxPoweruse -= maxPowerIncrease;
