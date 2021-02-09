@@ -2,12 +2,12 @@
 event_inherited();
 
 cost = 20; // cost of tower
-powerCost = 4; //energycost of tower
+powerCost = 2; //energycost of tower
 costPlace_y = costPlace_start;
 draggableTower = oTowerSniper_D;
 
 
-maxrange = 450;
+maxrange = 550;
 minrange = 100;
 fire_rate = room_speed / 0.5;
 draggableObject = oTowerSniper_D;
