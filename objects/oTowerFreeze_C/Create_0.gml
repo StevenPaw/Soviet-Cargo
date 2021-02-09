@@ -7,7 +7,7 @@ draggableTower = oTowerFreeze_D;
 
 
 maxrange = 200;
-fire_rate = room_speed / 0.5;
+fire_rate = room_speed / 1;
 draggableObject = oTowerFreeze_D;
 clickableObjectType = oTowerFreeze_C;
 towerObject = oTowerFreeze;
