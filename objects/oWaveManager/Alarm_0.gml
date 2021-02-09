@@ -40,6 +40,9 @@ function loadWaves() {
 					case "1": 
 						enemies[o,enemyNumber] = oEnemyShield;
 						break;
+					case "2": 
+						enemies[o,enemyNumber] = oEnemySpeed;
+						break;
 				}
 				enemyNumber += 1;
 				temp_str = "";

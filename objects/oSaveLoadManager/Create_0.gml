@@ -6,6 +6,7 @@ function loadGame() {
 	oStats.killedEnemies = ini_read_real("Stats","killedEnemies", 0);
 	oStats.killedStandardEnemies =ini_read_real("Stats","killedStandardEnemies", 0);
 	oStats.killedShieldedEnemies = ini_read_real("Stats","killedShieldedEnemies", 0);
+	oStats.killedSpeedEnemies = ini_read_real("Stats","killedSpeedEnemies", 0);
 	oStats.towersBuild = ini_read_real("Stats","towersBuild", 0);
 	oStats.trapsBuild = ini_read_real("Stats","trapsBuild", 0);
 	oStats.towersSold = ini_read_real("Stats","towersSold", 0);
@@ -35,6 +36,7 @@ function saveGame() {
 	ini_write_real("Stats","killedEnemies", oStats.killedEnemies);
 	ini_write_real("Stats","killedStandardEnemies", oStats.killedStandardEnemies);
 	ini_write_real("Stats","killedShieldedEnemies", oStats.killedShieldedEnemies);
+	ini_write_real("Stats","killedSpeedEnemies", oStats.killedShieldedEnemies);
 	ini_write_real("Stats","towersBuild", oStats.towersBuild);
 	ini_write_real("Stats","trapsBuild", oStats.trapsBuild);
 	ini_write_real("Stats","towersSold", oStats.towersSold);
