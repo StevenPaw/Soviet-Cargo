@@ -13,6 +13,9 @@ draw_set_valign(fa_center);
 draw_set_font(fMenu);
 draw_text(x, y, buttonText);
 
+draw_set_font(fMenuSmall);
+draw_text(x, y + 200, "HIGHSCORE: " + string(oStats.endlessWavesEasy));
+
 //3 regain old Settings
 draw_set_color(oldColor);
 draw_set_halign(oldhAlign);
