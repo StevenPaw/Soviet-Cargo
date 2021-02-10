@@ -108,6 +108,9 @@ if (debug) {
 	if(keyboard_check_pressed(ord("A"))) {
 		oAchievementManager.giveAchievement("Test");
 	}
+	if(keyboard_check_pressed(ord("Q"))) {
+		oAchievementManager.giveAllAchievements();
+	}
 	
 	if(keyboard_check_pressed(ord("1"))) {
 		global.gameSpeed = 1;

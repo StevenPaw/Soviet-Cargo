@@ -12,3 +12,4 @@ isSlidingIn = true;
 isSlidingOut = false;
 displayTime = 250;
 
+alarm[1] = 2;

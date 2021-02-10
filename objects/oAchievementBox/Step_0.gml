@@ -24,6 +24,6 @@ if (!onlyDisplay){
 	}
 }
 
-if(!onlyDisplay){
-	y = room_height / 2 - (sprite_height / 2);
-}
+//if(!onlyDisplay){
+//	y = room_height / 2 - (sprite_height / 2);
+//}

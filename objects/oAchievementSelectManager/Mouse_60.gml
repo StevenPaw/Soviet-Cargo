@@ -5,7 +5,7 @@ if(scrollableUp) {
 	}
 }
 
-if(achievementMessage[1].y >= 0)
+if(achievementMessage[1].y >= 50)
 {
 	scrollableUp = false;
 } else {

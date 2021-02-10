@@ -9,7 +9,7 @@ curY = 50;
 maxY = 0;
 scrollableDown = true;
 scrollableUp = false;
-scrollSpeed = 10;
+scrollSpeed = 30;
 
 for (i = 1; i <= array_length(Achievementlist); i++)
 {

@@ -5,7 +5,7 @@ if (scrollableDown) {
 	}
 }
 
-if(achievementMessage[array_length(achievementMessage) - 1].y <= room_height - 300)
+if(achievementMessage[array_length(achievementMessage) - 1].y <= room_height - 100)
 {
 	scrollableDown = false;
 } else {
