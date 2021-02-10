@@ -86,3 +86,10 @@ AddAchievement("25 Traps", "Build 25 traps", sAchImageTemplate, false);
 AddAchievement("50 Traps", "Build 50 traps", sAchImageTemplate, false);
 AddAchievement("100 Traps", "Build 100 traps", sAchImageTemplate, false);
 AddAchievement("200 Traps", "Build 200 traps", sAchImageTemplate, false);
+
+AddAchievement("Easy Survival", "Survive 25 Waves in Easy Endless", sAchImageTemplate, false);
+AddAchievement("Epic Easy Survival", "Survive 100 Waves in Easy Endless", sAchImageTemplate, false);
+AddAchievement("Medium Survival", "Survive 25 Waves in Medium Endless", sAchImageTemplate, false);
+AddAchievement("Epic Medium Survival", "Survive 100 Waves in Medium Endless", sAchImageTemplate, false);
+AddAchievement("Hard Survival", "Survive 25 Waves in Hard Endless", sAchImageTemplate, false);
+AddAchievement("Epic Hard Survival", "Survive 100 Waves in Hard Endless", sAchImageTemplate, false);

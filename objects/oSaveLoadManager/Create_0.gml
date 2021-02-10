@@ -11,6 +11,9 @@ function loadGame() {
 	oStats.trapsBuild = ini_read_real("Stats","trapsBuild", 0);
 	oStats.towersSold = ini_read_real("Stats","towersSold", 0);
 	oStats.starsEarned = ini_read_real("Stats","starsEarned", 0);
+	oStats.endlessWavesEasy = ini_read_real("Stats","endlessWavesEasy", 0);
+	oStats.endlessWavesMedium = ini_read_real("Stats","endlessWavesMedium", 0);
+	oStats.endlessWavesHard = ini_read_real("Stats","endlessWavesHard", 0);
 
 	if (instance_exists(oLevelManager)) {
 		for(i = 0; i < array_length(oLevelManager.levelComplete); i++)
@@ -41,6 +44,9 @@ function saveGame() {
 	ini_write_real("Stats","trapsBuild", oStats.trapsBuild);
 	ini_write_real("Stats","towersSold", oStats.towersSold);
 	ini_write_real("Stats","starsEarned", oStats.starsEarned);
+	ini_write_real("Stats","endlessWavesEasy", oStats.endlessWavesEasy);
+	ini_write_real("Stats","endlessWavesMedium", oStats.endlessWavesMedium);
+	ini_write_real("Stats","endlessWavesHard", oStats.endlessWavesHard);
 
 	if (instance_exists(oLevelManager)) {
 		for(i = 0; i < array_length(oLevelManager.levelComplete); i++)

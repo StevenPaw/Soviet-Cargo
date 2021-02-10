@@ -48,3 +48,30 @@ switch(oStats.trapsBuild) {
 		giveAchievement("200 Traps");
 		break;
 }
+
+switch(oStats.endlessWavesEasy) {
+	case 25:
+		giveAchievement("Easy Survival");
+		break;
+	case 100:
+		giveAchievement("Epic Easy Survival");
+		break;
+}
+
+switch(oStats.endlessWavesMedium) {
+	case 25:
+		giveAchievement("Medium Survival");
+		break;
+	case 100:
+		giveAchievement("Epic Medium Survival");
+		break;
+}
+
+switch(oStats.endlessWavesHard) {
+	case 25:
+		giveAchievement("Hard Survival");
+		break;
+	case 100:
+		giveAchievement("Epic Hard Survival");
+		break;
+}
