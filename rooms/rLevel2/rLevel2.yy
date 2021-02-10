@@ -71,6 +71,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"oTowerDouble_C","path":"objects/oTowerDouble_C/oTowerDouble_C.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":832.0,"y":896.0,"resourceVersion":"1.0","name":"inst_1BC4DD90","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oTowerSniper_C","path":"objects/oTowerSniper_C/oTowerSniper_C.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1088.0,"y":896.0,"resourceVersion":"1.0","name":"inst_58C9E052","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oTrapSlow_C","path":"objects/oTrapSlow_C/oTrapSlow_C.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1792.0,"y":832.0,"resourceVersion":"1.0","name":"inst_36BB7698","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oTrapBomb_C","path":"objects/oTrapBomb_C/oTrapBomb_C.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1792.0,"y":704.0,"resourceVersion":"1.0","name":"inst_5C9A8764","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":true,"gridX":64,"gridY":64,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"GUI1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"OakTree","path":"sprites/OakTree/OakTree.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":0.6489257,"scaleY":0.6489257,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1753.875,"y":778.875,"resourceVersion":"1.0","name":"graphic_1837CC55","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -204,6 +205,7 @@
     {"name":"inst_1213F470","path":"rooms/rLevel2/rLevel2.yy",},
     {"name":"inst_4924A270","path":"rooms/rLevel2/rLevel2.yy",},
     {"name":"inst_2D50E1C6","path":"rooms/rLevel2/rLevel2.yy",},
+    {"name":"inst_5C9A8764","path":"rooms/rLevel2/rLevel2.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

@@ -2,7 +2,7 @@
 event_inherited();
 
 cost = 10; // cost of tower
-powerCost = 1; //energycost of tower
+powerCost = 0; //energycost of tower
 draggableTrap = oTrapBomb_D;
 
 

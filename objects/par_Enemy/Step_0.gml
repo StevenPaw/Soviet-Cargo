@@ -18,3 +18,8 @@ if(isSlowed) {
 		isSlowed = false;
 	}
 }
+
+if(starthp != undefined) {
+image_xscale = hp / starthp + 0.2;
+image_yscale = hp / starthp + 0.2;
+}
