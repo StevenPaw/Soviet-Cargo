@@ -17,8 +17,8 @@ bulletType = oBulletDouble;
 fire_rate = 0;
 
 //1: Ground. 2:Water. 4:Sky. Add together to allow mutliple target types.
-//For example: 3 for Ground and Water, 6 for Water and Sky
-targetTypes = 7;  
+//3: Ground and Water. 5: Ground and Sky. 6: Water and Sky. 7: everything
+targetTypes = 0;  
 
 //Info-Variables
 infoName = "Energy-Tower";
@@ -30,3 +30,4 @@ infoSell = infoCost / 2;
 infoDescription[0] = "This Tower gives more max Energy!";
 infoDescription[1] = "And doesn't shoot";
 infoShortText = "Increases Max Energy Use";
+infoTargetTypes = targetTypes;

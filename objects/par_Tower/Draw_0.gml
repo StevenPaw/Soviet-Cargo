@@ -28,10 +28,9 @@ if(oRangeHover.isInRange(x,y,sprite_width,sprite_height))
 
 //Find Target
 //first set possible target groups
-var enemy = instance_nearest(x,y,par_Enemy);
+var enemy = noone;
 switch(targetTypes) {
 	default:
-		enemy = instance_nearest(x,y,par_Enemy);
 		break;
 	case 1:
 		enemy = instance_nearest(x,y,par_EnemyGround);
@@ -52,7 +51,7 @@ switch(targetTypes) {
 			enemy = enemy2;
 			break;
 		} else if(enemy2 == noone) {
-			enemy = enemy2;
+			enemy = enemy1;
 			break;
 		}
 		
@@ -73,7 +72,7 @@ switch(targetTypes) {
 			enemy = enemy2;
 			break;
 		} else if(enemy2 == noone) {
-			enemy = enemy2;
+			enemy = enemy1;
 			break;
 		}
 		
@@ -94,7 +93,7 @@ switch(targetTypes) {
 			enemy = enemy2;
 			break;
 		} else if(enemy2 == noone) {
-			enemy = enemy2;
+			enemy = enemy1;
 			break;
 		}
 		
@@ -105,6 +104,9 @@ switch(targetTypes) {
 			enemy = enemy2;
 			break;
 		}
+	case 7:
+		enemy = instance_nearest(x,y,par_Enemy);
+		break;
 }
 
 //secondly check for needed distance

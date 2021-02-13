@@ -30,6 +30,47 @@ if(errorState = 0) {
 	draw_text(x, y + 15 - sprite_height / 2, errorMessage[errorState]);
 }
 
+//Show targetType Info
+var tTSize = 0.55;
+var yOffset = 20;
+switch(targetTypes) {
+	default:
+		break;
+	case 1:
+		//Only Ground
+		draw_sprite_ext(sGround,1,x,y - sprite_height - yOffset,tTSize,tTSize,0,c_white,1);
+		break;
+	case 2:
+		//Only Water
+		draw_sprite_ext(sWater,1,x,y - sprite_height - yOffset,tTSize,tTSize,0,c_white,1);
+		break;
+	case 4:
+		//Only Sky
+		draw_sprite_ext(sSky,1,x,y - sprite_height - yOffset,tTSize,tTSize,0,c_white,1);
+		break;
+	case 3:
+		//Ground and Water
+		draw_sprite_ext(sGround,1,x - 40*tTSize,y - sprite_height - yOffset,tTSize,tTSize,0,c_white,1);
+		draw_sprite_ext(sWater,1,x + 40*tTSize,y - sprite_height - yOffset,tTSize,tTSize,0,c_white,1);
+		break;
+	case 5:
+		//Ground and Sky
+		draw_sprite_ext(sGround,1,x - 40*tTSize,y - sprite_height - yOffset,tTSize,tTSize,0,c_white,1);
+		draw_sprite_ext(sSky,1,x + 40*tTSize,y - sprite_height - yOffset,tTSize,tTSize,0,c_white,1);
+		break;
+	case 6:
+		//Water and Sky
+		draw_sprite_ext(sWater,1,x - 40*tTSize,y - sprite_height - yOffset,tTSize,tTSize,0,c_white,1);
+		draw_sprite_ext(sSky,1,x + 40*tTSize,y - sprite_height - yOffset,tTSize,tTSize,0,c_white,1);
+		break;
+	case 7:
+		//Ground, Water and Sky
+		draw_sprite_ext(sGround, 1, x - 40*tTSize - 32, y - sprite_height - yOffset,tTSize,tTSize,0,c_white,1);
+		draw_sprite_ext(sWater, 1, x, y - sprite_height - yOffset,tTSize,tTSize,0,c_white,1);
+		draw_sprite_ext(sSky, 1, x + 40*tTSize + 32, y - sprite_height - yOffset,tTSize,tTSize,0,c_white,1);
+		break;
+}
+
 //3 regain old Settings
 draw_set_color(oldColor);
 draw_set_halign(oldhAlign);
