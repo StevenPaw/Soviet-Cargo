@@ -5,8 +5,6 @@ alarm[1] = room_speed * 5;
 
 spawnActive = false;
 
-Path = oLevelManager.levelPath[oLevelManager.getCurrentLevelID(room)];
-
 global.gameSpeed = 1;
 global.maxPoweruse = 10;
 

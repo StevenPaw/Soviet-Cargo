@@ -1,4 +1,4 @@
-/// @description Load Waves
+/// @description List of Waves
 
 
 //Level 0:
@@ -22,7 +22,7 @@ ds_list_add(waveList[2], ";0;0;1;0;0;1;0;0;1;0;0;2;0;2;");
 
 //Level 3:
 ds_list_add(waveList[3], "Level 3");
-ds_list_add(waveList[3], ";0;0;0;0;0;");
+ds_list_add(waveList[3], ";0;0;0;0;0;0");
 ds_list_add(waveList[3], ";0;0;0;0;0;0;0;0;0;1;0;0;");
 ds_list_add(waveList[3], ";0;1;1;0;0;0;0;");
 ds_list_add(waveList[3], ";0;0;1;0;0;1;0;0;0;1;0;");
@@ -31,7 +31,7 @@ ds_list_add(waveList[3], ";1;0;1;0;0;1;0;0;1;0;0;0;0;1;");
 //Level 4:
 ds_list_add(waveList[4], "Level 4");
 ds_list_add(waveList[4], ";0;0;0;0;0;");
-ds_list_add(waveList[4], ";0;0;;0;0;0;0;0;2;2;");
+ds_list_add(waveList[4], ";0;0;0;0;0;0;0;2;2;");
 ds_list_add(waveList[4], ";0;1;0;2;");
 ds_list_add(waveList[4], ";1;0;1;0;0;1;0;0;2;2;");
 ds_list_add(waveList[4], ";1;0;1;0;0;1;0;0;2;2;0;1;0;2;");

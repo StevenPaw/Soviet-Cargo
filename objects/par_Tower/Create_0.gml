@@ -16,7 +16,7 @@ objectToShoot = noone; //Defines the object the tower is shooting
 
 effect_create_below(ef_explosion, x, y, 1.7, c_gray); //create a small dust explosion below the tower when its build
 
-tower_base = instance_create_layer(x, y, "Enemies", obj_TowerBase); //create the base for the tower
+tower_base = instance_create_layer(x, y, "Traps", obj_TowerBase); //create the base for the tower
 
 move_snap(64, 64); //snap the tower on the grid (doublecheck after gridManager)
 
@@ -26,9 +26,12 @@ if(!oSpawn.spawnActive)
 	oSpawn.spawnActive = true;
 }
 
+//1: Ground. 2:Water. 4:Sky. Add together to allow mutliple target types.
+//For example: 3 for Ground and Water, 6 for Water and Sky
+targetTypes = clickableObjectType.targetTypes; 
+
 alarm[1] = 2;
 alarm[2] = 1;
-
 
 //FOR ROTATION
 objectToShoot_x = room_width; //Sets the x-Position of the Enemy to determine to shooting direction

@@ -1,4 +1,7 @@
+/// @description Draw and find target
 draw_self();
+
+
 if(oRangeHover.isInRange(x,y,sprite_width,sprite_height))
 {
 	draw_circle(x,y,maxrange,true);
@@ -23,8 +26,88 @@ if(oRangeHover.isInRange(x,y,sprite_width,sprite_height))
 }
 
 
-
+//Find Target
+//first set possible target groups
 var enemy = instance_nearest(x,y,par_Enemy);
+switch(targetTypes) {
+	default:
+		enemy = instance_nearest(x,y,par_Enemy);
+		break;
+	case 1:
+		enemy = instance_nearest(x,y,par_EnemyGround);
+		break;
+	case 2:
+		enemy = instance_nearest(x,y,par_EnemyWater);
+		break;
+	case 4:
+		enemy = instance_nearest(x,y,par_EnemySky);
+		break;
+	case 3:
+		var enemy1 = instance_nearest(x,y,par_EnemyGround);
+		var enemy2 = instance_nearest(x,y,par_EnemyWater);
+		if(enemy1 == noone && enemy2 == noone) {
+			enemy = noone;
+			break;
+		} else if(enemy1 == noone) {
+			enemy = enemy2;
+			break;
+		} else if(enemy2 == noone) {
+			enemy = enemy2;
+			break;
+		}
+		
+		if(distance_to_object(enemy1) < distance_to_object(enemy2)) {
+			enemy = enemy1;
+			break;
+		} else {
+			enemy = enemy2;
+			break;
+		}
+	case 5:
+		var enemy1 = instance_nearest(x,y,par_EnemyGround);
+		var enemy2 = instance_nearest(x,y,par_EnemySky);
+		if(enemy1 == noone && enemy2 == noone) {
+			enemy = noone;
+			break;
+		} else if(enemy1 == noone) {
+			enemy = enemy2;
+			break;
+		} else if(enemy2 == noone) {
+			enemy = enemy2;
+			break;
+		}
+		
+		if(distance_to_object(enemy1) < distance_to_object(enemy2)) {
+			enemy = enemy1;
+			break;
+		} else {
+			enemy = enemy2;
+			break;
+		}
+	case 6:
+		var enemy1 = instance_nearest(x,y,par_EnemyWater);
+		var enemy2 = instance_nearest(x,y,par_EnemySky);
+		if(enemy1 == noone && enemy2 == noone) {
+			enemy = noone;
+			break;
+		} else if(enemy1 == noone) {
+			enemy = enemy2;
+			break;
+		} else if(enemy2 == noone) {
+			enemy = enemy2;
+			break;
+		}
+		
+		if(distance_to_object(enemy1) < distance_to_object(enemy2)) {
+			enemy = enemy1;
+			break;
+		} else {
+			enemy = enemy2;
+			break;
+		}
+}
+
+//secondly check for needed distance
 if(enemy != noone){
 	if(point_distance(x,y,enemy.x,enemy.y) <= maxrange+15){
 		if(!shooting){

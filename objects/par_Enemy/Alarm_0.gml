@@ -1,11 +1,25 @@
 /// @description After first initialization
 
-Path = oSpawn.Path;
+roomID = oLevelManager.getCurrentLevelID(room);
+GroundPath = oLevelManager.getCurrentPath(roomID);
+WaterPath = oLevelManager.getCurrentWaterPath(roomID);
+SkyPath = oLevelManager.getCurrentSkyPath(roomID);
+
+switch(type) {
+	default:
+		Path = GroundPath;
+		break;
+	case "water":
+		Path = WaterPath;
+		break;
+	case "sky":
+		Path = SkyPath;
+		break;
+}
 
 path_start(Path, (global.spd * enemySpeed) * global.gameSpeed, 0, 1);
 hp = global.hp * enemyHealth;
 
-startsize = sprite_width;
 starthp = hp;
 enemySpeed = startSpeed;
 

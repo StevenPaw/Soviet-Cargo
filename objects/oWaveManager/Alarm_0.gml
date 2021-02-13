@@ -33,6 +33,7 @@ function loadWaves() {
 			temp_str += string_char_at(inputString, j);
 			if (string_char_at(inputString, j+1) == ";") {
 				
+				//Switches between the different Enemy Types when different numbers are in definition
 				switch(temp_str){
 					default:
 						enemies[o,enemyNumber] = oEnemy;
@@ -42,6 +43,12 @@ function loadWaves() {
 						break;
 					case "2": 
 						enemies[o,enemyNumber] = oEnemySpeed;
+						break;
+					case "3": 
+						enemies[o,enemyNumber] = oEnemySky;
+						break;
+					case "4": 
+						enemies[o,enemyNumber] = oEnemyWater;
 						break;
 				}
 				enemyNumber += 1;

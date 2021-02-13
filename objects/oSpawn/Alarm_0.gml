@@ -18,7 +18,18 @@ if(spawnActive){
 	//Test for Waves
 	if(!oWinScreen.isActive && !oFailScreen.isActive){
 		if(spawn_count < oWaveManager.getWaveSize(global.wave)){
-			instance_create_layer(x,y,"Enemies",oWaveManager.getEnemy(global.wave, spawn_count));
+			switch(object_get_parent(oWaveManager.getEnemy(global.wave, spawn_count))) {
+				default:
+					instance_create_layer(x,y,"EnemiesGround",oWaveManager.getEnemy(global.wave, spawn_count));
+					break;
+				case par_EnemyWater:
+					instance_create_layer(x,y,"EnemiesWater",oWaveManager.getEnemy(global.wave, spawn_count));
+					break;
+				case par_EnemySky:
+					instance_create_layer(x,y,"EnemiesSky",oWaveManager.getEnemy(global.wave, spawn_count));
+					break;
+			}
+			
 		
 			spawn_count++;
 		}

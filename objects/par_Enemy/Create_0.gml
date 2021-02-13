@@ -9,6 +9,7 @@ enemyDeathColor = c_orange; //The Color of the effect when dead
 enemyBloodColor = c_orange; //The Color of the effect when hit
 enemyCoins = 2; //The amount of coins you get for defeating one of this
 
+type = "ground"; //Choose between ground, water and sky
 
 alarm[0] = 1;
 loaded = false;
