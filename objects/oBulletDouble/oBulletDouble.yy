@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "ph_2_16x16",
-    "path": "sprites/ph_2_16x16/ph_2_16x16.yy",
+    "name": "DoubleBullet",
+    "path": "sprites/DoubleBullet/DoubleBullet.yy",
   },
   "solid": false,
   "visible": true,

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "ph_1_16x16",
-    "path": "sprites/ph_1_16x16/ph_1_16x16.yy",
+    "name": "SniperBullet",
+    "path": "sprites/SniperBullet/SniperBullet.yy",
   },
   "solid": false,
   "visible": true,
