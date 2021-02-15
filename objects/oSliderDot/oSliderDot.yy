@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sSliderValue",
-    "path": "sprites/sSliderValue/sSliderValue.yy",
+    "name": "sSliderDot",
+    "path": "sprites/sSliderDot/sSliderDot.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,15 +20,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oSliderDot","path":"objects/oSliderDot/oSliderDot.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Achievements",
-    "path": "folders/Objects/GUI/Achievements.yy",
+    "name": "GUI",
+    "path": "folders/Objects/GUI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oProgressBar",
+  "name": "oSliderDot",
   "tags": [],
   "resourceType": "GMObject",
 }

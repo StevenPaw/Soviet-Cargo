@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "SliderFrame",
-    "path": "sprites/SliderFrame/SliderFrame.yy",
+    "name": "sSliderFrame",
+    "path": "sprites/sSliderFrame/sSliderFrame.yy",
   },
   "solid": false,
   "visible": true,

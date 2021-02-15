@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sSliderValue",
-    "path": "sprites/sSliderValue/sSliderValue.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -20,15 +17,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oAudioManager","path":"objects/oAudioManager/oAudioManager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Achievements",
-    "path": "folders/Objects/GUI/Achievements.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oProgressBar",
+  "name": "oAudioManager",
   "tags": [],
   "resourceType": "GMObject",
 }
