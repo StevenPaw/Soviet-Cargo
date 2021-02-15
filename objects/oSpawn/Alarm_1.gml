@@ -36,6 +36,7 @@ if(global.wave > oLevelManager.getMaxWaves(room)) {
 	
 	oAchievementManager.giveAchievement("Level " + string(oLevelManager.getCurrentLevelID(room)));
 	
+	oAudioManager.stopAllDirect();
 	oAudioManager.playJingle(sndWin);
 	
 	global.wave = oLevelManager.getMaxWaves(room);

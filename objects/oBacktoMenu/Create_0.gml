@@ -5,6 +5,7 @@ direction = 180;
 speed = 5;
 
 function onButtonRelease() {
+	oAudioManager.playButtonClick();
 	room_goto(rMenu);
 }
 

@@ -6,6 +6,7 @@ moneyback = nearest.cost;
 powerback = nearest.powerCost;
 
 function onClick() {
+	oAudioManager.playButtonClick();
 	if(instance_exists(oInfoBox)) {
 		infBox = instance_find(oInfoBox, 0);
 		instance_destroy(infBox);

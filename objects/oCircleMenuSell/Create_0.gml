@@ -6,6 +6,7 @@ moneyback = nearest.cost;
 powerback = nearest.powerCost;
 
 function onClick() {
+	oAudioManager.playButtonClick();
 	instance_destroy(nearest);
 	
 	global.poweruse -= powerback;

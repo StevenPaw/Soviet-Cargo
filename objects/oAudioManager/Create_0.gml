@@ -45,3 +45,8 @@ function playMusic(music) {
 function playJingle(jingle) {
 	audio_play_sound(jingle,5,true);
 }
+
+//Play Button Click
+function playButtonClick() {
+	audio_play_sound(sndButtonClick,2,false);
+}

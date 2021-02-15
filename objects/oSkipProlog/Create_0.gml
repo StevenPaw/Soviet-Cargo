@@ -6,8 +6,8 @@ speed = 5;
 
 function onButtonRelease() {
 	room_goto(rLevel1);
+	oAudioManager.playButtonClick();
 }
 
 function onButtonPushed() {
-	
 }

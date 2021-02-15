@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 79,
-  "bbox_right": 292,
+  "bbox_right": 208,
   "bbox_top": 86,
   "bbox_bottom": 163,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 600,
+  "width": 230,
   "height": 250,
   "textureGroupId": {
     "name": "Default",
@@ -24,15 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2c4ef553-d17a-468b-a356-d58df8c668a5","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2c4ef553-d17a-468b-a356-d58df8c668a5","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"LayerId":{"name":"985474f4-a3b5-4e11-978a-e364d080d18a","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sButtonAchievements","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"resourceVersion":"1.0","name":"2c4ef553-d17a-468b-a356-d58df8c668a5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a922fd5d-fa15-4015-bd7e-4f5a624b4012","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a922fd5d-fa15-4015-bd7e-4f5a624b4012","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"LayerId":{"name":"985474f4-a3b5-4e11-978a-e364d080d18a","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sButtonAchievements","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"resourceVersion":"1.0","name":"a922fd5d-fa15-4015-bd7e-4f5a624b4012","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ddfc56a7-bd54-4e11-9ec6-256b57645f8a","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ddfc56a7-bd54-4e11-9ec6-256b57645f8a","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"LayerId":{"name":"985474f4-a3b5-4e11-978a-e364d080d18a","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sButtonAchievements","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"resourceVersion":"1.0","name":"ddfc56a7-bd54-4e11-9ec6-256b57645f8a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8503be81-41a3-4df2-8882-f5ae83a3db95","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8503be81-41a3-4df2-8882-f5ae83a3db95","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"LayerId":{"name":"ae2f9a9a-22c8-4163-9029-f1abbb9cc937","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sButtonAchievements","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"resourceVersion":"1.0","name":"8503be81-41a3-4df2-8882-f5ae83a3db95","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"20a95731-98d6-4092-ab0c-549b64f3e4f9","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"20a95731-98d6-4092-ab0c-549b64f3e4f9","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"LayerId":{"name":"ae2f9a9a-22c8-4163-9029-f1abbb9cc937","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sButtonAchievements","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"resourceVersion":"1.0","name":"20a95731-98d6-4092-ab0c-549b64f3e4f9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a6f5b917-a4c9-4f88-9553-a54d0e1966bd","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a6f5b917-a4c9-4f88-9553-a54d0e1966bd","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"LayerId":{"name":"ae2f9a9a-22c8-4163-9029-f1abbb9cc937","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sButtonAchievements","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"resourceVersion":"1.0","name":"a6f5b917-a4c9-4f88-9553-a54d0e1966bd","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sButtonAchievements","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},
@@ -47,9 +47,9 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"13712f71-97ba-42fb-b94c-10434525ed60","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2c4ef553-d17a-468b-a356-d58df8c668a5","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"81053a41-48d0-485c-a307-e37415bd1e33","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a922fd5d-fa15-4015-bd7e-4f5a624b4012","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"8e6ce1f3-ae5e-4111-89f5-84ce2d7508ea","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ddfc56a7-bd54-4e11-9ec6-256b57645f8a","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c3065e1a-2656-4333-8c1d-aeb9dfaebbcd","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8503be81-41a3-4df2-8882-f5ae83a3db95","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"73999c3c-241b-413a-968d-f8d9d7508e12","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"20a95731-98d6-4092-ab0c-549b64f3e4f9","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"30015d6b-d377-4ad3-8ea1-6f9ee7502420","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a6f5b917-a4c9-4f88-9553-a54d0e1966bd","path":"sprites/sButtonAchievements/sButtonAchievements.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -73,7 +73,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"985474f4-a3b5-4e11-978a-e364d080d18a","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ae2f9a9a-22c8-4163-9029-f1abbb9cc937","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "MainMenu",

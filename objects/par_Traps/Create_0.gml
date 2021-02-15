@@ -16,6 +16,7 @@ hovering = false;
 tooltipActive = false;
 
 effect_create_below(ef_explosion, x, y, 1.7, c_gray);
+oAudioManager.playFX(sndImpactPlateHeavy);
 
 move_snap(64, 64);
 

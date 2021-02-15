@@ -8,5 +8,6 @@ function onButtonRelease() {
 }
 
 function onButtonPushed() {
+	oAudioManager.playButtonClick();
 	room_goto(rMenu);
 }

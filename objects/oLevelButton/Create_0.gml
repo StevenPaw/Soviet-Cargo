@@ -5,6 +5,7 @@ levelNumber = 0;
 selectedLevel = rMenu;
 
 function onButtonRelease() {
+	oAudioManager.playButtonClick();
 	room_goto(selectedLevel);
 }
 

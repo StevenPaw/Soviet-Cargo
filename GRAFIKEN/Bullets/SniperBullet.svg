@@ -18,8 +18,8 @@
    sodipodi:docname="SniperBullet.svg"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    inkscape:export-filename="E:\Git-Workspace\_UE\Soviet-Cargo\GRAFIKEN\Bullets\SniperBullet.png"
-   inkscape:export-xdpi="192.00002"
-   inkscape:export-ydpi="192.00002">
+   inkscape:export-xdpi="240.00002"
+   inkscape:export-ydpi="240.00002">
   <defs
      id="defs2">
     <linearGradient
@@ -504,7 +504,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="22.627417"
-     inkscape:cx="11.120028"
+     inkscape:cx="-2.0056416"
      inkscape:cy="14.094972"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -531,7 +531,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

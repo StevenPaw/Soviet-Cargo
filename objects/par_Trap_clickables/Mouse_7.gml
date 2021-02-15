@@ -8,6 +8,7 @@ if(global.coins >= cost && global.poweruse + powerCost <= global.maxPoweruse){
 		infBox = instance_find(par_Tower_Dragged, 0);
 		instance_destroy(infBox);
 	} 
+	oAudioManager.playButtonClick();
 	instance_create_depth(mouse_x, mouse_y, -9, draggableTrap);
 	global.isBuying = true;
 }
