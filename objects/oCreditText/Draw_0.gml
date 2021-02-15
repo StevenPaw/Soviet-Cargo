@@ -16,16 +16,26 @@ draw_set_font(bigFont);
 draw_text(x, y + currentY, "CREDITS");
 currentY += spaceToTitle;
 
-draw_set_font(smallFont);
+
 for(i = 0; i < array_length(CreditText); i++) {
 	if(activeText = i) {
 		draw_set_color(c_gray);
 	} else {
 		draw_set_color(c_white);
 	}
+	
+	draw_set_font(smallFont);
+	if(CreditHeader[i]) {
+		draw_set_font(smallBoldFont);
+	}
+	
 	draw_text(x, y + currentY, CreditText[i]);
 	currentY += spaceBetweenCredits;
 }
+draw_set_color(c_gray);
+currentY += spaceBetweenCredits;
+draw_text(x, y + currentY, "(Hint: Click a name to get more info)");
+
 draw_set_color(c_white);
 
 if(oDebugManager.debug) {
@@ -34,8 +44,6 @@ if(oDebugManager.debug) {
 	
 		text_width = string_width(CreditText[i]);
 		text_height = string_height(CreditText[i]);
-	
-		show_debug_message("Check Click: " + string(i));
 		
 		draw_rectangle(x - text_width * 0.75, startY, x + text_width * 0.75, startY + text_height - 10,c_red);
 	}

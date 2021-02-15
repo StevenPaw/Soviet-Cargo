@@ -21,7 +21,7 @@ function updateFXVolume(newVolume) {
 //Update Music Volume
 function updateMSVolume(newVolume) {
 	MSVol = newVolume;
-	audio_group_set_gain(agMusic, MSVol * 0.9, 0);
+	audio_group_set_gain(agMusic, MSVol * 0.6, 0);
 }
 
 //Update Jingle Volume
@@ -43,10 +43,13 @@ function playMusic(music) {
 
 //Play Jingle
 function playJingle(jingle) {
-	audio_play_sound(jingle,5,true);
+	playMusic(sndNatureAmbience);
+	audio_play_sound(jingle,7,false);
 }
 
 //Play Button Click
 function playButtonClick() {
 	audio_play_sound(sndButtonClick,2,false);
 }
+
+playMusic(sndNatureAmbience);
