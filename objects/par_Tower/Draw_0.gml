@@ -28,86 +28,8 @@ if(oRangeHover.isInRange(x,y,sprite_width,sprite_height))
 
 //Find Target
 //first set possible target groups
-var enemy = noone;
-switch(targetTypes) {
-	default:
-		break;
-	case 1:
-		enemy = instance_nearest(x,y,par_EnemyGround);
-		break;
-	case 2:
-		enemy = instance_nearest(x,y,par_EnemyWater);
-		break;
-	case 4:
-		enemy = instance_nearest(x,y,par_EnemySky);
-		break;
-	case 3:
-		var enemy1 = instance_nearest(x,y,par_EnemyGround);
-		var enemy2 = instance_nearest(x,y,par_EnemyWater);
-		if(enemy1 == noone && enemy2 == noone) {
-			enemy = noone;
-			break;
-		} else if(enemy1 == noone) {
-			enemy = enemy2;
-			break;
-		} else if(enemy2 == noone) {
-			enemy = enemy1;
-			break;
-		}
-		
-		if(distance_to_object(enemy1) < distance_to_object(enemy2)) {
-			enemy = enemy1;
-			break;
-		} else {
-			enemy = enemy2;
-			break;
-		}
-	case 5:
-		var enemy1 = instance_nearest(x,y,par_EnemyGround);
-		var enemy2 = instance_nearest(x,y,par_EnemySky);
-		if(enemy1 == noone && enemy2 == noone) {
-			enemy = noone;
-			break;
-		} else if(enemy1 == noone) {
-			enemy = enemy2;
-			break;
-		} else if(enemy2 == noone) {
-			enemy = enemy1;
-			break;
-		}
-		
-		if(distance_to_object(enemy1) < distance_to_object(enemy2)) {
-			enemy = enemy1;
-			break;
-		} else {
-			enemy = enemy2;
-			break;
-		}
-	case 6:
-		var enemy1 = instance_nearest(x,y,par_EnemyWater);
-		var enemy2 = instance_nearest(x,y,par_EnemySky);
-		if(enemy1 == noone && enemy2 == noone) {
-			enemy = noone;
-			break;
-		} else if(enemy1 == noone) {
-			enemy = enemy2;
-			break;
-		} else if(enemy2 == noone) {
-			enemy = enemy1;
-			break;
-		}
-		
-		if(distance_to_object(enemy1) < distance_to_object(enemy2)) {
-			enemy = enemy1;
-			break;
-		} else {
-			enemy = enemy2;
-			break;
-		}
-	case 7:
-		enemy = instance_nearest(x,y,par_Enemy);
-		break;
-}
+var enemy = findTarget(x,y,targetGround, targetWater, targetSky, targetUnderground);
+
 
 //secondly check for needed distance
 if(enemy != noone){

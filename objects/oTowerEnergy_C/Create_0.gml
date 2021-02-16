@@ -18,7 +18,12 @@ fire_rate = 0;
 
 //1: Ground. 2:Water. 4:Sky. Add together to allow mutliple target types.
 //3: Ground and Water. 5: Ground and Sky. 6: Water and Sky. 7: everything
-targetTypes = 0;  
+//targetTypes = 3;
+
+targetGround = false;
+targetWater = false;
+targetSky = false;
+targetUnderground = false;
 
 //Info-Variables
 infoName = "Energy-Tower";
@@ -30,4 +35,4 @@ infoSell = infoCost / 2;
 infoDescription[0] = "This Tower gives more max Energy!";
 infoDescription[1] = "And doesn't shoot";
 infoShortText = "Increases Max Energy Use";
-infoTargetTypes = targetTypes;
+infoTargetTypes = targetGround * 1 + targetWater *2 + targetSky * 4 + targetUnderground * 8;

@@ -15,10 +15,10 @@ ds_list_add(waveList[1], ";1;0;0;0;0;1;0;0;0;0;0;1;0;0;0;1;");
 //Level 2:
 ds_list_add(waveList[2], "Level 2");
 ds_list_add(waveList[2], ";0;0;0;0;0;");
-//ds_list_add(waveList[2], ";0;0;0;0;0;1;0;0;0;0;");
-//ds_list_add(waveList[2], ";0;0;1;1;");
-//ds_list_add(waveList[2], ";0;0;1;0;0;1;0;0;0;1;");
-//ds_list_add(waveList[2], ";0;0;1;0;0;1;0;0;1;0;0;2;0;2;");
+ds_list_add(waveList[2], ";0;0;0;0;0;1;0;0;0;0;");
+ds_list_add(waveList[2], ";0;0;1;1;");
+ds_list_add(waveList[2], ";0;0;1;0;0;1;0;0;0;1;");
+ds_list_add(waveList[2], ";0;0;1;0;0;1;0;0;1;0;0;2;0;2;");
 
 //Level 3:
 ds_list_add(waveList[3], "Level 3");

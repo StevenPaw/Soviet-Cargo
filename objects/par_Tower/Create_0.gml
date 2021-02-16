@@ -29,7 +29,10 @@ if(!oSpawn.spawnActive)
 
 //1: Ground. 2:Water. 4:Sky. Add together to allow mutliple target types.
 //For example: 3 for Ground and Water, 6 for Water and Sky
-targetTypes = clickableObjectType.targetTypes; 
+targetGround = clickableObjectType.targetGround;
+targetWater = clickableObjectType.targetWater;
+targetSky = clickableObjectType.targetSky;
+targetUnderground = clickableObjectType.targetUnderground;
 
 alarm[1] = 2;
 alarm[2] = 1;

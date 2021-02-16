@@ -16,7 +16,12 @@ bulletType = oBulletFreeze;
 
 //1: Ground. 2:Water. 4:Sky. Add together to allow mutliple target types.
 //3: Ground and Water. 5: Ground and Sky. 6: Water and Sky. 7: everything
-targetTypes = 1;  
+//targetTypes = 3;
+
+targetGround = true;
+targetWater = false;
+targetSky = false;
+targetUnderground = false; 
 
 //Info-Variables
 infoName = "Freeze-Tower";
@@ -28,4 +33,4 @@ infoSell = infoCost / 2;
 infoDescription[0] = "A long range tower";
 infoDescription[1] = "Slow but effective";
 infoShortText = "Long Range Attack";
-infoTargetTypes = targetTypes;
+infoTargetTypes = targetGround * 1 + targetWater *2 + targetSky * 4 + targetUnderground * 8;

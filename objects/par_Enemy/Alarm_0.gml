@@ -4,6 +4,7 @@ roomID = oLevelManager.getCurrentLevelID(room);
 GroundPath = oLevelManager.getCurrentPath(roomID);
 WaterPath = oLevelManager.getCurrentWaterPath(roomID);
 SkyPath = oLevelManager.getCurrentSkyPath(roomID);
+UndergroundPath = oLevelManager.getCurrentUndergroundPath(roomID);
 
 switch(type) {
 	default:
@@ -14,6 +15,9 @@ switch(type) {
 		break;
 	case "sky":
 		Path = SkyPath;
+		break;
+	case "underground":
+		Path = UndergroundPath;
 		break;
 }
 

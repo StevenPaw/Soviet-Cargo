@@ -4,4 +4,4 @@
 // Inherit the parent event
 event_inherited();
 
-type = "water"; //Choose between ground, water and sky
+type = "water"; //Choose between ground, water, underground and sky
