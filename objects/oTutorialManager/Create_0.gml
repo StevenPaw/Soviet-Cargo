@@ -1,4 +1,3 @@
-tutorialFinished = false;
 tutorialProgress = 0;
 tutorialLength = 6;
 

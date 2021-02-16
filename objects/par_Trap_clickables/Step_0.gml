@@ -14,7 +14,7 @@ if(global.poweruse + powerCost > global.maxPoweruse)
 
 available = true;
 if(instance_exists(oTutorialManager)) {
-	if (!oTutorialManager.tutorialFinished) {
+	if (!global.tutorialFinished) {
 		available = false;
 	}
 }

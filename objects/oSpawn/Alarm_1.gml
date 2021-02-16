@@ -17,21 +17,27 @@ if(spawnActive) {
 if(global.wave > oLevelManager.getMaxWaves(room)) {
 	oWinScreen.isActive = true;
 	
-	debugStars = 0;
-	
 	//Find number of spawns when won
 	if(global.playerHP < (global.maxPlayerHP / 2)) {
+		
+		if(oLevelManager.levelComplete[oLevelManager.getCurrentLevelID(room)] < 1) {
 			oLevelManager.levelComplete[oLevelManager.getCurrentLevelID(room)] = 1;
-			debugStars = 1;
-			oAchievementManager.giveAchievement("1 Star");
+		}
+		oAchievementManager.giveAchievement("1 Star");
+		
 	} else if(global.playerHP < global.maxPlayerHP) {
+		
+		if(oLevelManager.levelComplete[oLevelManager.getCurrentLevelID(room)] < 2) {
 			oLevelManager.levelComplete[oLevelManager.getCurrentLevelID(room)] = 2;
-			debugStars = 2;
-			oAchievementManager.giveAchievement("2 Stars");
+		}
+		oAchievementManager.giveAchievement("2 Stars");
+		
 	} else if(global.playerHP == global.maxPlayerHP) {
+		
+		if(oLevelManager.levelComplete[oLevelManager.getCurrentLevelID(room)] < 3) {
 			oLevelManager.levelComplete[oLevelManager.getCurrentLevelID(room)] = 3;
-			debugStars = 3;
-			oAchievementManager.giveAchievement("3 Stars");
+		}
+		oAchievementManager.giveAchievement("3 Stars");
 	}
 	
 	oAchievementManager.giveAchievement("Level " + string(oLevelManager.getCurrentLevelID(room)));

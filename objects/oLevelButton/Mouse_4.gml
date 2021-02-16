@@ -1,3 +1,5 @@
-state = 2;
+if (state != 3) {
+	state = 2;
 
-onButtonPushed();
+	onButtonPushed();
+}

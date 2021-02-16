@@ -33,8 +33,20 @@ for (i = 1; i < array_length(Roomlist); i++)
 	roomButton[i].selectedLevel = Roomlist[i];
 	roomButton[i].levelNumber = i;
 	
-	roomCheckmark[i] = instance_create_layer(curX, curY, "LevelCheckmarks", oLevelCheckmark);
-	roomCheckmark[i].stars = oLevelManager.levelComplete[i];
+	if (i > 1) {
+		if(oLevelManager.levelComplete[i-1] > 0) {
+			roomCheckmark[i] = instance_create_layer(curX -15, curY -20, "LevelCheckmarks", oLevelCheckmark);
+			roomCheckmark[i].stars = oLevelManager.levelComplete[i];
+		} else {
+			roomCheckmark[i] = instance_create_layer(curX -15, curY -20, "LevelCheckmarks", oLockedIndicator);
+			roomButton[i].state = 3;
+		}
+	} else {
+		roomCheckmark[i] = instance_create_layer(curX -15, curY -20, "LevelCheckmarks", oLevelCheckmark);
+		roomCheckmark[i].stars = oLevelManager.levelComplete[i];
+	}
+	
+	
 	
 	maxY = curY;
 }

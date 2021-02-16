@@ -3,6 +3,8 @@ function loadGame() {
 	global.effectsVolume = ini_read_real("Options","effectsVolume",1); //The third value here will set the score variable if there is no save file
 	global.musicVolume = ini_read_real("Options","musicVolume",1);
 	
+	global.tutorialFinished = ini_read_real("Tutorial","finished",false);
+	
 	oStats.killedEnemies = ini_read_real("Stats","killedEnemies", 0);
 	oStats.killedStandardEnemies =ini_read_real("Stats","killedStandardEnemies", 0);
 	oStats.killedShieldedEnemies = ini_read_real("Stats","killedShieldedEnemies", 0);
@@ -36,6 +38,8 @@ function saveGame() {
 	ini_write_real("Options","effectsVolume", global.effectsVolume); //The third value here will set the score variable if there is no save file
 	ini_write_real("Options","musicVolume", global.musicVolume);
 	
+	ini_write_real("Tutorial","finished", global.tutorialFinished);
+	
 	ini_write_real("Stats","killedEnemies", oStats.killedEnemies);
 	ini_write_real("Stats","killedStandardEnemies", oStats.killedStandardEnemies);
 	ini_write_real("Stats","killedShieldedEnemies", oStats.killedShieldedEnemies);
@@ -65,6 +69,8 @@ function saveGame() {
 }
 
 function resetSaves() {
+	global.tutorialFinished = false;
+	
 	if (instance_exists(oLevelManager)) {
 		for(i = 0; i < array_length(oLevelManager.levelComplete); i++)
 		{

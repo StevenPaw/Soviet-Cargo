@@ -1,7 +1,7 @@
-if(tutorialProgress < tutorialLength){
+if(tutorialProgress < tutorialLength && !global.tutorialFinished){
 image_index = tutorialProgress;
 } else {
-	tutorialFinished = true;
+	global.tutorialFinished = true;
 	global.gameSpeed = 1;
 	
 	instance_destroy();
