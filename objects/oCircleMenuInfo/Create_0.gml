@@ -20,8 +20,11 @@ function onClick() {
 	infoBox.towerEnergy = nearest.clickableObjectType.infoEnergy;
 	infoBox.towerSellCost = nearest.clickableObjectType.infoSell;
 	infoBox.towerDescription = nearest.clickableObjectType.infoDescription;
-	infoBox.targetTypes = nearest.clickableObjectType.targetTypes;
 	infoBox.towerDamage = nearest.clickableObjectType.infoDamage;
+	infoBox.targetGround = nearest.clickableObjectType.targetGround;
+	infoBox.targetWater = nearest.clickableObjectType.targetWater;
+	infoBox.targetSky = nearest.clickableObjectType.targetSky;
+	infoBox.targetUnderground = nearest.clickableObjectType.targetUnderground;
 	
 	//effect_create_above(ef_explosion, x, y, 1.7, c_gray);
 }

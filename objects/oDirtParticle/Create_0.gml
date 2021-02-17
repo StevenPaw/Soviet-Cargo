@@ -1,8 +1,10 @@
 randomize();
+scaler = 1;
 direction = random_range(0,365);
-speed = random_range(0.01, 0.5);
+speed = random_range(0.001, 0.005);
 image_angle = random_range(0,365);
-rotateSpeed = random_range(0,0.1);
-image_xscale = random_range(0.8,1.5);
+rotateSpeed = random_range(0,0.001);
+size = random_range(0.8,0.9);
+image_xscale = size * scaler;
 image_yscale = image_xscale;
 alpha = 1;

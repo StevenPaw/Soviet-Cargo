@@ -17,6 +17,9 @@ tooltip.towerName = infoName;
 tooltip.towerShortText = infoShortText;
 tooltip.enoughMoney = enoughMoney;
 tooltip.enoughEnergy = enoughEnergy;
-tooltip.targetTypes = infoTargetTypes;
+tooltip.targetGround = targetGround;
+tooltip.targetWater = targetWater;
+tooltip.targetSky = targetSky;
+tooltip.targetUnderground = targetUnderground;
 
 hovering = true;

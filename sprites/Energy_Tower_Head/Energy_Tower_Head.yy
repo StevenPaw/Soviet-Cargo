@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"455d33ac-11c7-43ae-9125-b4218996d625","path":"sprites/Energy_Tower_Head_Placeholder/Energy_Tower_Head_Placeholder.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"455d33ac-11c7-43ae-9125-b4218996d625","path":"sprites/Energy_Tower_Head_Placeholder/Energy_Tower_Head_Placeholder.yy",},"LayerId":{"name":"05123c42-8079-41aa-81eb-9f9463638d75","path":"sprites/Energy_Tower_Head_Placeholder/Energy_Tower_Head_Placeholder.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Energy_Tower_Head_Placeholder","path":"sprites/Energy_Tower_Head_Placeholder/Energy_Tower_Head_Placeholder.yy",},"resourceVersion":"1.0","name":"455d33ac-11c7-43ae-9125-b4218996d625","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"455d33ac-11c7-43ae-9125-b4218996d625","path":"sprites/Energy_Tower_Head/Energy_Tower_Head.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"455d33ac-11c7-43ae-9125-b4218996d625","path":"sprites/Energy_Tower_Head/Energy_Tower_Head.yy",},"LayerId":{"name":"05123c42-8079-41aa-81eb-9f9463638d75","path":"sprites/Energy_Tower_Head/Energy_Tower_Head.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Energy_Tower_Head","path":"sprites/Energy_Tower_Head/Energy_Tower_Head.yy",},"resourceVersion":"1.0","name":"455d33ac-11c7-43ae-9125-b4218996d625","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Energy_Tower_Head_Placeholder","path":"sprites/Energy_Tower_Head_Placeholder/Energy_Tower_Head_Placeholder.yy",},
+    "spriteId": {"name":"Energy_Tower_Head","path":"sprites/Energy_Tower_Head/Energy_Tower_Head.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"2bf7a534-334e-4496-8598-f92106b817c2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"455d33ac-11c7-43ae-9125-b4218996d625","path":"sprites/Energy_Tower_Head_Placeholder/Energy_Tower_Head_Placeholder.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2bf7a534-334e-4496-8598-f92106b817c2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"455d33ac-11c7-43ae-9125-b4218996d625","path":"sprites/Energy_Tower_Head/Energy_Tower_Head.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 192,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Energy_Tower_Head_Placeholder","path":"sprites/Energy_Tower_Head_Placeholder/Energy_Tower_Head_Placeholder.yy",},
+    "parent": {"name":"Energy_Tower_Head","path":"sprites/Energy_Tower_Head/Energy_Tower_Head.yy",},
     "resourceVersion": "1.3",
-    "name": "Energy_Tower_Head_Placeholder",
+    "name": "Energy_Tower_Head",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -72,7 +72,7 @@
     "path": "folders/Sprites/Towers.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Energy_Tower_Head_Placeholder",
+  "name": "Energy_Tower_Head",
   "tags": [],
   "resourceType": "GMSprite",
 }

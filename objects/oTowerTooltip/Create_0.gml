@@ -2,7 +2,11 @@ towerName = "ERROR";
 towerShortText= "DATA MISSING";
 enoughMoney = false;
 enoughEnergy = false;
-targetTypes = 0;
+
+targetGround = false;
+targetWater = false;
+targetSky = false;
+targetUnderground = false;
 
 errorState = 0;
 errorMessage[0] = "";

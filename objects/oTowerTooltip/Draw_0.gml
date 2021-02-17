@@ -30,45 +30,69 @@ if(errorState = 0) {
 	draw_text(x, y + 15 - sprite_height / 2, errorMessage[errorState]);
 }
 
+
 //Show targetType Info
 var tTSize = 0.55;
 var yOffset = 20;
-switch(targetTypes) {
+var xOffset = 0;
+var spaceBetweenTargets = 40;
+
+targetList[0] = "";
+targetCount = 0;
+
+if(targetGround) {
+	targetList[targetCount] = "ground";
+	targetCount += 1;
+}
+if(targetWater) {
+	targetList[targetCount] = "water";
+	targetCount += 1;
+}
+if(targetSky) {
+	targetList[targetCount] = "sky";
+	targetCount += 1;
+}
+if(targetUnderground) {
+	targetList[targetCount] = "underground";
+	targetCount += 1;
+}
+
+switch(array_length(targetList)) {
 	default:
 		break;
 	case 1:
-		//Only Ground
-		draw_sprite_ext(sGround,1,x,y - sprite_height - yOffset,tTSize,tTSize,0,c_white,1);
+		xOffset = 0;
 		break;
 	case 2:
-		//Only Water
-		draw_sprite_ext(sWater,1,x,y - sprite_height - yOffset,tTSize,tTSize,0,c_white,1);
-		break;
-	case 4:
-		//Only Sky
-		draw_sprite_ext(sSky,1,x,y - sprite_height - yOffset,tTSize,tTSize,0,c_white,1);
+		xOffset = -spaceBetweenTargets * 0.5;
 		break;
 	case 3:
-		//Ground and Water
-		draw_sprite_ext(sGround,1,x - 40*tTSize,y - sprite_height - yOffset,tTSize,tTSize,0,c_white,1);
-		draw_sprite_ext(sWater,1,x + 40*tTSize,y - sprite_height - yOffset,tTSize,tTSize,0,c_white,1);
+		xOffset = -spaceBetweenTargets * 1;
 		break;
-	case 5:
-		//Ground and Sky
-		draw_sprite_ext(sGround,1,x - 40*tTSize,y - sprite_height - yOffset,tTSize,tTSize,0,c_white,1);
-		draw_sprite_ext(sSky,1,x + 40*tTSize,y - sprite_height - yOffset,tTSize,tTSize,0,c_white,1);
+	case 4:
+		xOffset = -spaceBetweenTargets * 1.5;
 		break;
-	case 6:
-		//Water and Sky
-		draw_sprite_ext(sWater,1,x - 40*tTSize,y - sprite_height - yOffset,tTSize,tTSize,0,c_white,1);
-		draw_sprite_ext(sSky,1,x + 40*tTSize,y - sprite_height - yOffset,tTSize,tTSize,0,c_white,1);
-		break;
-	case 7:
-		//Ground, Water and Sky
-		draw_sprite_ext(sGround, 1, x - 40*tTSize - 32, y - sprite_height - yOffset,tTSize,tTSize,0,c_white,1);
-		draw_sprite_ext(sWater, 1, x, y - sprite_height - yOffset,tTSize,tTSize,0,c_white,1);
-		draw_sprite_ext(sSky, 1, x + 40*tTSize + 32, y - sprite_height - yOffset,tTSize,tTSize,0,c_white,1);
-		break;
+}
+
+for (i = 0; i < array_length(targetList); i++) {
+	switch (targetList[i]) {
+		default:
+			break;
+		case "ground":
+			draw_sprite_ext(sGround,1,x + xOffset,y - sprite_height - yOffset,tTSize,tTSize,0,c_white,1);
+			break;
+		case "water":
+			draw_sprite_ext(sWater,1,x + xOffset,y - sprite_height - yOffset,tTSize,tTSize,0,c_white,1);
+			break;
+		case "sky":
+			draw_sprite_ext(sSky,1,x + xOffset,y - sprite_height - yOffset,tTSize,tTSize,0,c_white,1);
+			break;
+		case "underground":
+			draw_sprite_ext(sUnderground,1,x + xOffset,y - sprite_height - yOffset,tTSize,tTSize,0,c_white,1);
+			break;
+	}
+
+	xOffset += spaceBetweenTargets;
 }
 
 //3 regain old Settings

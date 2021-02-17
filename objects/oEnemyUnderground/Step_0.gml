@@ -4,4 +4,5 @@
 // Inherit the parent event
 event_inherited();
 
-instance_create_layer(x,y,"EnemiesUnderground",oDirtParticle);
+particle = instance_create_layer(x,y,"EnemiesUnderground",oDirtParticle);
+particle.scaler = (1 / (startHealth * global.hp)) * hp;

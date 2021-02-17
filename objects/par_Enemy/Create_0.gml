@@ -20,3 +20,7 @@ starthp = hp;
 function onDeath() {
 	
 }
+
+function Damage(damage) {
+	hp -= damage;
+}
