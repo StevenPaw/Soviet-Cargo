@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "ph_1_128x128",
-    "path": "sprites/ph_1_128x128/ph_1_128x128.yy",
+    "name": "sEnemyUnderground",
+    "path": "sprites/sEnemyUnderground/sEnemyUnderground.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,6 +25,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oEnemyUnderground","path":"objects/oEnemyUnderground/oEnemyUnderground.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oEnemyUnderground","path":"objects/oEnemyUnderground/oEnemyUnderground.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

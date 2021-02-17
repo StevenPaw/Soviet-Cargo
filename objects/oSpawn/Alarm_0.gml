@@ -17,6 +17,9 @@ if(spawnActive){
 				case par_EnemySky:
 					instance_create_layer(x,y,"EnemiesSky",oWaveManager.getEnemy(global.wave, spawn_count));
 					break;
+				case par_EnemyUnderground:
+					instance_create_layer(x,y,"EnemiesUnderground",oWaveManager.getEnemy(global.wave, spawn_count));
+					break;
 			}
 			
 		
