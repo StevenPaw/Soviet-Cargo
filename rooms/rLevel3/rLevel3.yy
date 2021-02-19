@@ -72,7 +72,9 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"oPath","path":"objects/oPath/oPath.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1664.0,"y":256.0,"resourceVersion":"1.0","name":"inst_60E10397","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oRestriction","path":"objects/oRestriction/oRestriction.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.031745,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1088.0,"y":832.0,"resourceVersion":"1.0","name":"inst_469BAC","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":1000,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":true,"gridX":64,"gridY":64,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"GUI1","tags":[],"resourceType":"GMRInstanceLayer",},
-    {"instances":[],"visible":true,"depth":1100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"EnemiesSky","tags":[],"resourceType":"GMRInstanceLayer",},
+    {"instances":[
+        {"properties":[],"isDnd":false,"objectId":{"name":"oRainGenerator","path":"objects/oRainGenerator/oRainGenerator.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-352.0,"y":-320.0,"resourceVersion":"1.0","name":"inst_6829E458","tags":[],"resourceType":"GMRInstance",},
+      ],"visible":true,"depth":1100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"EnemiesSky","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"Box","path":"sprites/Box/Box.yy",},"headPosition":0.0,"rotation":-18.9646111,"scaleX":0.187011719,"scaleY":0.187011719,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":588.8093,"y":953.834961,"resourceVersion":"1.0","name":"graphic_72717CEC","tags":[],"resourceType":"GMRSpriteGraphic",},
         {"spriteId":{"name":"Box","path":"sprites/Box/Box.yy",},"headPosition":0.0,"rotation":16.6859932,"scaleX":0.172607422,"scaleY":0.172607422,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":472.960083,"y":941.5912,"resourceVersion":"1.0","name":"graphic_22F8650B","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -153,6 +155,7 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
+    {"name":"inst_6829E458","path":"rooms/rLevel3/rLevel3.yy",},
     {"name":"inst_130B0AE0","path":"rooms/rLevel3/rLevel3.yy",},
     {"name":"inst_1A7CBA1","path":"rooms/rLevel3/rLevel3.yy",},
     {"name":"inst_590AA8E9","path":"rooms/rLevel3/rLevel3.yy",},

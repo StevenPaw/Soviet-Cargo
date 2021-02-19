@@ -4,8 +4,8 @@ draw_set_alpha(0.6);
 var length;
 var vectorX, vectorY;
 
-vectorX = (x-(room_width / 2)) / (room_width / 2);
-vectorY = (y-(room_height / 2)) / (room_height / 2);
+vectorX = (x-(pointToFallToX)) / (pointToFallToX);
+vectorY = (y-(pointToFallToY)) / (pointToFallToY);
 
 length = 2;
 

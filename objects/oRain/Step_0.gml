@@ -1,5 +1,5 @@
 /// @description Do Rainy stuff
-height -= 1;
+height -= 1 * global.gameSpeed;
 
 if(height <= 0) {
 	instance_destroy();
