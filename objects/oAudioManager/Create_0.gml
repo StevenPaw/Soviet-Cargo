@@ -35,6 +35,11 @@ function playFX(sound) {
 	audio_play_sound(sound,1,false);
 }
 
+//Play Effect Sound
+function playFXLoop(sound) {
+	audio_play_sound(sound,1,true);
+}
+
 //Play Music
 function playMusic(music) {
 	stopAllDirect();
@@ -52,7 +57,12 @@ function playButtonClick() {
 	audio_play_sound(sndButtonClick,2,false);
 }
 
-playMusic(sndNatureAmbience);
+function stopSound(sound) {
+	if (audio_is_playing(sound)) {
+		audio_stop_sound(sound);
+	}
+}
+
 updateFXVolume(global.effectsVolume);
 updateJGVolume(global.musicVolume);
 updateMSVolume(global.musicVolume);

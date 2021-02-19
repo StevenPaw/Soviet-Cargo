@@ -15,7 +15,7 @@ shooting = false; //Defines if the tower is shooting or not
 objectToShoot = noone; //Defines the object the tower is shooting
 
 effect_create_below(ef_explosion, x, y, 1.7, c_gray); //create a small dust explosion below the tower when its build
-oAudioManager.playFX(sndImpactPlateHeavy);
+
 
 tower_base = instance_create_layer(x, y, "Traps", obj_TowerBase); //create the base for the tower
 
