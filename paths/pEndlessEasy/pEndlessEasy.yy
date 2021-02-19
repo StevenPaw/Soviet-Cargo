@@ -24,8 +24,8 @@
     {"speed":100.0,"x":2080.0,"y":192.0,},
   ],
   "parent": {
-    "name": "Paths",
-    "path": "folders/Paths.yy",
+    "name": "EndlessEasy",
+    "path": "folders/Paths/EndlessEasy.yy",
   },
   "resourceVersion": "1.0",
   "name": "pEndlessEasy",

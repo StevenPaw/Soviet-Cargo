@@ -53,3 +53,6 @@ function playButtonClick() {
 }
 
 playMusic(sndNatureAmbience);
+updateFXVolume(global.effectsVolume);
+updateJGVolume(global.musicVolume);
+updateMSVolume(global.musicVolume);

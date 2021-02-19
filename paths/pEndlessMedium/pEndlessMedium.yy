@@ -13,8 +13,8 @@
     {"speed":100.0,"x":2048.0,"y":448.0,},
   ],
   "parent": {
-    "name": "Paths",
-    "path": "folders/Paths.yy",
+    "name": "EndlessMedium",
+    "path": "folders/Paths/EndlessMedium.yy",
   },
   "resourceVersion": "1.0",
   "name": "pEndlessMedium",

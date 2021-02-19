@@ -11,8 +11,8 @@
     {"speed":100.0,"x":1472.0,"y":-128.0,},
   ],
   "parent": {
-    "name": "Paths",
-    "path": "folders/Paths.yy",
+    "name": "Level3",
+    "path": "folders/Paths/Level3.yy",
   },
   "resourceVersion": "1.0",
   "name": "pLevel3water",

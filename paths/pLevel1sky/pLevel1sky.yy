@@ -13,8 +13,8 @@
     {"speed":100.0,"x":1696.0,"y":-128.0,},
   ],
   "parent": {
-    "name": "Paths",
-    "path": "folders/Paths.yy",
+    "name": "Level1",
+    "path": "folders/Paths/Level1.yy",
   },
   "resourceVersion": "1.0",
   "name": "pLevel1sky",
