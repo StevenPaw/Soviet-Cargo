@@ -21,8 +21,8 @@ bulletType = oBulletDouble;
 
 targetGround = true;
 targetWater = true;
-targetSky = true;
-targetUnderground = true;
+targetSky = false;
+targetUnderground = false;
 
 //Info-Variables
 infoName = "Double-Tower";
