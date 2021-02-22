@@ -10,4 +10,5 @@ function onButtonRelease() {
 
 function onButtonPushed() {
 	oPauseScreen.isActive = false;
+	global.gameSpeed = oPauseScreen.oldSpeed;
 }
