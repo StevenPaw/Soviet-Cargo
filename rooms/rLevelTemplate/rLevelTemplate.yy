@@ -96,6 +96,7 @@
 2147483648,2147483648,0,0,0,0,0,2147483648,0,0,2147483648,0,2147483648,0,2147483648,
 2147483648,2147483648,0,0,0,0,0,2147483648,0,2147483648,2147483648,0,0,0,2147483648,
 ],},"visible":true,"depth":2100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"River","tags":[],"resourceType":"GMRTileLayer",},
+    {"instances":[],"visible":true,"depth":2200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"EnemiesUnderground","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"tPrototype_TileSet","path":"tilesets/tPrototype_TileSet/tPrototype_TileSet.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":15,"SerialiseHeight":8,"TileSerialiseData":[
 3,3,3,3,2,2,2,2,2,2,2,2,3,3,3,
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
@@ -105,8 +106,7 @@
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,
 3,3,3,2,2,2,2,2,2,2,2,2,3,3,2,
-],},"visible":true,"depth":2200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Tiles","tags":[],"resourceType":"GMRTileLayer",},
-    {"instances":[],"visible":true,"depth":2300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"EnemiesUnderground","tags":[],"resourceType":"GMRInstanceLayer",},
+],},"visible":true,"depth":2300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Tiles","tags":[],"resourceType":"GMRTileLayer",},
     {"spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":2400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
   "inheritLayers": true,

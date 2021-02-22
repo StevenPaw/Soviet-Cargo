@@ -1,8 +1,8 @@
 {
-  "compression": 0,
+  "compression": 1,
   "volume": 1.0,
   "preload": false,
-  "bitRate": 512,
+  "bitRate": 128,
   "sampleRate": 44100,
   "type": 1,
   "bitDepth": 1,
