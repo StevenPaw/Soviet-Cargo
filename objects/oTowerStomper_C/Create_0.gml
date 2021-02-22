@@ -12,7 +12,7 @@ draggableObject = oTowerStomper_D;
 clickableObjectType = oTowerStomper_C;
 towerObject = oTowerStomper;
 rspeed = 2; //Speed of the Rotation
-maxPowerIncrease = 10;
+maxPowerIncrease = 0;
 bulletType = oBulletDouble;
 fire_rate = room_speed / 1;
 

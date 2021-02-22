@@ -54,13 +54,30 @@ ds_list_add(waveList[6], ";1;0;1;0;0;1;0;0;2;2;0;1;0;2;");
 ds_list_add(waveList[6], ";4;0;4;1;4;0;4;1;4;0;");
 
 //Level 7:
-ds_list_add(waveList[7], "Level 6");
+ds_list_add(waveList[7], "Level 7");
 ds_list_add(waveList[7], ";0;0;0;0;0");
 ds_list_add(waveList[7], ";1;0;0;1;0;0;");
 ds_list_add(waveList[7], ";4;4;4;4;");
 ds_list_add(waveList[7], ";4;2;2;4;0;0;0;0;0;0;");
 ds_list_add(waveList[7], ";1;0;1;0;0;1;0;0;2;2;0;1;0;2;");
 ds_list_add(waveList[7], ";4;0;4;1;4;0;4;1;4;0;");
+ds_list_add(waveList[7], ";0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0");
+ds_list_add(waveList[7], ";1;0;0;1;3;0;0;1;3;0;0;1;3;0;");
+ds_list_add(waveList[7], ";4;3;4;4;4;3;4;4;4;3;4;4;");
+ds_list_add(waveList[7], ";4;2;2;4;0;0;0;0;0;0;");
+ds_list_add(waveList[7], ";1;3;1;5;0;1;0;5;2;2;5;1;0;2;");
+ds_list_add(waveList[7], ";0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;");
+
+//Level 8:
+ds_list_add(waveList[8], "Level 8");
+ds_list_add(waveList[8], ";5;5;5;5;5");
+ds_list_add(waveList[8], ";1;0;0;1;3;0;");
+ds_list_add(waveList[8], ";4;3;4;4;");
+ds_list_add(waveList[8], ";4;2;2;4;0;0;0;0;0;0;");
+ds_list_add(waveList[8], ";1;3;1;5;0;1;0;5;2;2;5;1;0;2;");
+ds_list_add(waveList[8], ";4;0;4;1;4;5;4;1;4;5;");
+ds_list_add(waveList[8], ";4;2;0;4;2;1;4;5;2;4;1;4;2;5;");
+ds_list_add(waveList[8], ";0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;");
 
 
 alarm[0] = 1;

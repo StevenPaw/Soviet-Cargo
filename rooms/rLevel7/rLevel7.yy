@@ -157,6 +157,7 @@
         {"spriteId":{"name":"Box","path":"sprites/Box/Box.yy",},"headPosition":0.0,"rotation":9.134112,"scaleX":0.21875006,"scaleY":0.21875006,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":832.0,"y":320.0,"resourceVersion":"1.0","name":"graphic_2F4F7F21","tags":[],"resourceType":"GMRSpriteGraphic",},
         {"spriteId":{"name":"Box","path":"sprites/Box/Box.yy",},"headPosition":0.0,"rotation":2.616138,"scaleX":0.21875006,"scaleY":0.21875006,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1344.0,"y":576.0,"resourceVersion":"1.0","name":"graphic_6967E93E","tags":[],"resourceType":"GMRSpriteGraphic",},
         {"spriteId":{"name":"Box","path":"sprites/Box/Box.yy",},"headPosition":0.0,"rotation":-20.8658867,"scaleX":0.21875006,"scaleY":0.21875006,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1600.0,"y":672.0,"resourceVersion":"1.0","name":"graphic_474C7CD6","tags":[],"resourceType":"GMRSpriteGraphic",},
+        {"spriteId":{"name":"EnemyEntrance","path":"sprites/EnemyEntrance/EnemyEntrance.yy",},"headPosition":0.0,"rotation":90.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":384.0,"resourceVersion":"1.0","name":"graphic_115F0056","tags":[],"resourceType":"GMRSpriteGraphic",},
       ],"visible":true,"depth":1900,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"BackgroundDeco","tags":[],"resourceType":"GMRAssetLayer",},
     {"instances":[],"visible":true,"depth":2000,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"EnemiesWater","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"tPrototype_river","path":"tilesets/tPrototype_river/tPrototype_river.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":15,"SerialiseHeight":8,"TileSerialiseData":[
@@ -169,6 +170,7 @@
 1,1,1,0,0,0,0,2147483648,0,1,1,1,1,1,2147483648,
 2147483648,2147483648,0,0,0,0,0,2147483648,0,2147483648,2147483648,0,0,0,2147483648,
 ],},"visible":true,"depth":2100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"River","tags":[],"resourceType":"GMRTileLayer",},
+    {"instances":[],"visible":true,"depth":2200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"EnemiesUnderground","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"tPrototype_TileSet","path":"tilesets/tPrototype_TileSet/tPrototype_TileSet.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":15,"SerialiseHeight":8,"TileSerialiseData":[
 2,2,3,3,2,2,2,2,2,2,2,2,2,3,2,
 2,3,3,1,1,1,1,1,3,3,1,1,1,1,1,
@@ -178,8 +180,7 @@
 2,2,3,3,3,3,3,3,3,3,3,3,2,3,2,
 3,3,3,3,3,3,2,2,2,3,3,3,3,3,2,
 2,2,2,2,2,2,2,2,2,2,2,2,3,3,2,
-],},"visible":true,"depth":2200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Tiles","tags":[],"resourceType":"GMRTileLayer",},
-    {"instances":[],"visible":true,"depth":2300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"EnemiesUnderground","tags":[],"resourceType":"GMRInstanceLayer",},
+],},"visible":true,"depth":2300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Tiles","tags":[],"resourceType":"GMRTileLayer",},
     {"spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":2400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
   "inheritLayers": true,
