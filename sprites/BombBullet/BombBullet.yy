@@ -8,9 +8,9 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 30,
-  "bbox_top": 11,
-  "bbox_bottom": 20,
+  "bbox_right": 31,
+  "bbox_top": 7,
+  "bbox_bottom": 25,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c714356e-b71e-41e0-85de-1b0664a2a601","path":"sprites/SniperBullet/SniperBullet.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c714356e-b71e-41e0-85de-1b0664a2a601","path":"sprites/SniperBullet/SniperBullet.yy",},"LayerId":{"name":"38b0eb24-e12c-4572-99ce-611951102524","path":"sprites/SniperBullet/SniperBullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"SniperBullet","path":"sprites/SniperBullet/SniperBullet.yy",},"resourceVersion":"1.0","name":"c714356e-b71e-41e0-85de-1b0664a2a601","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6d8517c4-b6b3-4b1d-adff-0b605b5000dd","path":"sprites/BombBullet/BombBullet.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6d8517c4-b6b3-4b1d-adff-0b605b5000dd","path":"sprites/BombBullet/BombBullet.yy",},"LayerId":{"name":"461638dd-10d0-4952-94d1-bef675f549e1","path":"sprites/BombBullet/BombBullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"BombBullet","path":"sprites/BombBullet/BombBullet.yy",},"resourceVersion":"1.0","name":"6d8517c4-b6b3-4b1d-adff-0b605b5000dd","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"SniperBullet","path":"sprites/SniperBullet/SniperBullet.yy",},
+    "spriteId": {"name":"BombBullet","path":"sprites/BombBullet/BombBullet.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d565c258-0d96-4fdc-9ebb-4e594ba529a4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c714356e-b71e-41e0-85de-1b0664a2a601","path":"sprites/SniperBullet/SniperBullet.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1d1a2678-ba84-4987-a1d7-106bbda34b4c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6d8517c4-b6b3-4b1d-adff-0b605b5000dd","path":"sprites/BombBullet/BombBullet.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"SniperBullet","path":"sprites/SniperBullet/SniperBullet.yy",},
+    "parent": {"name":"BombBullet","path":"sprites/BombBullet/BombBullet.yy",},
     "resourceVersion": "1.3",
-    "name": "SniperBullet",
+    "name": "BombBullet",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"38b0eb24-e12c-4572-99ce-611951102524","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"461638dd-10d0-4952-94d1-bef675f549e1","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Bullets",
     "path": "folders/Sprites/Bullets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "SniperBullet",
+  "name": "BombBullet",
   "tags": [],
   "resourceType": "GMSprite",
 }

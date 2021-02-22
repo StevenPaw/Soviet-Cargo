@@ -12,6 +12,9 @@ if(BulletHit) {
 		enemySpeed = startSpeed * other.BulletSlow;
 		isSlowed = true;
 	}
+	if(other == oBulletBomb) {
+		instance_create_layer(x, y, "GUI1", oExplosion);
+	}
 	with(other) instance_destroy();
 
 	effect_create_below(ef_explosion, x, y, 0.05, enemyBloodColor);

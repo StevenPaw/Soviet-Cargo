@@ -17,8 +17,8 @@
   "width": 512,
   "height": 512,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Trees",
+    "path": "texturegroups/Trees",
   },
   "swatchColours": null,
   "gridX": 0,

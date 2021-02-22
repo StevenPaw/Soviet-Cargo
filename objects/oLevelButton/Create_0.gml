@@ -5,12 +5,12 @@ levelNumber = 0;
 selectedLevel = rMenu;
 
 function onButtonRelease() {
-	if (state != 3) {
-		
-		room_goto(selectedLevel);
-	}
+
 }
 
 function onButtonPushed() {
-	oAudioManager.playButtonClick();
+		if (state != 3) {
+		oAudioManager.playButtonClick();
+		room_goto(selectedLevel);
+	}
 }
