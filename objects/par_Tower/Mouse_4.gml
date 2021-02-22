@@ -1,6 +1,6 @@
 tutFinished = true;
 if(instance_exists(oTutorialManager)) {
-	if (!oTutorialManager.tutorialFinished) {
+	if (!global.tutorialFinished) {
 		tutFinished = false;
 	}
 }

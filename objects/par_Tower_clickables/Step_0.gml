@@ -18,7 +18,7 @@ if(instance_exists(oTutorialManager)) {
 		available = false;
 	}
 }
-if (oPauseScreen.isActive) {
+if (oPauseScreen.isActive || oWinScreen.isActive || oFailScreen.isActive) {
 	available = false;
 }
 
