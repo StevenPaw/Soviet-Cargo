@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sIce_Tower_Inv",
-    "path": "sprites/sIce_Tower_Inv/sIce_Tower_Inv.yy",
+    "name": "sFreeze_Tower_Inv",
+    "path": "sprites/sFreeze_Tower_Inv/sFreeze_Tower_Inv.yy",
   },
   "solid": false,
   "visible": true,
