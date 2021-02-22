@@ -44,5 +44,14 @@ ds_list_add(waveList[5], ";1;1;0;0;0;2;1;");
 ds_list_add(waveList[5], ";0;1;1;2;1;1;2;2;1;0;");
 ds_list_add(waveList[5], ";1;1;1;1;1;1;0;0;0;0;;1;1;1;1;1;0;0;0;0;0;1;1;1;1;1;1;1;1;1;");
 
+//Level 6:
+ds_list_add(waveList[6], "Level 6");
+ds_list_add(waveList[6], ";0;0;0;");
+ds_list_add(waveList[6], ";0;2;4;4;2;2;");
+ds_list_add(waveList[6], ";4;4;4;4;");
+ds_list_add(waveList[6], ";2;2;2;2;0;0;0;0;0;0;");
+ds_list_add(waveList[6], ";1;0;1;0;0;1;0;0;2;2;0;1;0;2;");
+ds_list_add(waveList[6], ";4;0;4;1;4;0;4;1;4;0;");
+
 
 alarm[0] = 1;

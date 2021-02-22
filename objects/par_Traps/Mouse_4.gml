@@ -1,11 +1,14 @@
-tutFinished = true;
+available = true;
 if(instance_exists(oTutorialManager)) {
-	if (!oTutorialManager.tutorialFinished) {
-		tutFinished = false;
+	if (!global.tutorialFinished) {
+		available = false;
 	}
 }
+if (oPauseScreen.isActive || oWinScreen.isActive || oFailScreen.isActive) {
+	available = false;
+}
 	
-if(tutFinished) {
+if(available) {
 if (hovering) {
 	if(instance_exists(oTowerTooltip)){
 		instance_destroy(instance_find(oTowerTooltip, 0));

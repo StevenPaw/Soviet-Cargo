@@ -97,7 +97,6 @@
         {"spriteId":{"name":"DarkOakTree","path":"sprites/DarkOakTree/DarkOakTree.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":0.6474609,"scaleY":0.6474609,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":354.500031,"y":712.0,"resourceVersion":"1.0","name":"graphic_4FC45F86","tags":[],"resourceType":"GMRSpriteGraphic",},
         {"spriteId":{"name":"Stone","path":"sprites/Stone/Stone.yy",},"headPosition":0.0,"rotation":5.66752529,"scaleX":0.5117187,"scaleY":0.5117187,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1011.0,"y":25.8740025,"resourceVersion":"1.0","name":"graphic_2C450D69","tags":[],"resourceType":"GMRSpriteGraphic",},
         {"spriteId":{"name":"DarkOakTree","path":"sprites/DarkOakTree/DarkOakTree.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":816.0,"y":847.0,"resourceVersion":"1.0","name":"graphic_3024FEF6","tags":[],"resourceType":"GMRSpriteGraphic",},
-        {"spriteId":{"name":"Tree1","path":"sprites/Tree1/Tree1.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1200.0,"y":162.0,"resourceVersion":"1.0","name":"graphic_40359935","tags":[],"resourceType":"GMRSpriteGraphic",},
         {"spriteId":{"name":"OakTree","path":"sprites/OakTree/OakTree.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-224.0,"y":-320.0,"resourceVersion":"1.0","name":"graphic_73D8DBDA","tags":[],"resourceType":"GMRSpriteGraphic",},
         {"spriteId":{"name":"OakTree","path":"sprites/OakTree/OakTree.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-128.0,"y":864.0,"resourceVersion":"1.0","name":"graphic_6A486968","tags":[],"resourceType":"GMRSpriteGraphic",},
         {"spriteId":{"name":"OrangeTree","path":"sprites/OrangeTree/OrangeTree.yy",},"headPosition":0.0,"rotation":-58.3684,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":736.0,"resourceVersion":"1.0","name":"graphic_5FCD60BA","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -161,8 +160,8 @@
     {"tilesetId":{"name":"tPrototype_river","path":"tilesets/tPrototype_river/tPrototype_river.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":15,"SerialiseHeight":8,"TileSerialiseData":[
 2147483648,2147483648,2147483648,0,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,0,0,0,2147483648,
 2147483648,2147483648,2147483648,0,0,2147483648,2147483648,2147483648,0,0,0,0,0,0,2147483648,
-2147483648,2147483648,2147483648,2147483648,0,2147483648,2147483648,2147483648,10,10,10,0,10,0,10,
-10,10,2147483648,10,10,0,10,10,10,0,0,0,0,0,2147483648,
+2147483648,2147483648,2147483648,2147483648,0,2147483648,2147483648,2147483648,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,0,0,0,0,0,2147483648,
 2147483648,2147483648,0,0,0,0,0,0,0,0,2147483648,2147483648,2147483648,2147483648,2147483648,
 2147483648,2147483648,0,0,0,0,2147483648,2147483648,0,0,2147483648,2147483648,2147483648,2147483648,2147483648,
 2147483648,2147483648,0,0,0,0,0,2147483648,0,0,2147483648,2147483648,2147483648,2147483648,2147483648,

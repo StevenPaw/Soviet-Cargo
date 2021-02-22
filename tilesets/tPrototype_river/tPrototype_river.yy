@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "River",
-    "path": "sprites/River/River.yy",
+    "name": "RiverAnimated",
+    "path": "sprites/RiverAnimated/RiverAnimated.yy",
   },
   "tileWidth": 128,
   "tileHeight": 128,
@@ -16,8 +16,8 @@
   },
   "out_tilehborder": 2,
   "out_tilevborder": 2,
-  "out_columns": 4,
-  "tile_count": 16,
+  "out_columns": 1,
+  "tile_count": 2,
   "autoTileSets": [
     {"tiles":[
         0,
@@ -44,20 +44,6 @@
     "FrameData": [
       0,
       1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
     ],
     "SerialiseFrameCount": 1,
   },
@@ -65,7 +51,7 @@
     "SerialiseWidth": 1,
     "SerialiseHeight": 1,
     "TileSerialiseData": [
-      10,
+      0,
     ],
   },
   "parent": {
