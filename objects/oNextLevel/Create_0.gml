@@ -20,7 +20,8 @@ function onButtonPushed() {
 		if(oLevelManager.getCurrentLevelID(room) < array_length(oLevelManager.Room) - 1){
 			room_goto(oLevelManager.Room[oLevelManager.getCurrentLevelID(room) + 1]);
 		} else {
-			buttonText = "Finish Game!";
+			buttonText = "FINISH GAME!";
+			oAchievementManager.giveAchievement("Finisher");
 			room_goto(rMenu);
 		}
 	}

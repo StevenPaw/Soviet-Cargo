@@ -3,6 +3,13 @@ if (loaded) {
         effect_create_above(ef_explosion, x, y, 1, enemyDeathColor);
         global.coins += enemyCoins;
         oStats.killedEnemies += 1;
+		if(damageTakenFrom == "explosion") {
+			oAchievementManager.giveAchievement("Shot. Boom. Death.");
+		}
+		if(isSlowed) {
+			oAchievementManager.giveAchievement("Slow Death");
+		}
+		
         onDeath();
         instance_destroy();
     }

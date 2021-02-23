@@ -3,6 +3,8 @@ for (j = 0; j < ds_list_size(oAchievementManager.achievements); j++) {
     Achievementlist[j] = ds_list_read(oAchievementManager.achievements, j);
 }
 
+scroll_position = 0;
+
 curX = 0;
 curY = 50;
 maxY = 0;
@@ -45,3 +47,5 @@ for (i = 1; i <= array_length(Achievementlist); i++) {
     maxY = curY;
     //}
 }
+
+achievementsNum = array_length(achievementMessage);

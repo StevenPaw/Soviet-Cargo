@@ -68,10 +68,10 @@ function giveAchievement(name) {
             achievementMessage.image = achImage[pointInList];
             achievementMessage.hidden = achHidden[pointInList];
         } else {
-            show_debug_message("Already got Achievement!");
+            show_debug_message("Already got Achievement! Ach: " + string(name));
         }
     } else {
-        show_debug_message("Achievement not in List!");
+        show_debug_message("Achievement not in List! Ach: " + string(name));
     }
 }
 
@@ -81,7 +81,7 @@ function giveAllAchievements() {
     }
 }
 
-AddAchievement("Test", "Tested Achievements", sAchDebug, true);
+//AddAchievement("Test", "Tested Achievements", sAchDebug, true);
 AddAchievement("Started Game", "You started the Game", sAchStartGame, false);
 AddAchievement("Prolog", "You started a new Game with Prolog", sAchStory, false);
 AddAchievement("Study", "Master the Tutorial", sAchTutorial, false);
@@ -108,10 +108,17 @@ AddAchievement("25 Traps", "Build 25 traps", sAchTrap25, false);
 AddAchievement("50 Traps", "Build 50 traps", sAchTrap50, false);
 AddAchievement("100 Traps", "Build 100 traps", sAchTrap100, false);
 AddAchievement("200 Traps", "Build 200 traps", sAchTrap200, false);
+AddAchievement("Finisher", "Complete all Levels at least once", sAchCompleteAllLevels, false);
 
-AddAchievement("Easy Survival", "Survive 25 Waves in Easy Endless", sAchImageTemplate, false);
-AddAchievement("Epic Easy Survival", "Survive 100 Waves in Easy Endless", sAchImageTemplate, false);
-AddAchievement("Medium Survival", "Survive 25 Waves in Medium Endless", sAchImageTemplate, false);
-AddAchievement("Epic Medium Survival", "Survive 100 Waves in Medium Endless", sAchImageTemplate, false);
-AddAchievement("Hard Survival", "Survive 25 Waves in Hard Endless", sAchImageTemplate, false);
-AddAchievement("Epic Hard Survival", "Survive 100 Waves in Hard Endless", sAchImageTemplate, false);
+AddAchievement("Slow Death", "Kill a slowed enemy", sAchSlowDeath, true);
+AddAchievement("Shot. Boom. Death.", "Kill an enemy with explosion", sAchShotBoomDeath, true);
+AddAchievement("Big Boom", "Hit multiple targets with explosion", sAchBigBoom, true);
+AddAchievement("Too much energy", "Have more than 5 Energy Towers", sAchTooMuchEnergy, true);
+
+//Endless Achievements:
+AddAchievement("Easy Survival", "Survive 25 Waves in Easy Endless", sAchSurvivalEasy, false);
+AddAchievement("Epic Easy Survival", "Survive 100 Waves in Easy Endless", sAchSurvivalEasyEpic, false);
+AddAchievement("Medium Survival", "Survive 25 Waves in Medium Endless", sAchSurvivalMedium, false);
+AddAchievement("Epic Medium Survival", "Survive 100 Waves in Medium Endless", sAchSurvivalMediumEpic, false);
+AddAchievement("Hard Survival", "Survive 25 Waves in Hard Endless", sAchSurvivalHard, false);
+AddAchievement("Epic Hard Survival", "Survive 100 Waves in Hard Endless", sAchSurvivalHardEpic, false);

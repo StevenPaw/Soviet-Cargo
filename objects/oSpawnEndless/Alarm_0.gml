@@ -7,7 +7,16 @@ if (global.gameSpeed > 0) {
 		
 		if(global.wave < 5) {
 			enemy = oEnemy;
-		} else if(global.wave >= 5) {
+		} else if(global.wave >= 5 && global.wave < 7) {
+			randomize();
+			enemy = choose(oEnemy,oEnemyShield,oEnemySpeed);
+		}  else if(global.wave >= 7 && global.wave < 12) {
+			randomize();
+			enemy = choose(oEnemy,oEnemyShield,oEnemySpeed,oEnemyWater);
+		}  else if(global.wave >= 12 && global.wave < 15) {
+			randomize();
+			enemy = choose(oEnemy,oEnemyShield,oEnemySpeed,oEnemyUnderground,oEnemyWater);
+		}  else if(global.wave >= 15) {
 			randomize();
 			enemy = choose(oEnemy,oEnemyShield,oEnemySky,oEnemySpeed,oEnemyUnderground,oEnemyWater);
 		}

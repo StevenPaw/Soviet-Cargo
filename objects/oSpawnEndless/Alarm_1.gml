@@ -10,10 +10,12 @@ if (global.gameSpeed > 0) {
 					if(global.wave > oStats.endlessWavesEasy) {
 						oStats.endlessWavesEasy = global.wave;
 					}
+					break;
 				case rEndlessLevelMedium:
 					if(global.wave > oStats.endlessWavesMedium) {
 						oStats.endlessWavesMedium = global.wave;
 					}
+					break;
 				case rEndlessLevelHard:
 					if(global.wave > oStats.endlessWavesHard) {
 						oStats.endlessWavesHard = global.wave;
