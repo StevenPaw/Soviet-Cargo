@@ -5,6 +5,7 @@ costPlace_y = costPlace_start;
 draggableTower = oTowerDouble_D;
 placedTower = oTowerDouble;
 
+// initial tower "stats"
 maxrange = 300;
 minrange = 0;
 fire_rate = room_speed / 1;

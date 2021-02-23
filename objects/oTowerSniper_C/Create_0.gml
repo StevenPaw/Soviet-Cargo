@@ -6,10 +6,10 @@ powerCost = 2; //energycost of tower
 costPlace_y = costPlace_start;
 draggableTower = oTowerSniper_D;
 
-
-maxrange = 500;
+// tower "stats"
+maxrange = 60;
 minrange = 100;
-fire_rate = room_speed / 0.3;
+fire_rate = room_speed / 0.4;
 draggableObject = oTowerSniper_D;
 clickableObjectType = oTowerSniper_C;
 towerObject = oTowerSniper;

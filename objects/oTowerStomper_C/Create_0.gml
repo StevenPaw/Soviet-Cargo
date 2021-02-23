@@ -5,7 +5,7 @@ cost = 50; // cost of tower
 powerCost = 0; //energycost of tower
 draggableTower = oTowerStomper_D;
 
-
+// tower "stats"
 maxrange = 200;
 minrange = 0;
 draggableObject = oTowerStomper_D;

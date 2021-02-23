@@ -5,7 +5,7 @@ cost = 25; // cost of tower
 powerCost = 2; //energycost of tower
 draggableTower = oTowerFreeze_D;
 
-
+// tower "stats"
 maxrange = 200;
 fire_rate = room_speed / 1;
 draggableObject = oTowerFreeze_D;

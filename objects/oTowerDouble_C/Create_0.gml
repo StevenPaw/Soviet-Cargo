@@ -5,10 +5,10 @@ cost = 15; // cost of tower
 powerCost = 1; //energycost of tower
 draggableTower = oTowerDouble_D;
 
-
+// tower "stats"
 maxrange = 300;
 minrange = 0;
-fire_rate = room_speed / 1;
+fire_rate = room_speed / 0.8;
 draggableObject = oTowerDouble_D;
 clickableObjectType = oTowerDouble_C;
 towerObject = oTowerDouble;

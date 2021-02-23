@@ -5,7 +5,7 @@ cost = 50; // cost of tower
 powerCost = 0; //energycost of tower
 draggableTower = oTowerEnergy_D;
 
-
+// tower "stats"
 maxrange = 0;
 minrange = 0;
 draggableObject = oTowerEnergy_D;

@@ -1,6 +1,6 @@
+
 if (global.gameSpeed > 0) {
 
-//spawn enemies till spawn amount is reached
 
 if(spawnActive){
 	/*
@@ -23,6 +23,5 @@ if(spawnActive){
 	//		spawn_count++;
 	//	}
 	//}
-	alarm[0] = spawn_rate / global.gameSpeed;
 }
 }
