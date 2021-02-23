@@ -1,4 +1,3 @@
-
 // initial enemy variables
 startSpeed = 1;
 enemySpeed = startSpeed; //is multiplied by the room speed!
@@ -18,9 +17,9 @@ hp = 0;
 starthp = hp;
 
 function onDeath() {
-	
+
 }
 
 function Damage(damage) {
-	hp -= damage;
+    hp -= damage;
 }

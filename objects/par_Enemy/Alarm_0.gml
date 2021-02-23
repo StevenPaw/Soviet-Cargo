@@ -1,24 +1,23 @@
 /// @description After first initialization
-
 roomID = oLevelManager.getCurrentLevelID(room);
 GroundPath = oLevelManager.getCurrentPath(roomID);
 WaterPath = oLevelManager.getCurrentWaterPath(roomID);
 SkyPath = oLevelManager.getCurrentSkyPath(roomID);
 UndergroundPath = oLevelManager.getCurrentUndergroundPath(roomID);
 
-switch(type) {
-	default:
-		Path = GroundPath;
-		break;
-	case "water":
-		Path = WaterPath;
-		break;
-	case "sky":
-		Path = SkyPath;
-		break;
-	case "underground":
-		Path = UndergroundPath;
-		break;
+switch (type) {
+    default:
+        Path = GroundPath;
+        break;
+    case "water":
+        Path = WaterPath;
+        break;
+    case "sky":
+        Path = SkyPath;
+        break;
+    case "underground":
+        Path = UndergroundPath;
+        break;
 }
 
 path_start(Path, (global.spd * enemySpeed) * global.gameSpeed, 0, 1);

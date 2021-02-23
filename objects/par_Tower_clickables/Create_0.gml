@@ -32,9 +32,9 @@ infoSell = infoCost / 2;
 infoDescription[0] = "The standard tower";
 infoDescription[1] = "Shoots standard Bullets";
 infoShortText = "Standard Tower";
-infoTargetTypes = targetGround * 1 + targetWater *2 + targetSky * 4 + targetUnderground * 8;
+infoTargetTypes = targetGround * 1 + targetWater * 2 + targetSky * 4 + targetUnderground * 8;
 
-instance_create_depth(x,y,0,bulletType);
+instance_create_depth(x, y, 0, bulletType);
 infoDamage = bulletType.BulletDamage;
 instance_destroy(bulletType);
 

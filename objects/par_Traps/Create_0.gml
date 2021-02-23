@@ -21,9 +21,8 @@ oAudioManager.playFX(sndImpactPlateHeavy);
 move_snap(64, 64);
 
 //Start Enemy-Waves if first tower is build
-if(!oSpawn.spawnActive)
-{
-	oSpawn.spawnActive = true;
+if (!oSpawn.spawnActive) {
+    oSpawn.spawnActive = true;
 }
 
 alarm[1] = 2;

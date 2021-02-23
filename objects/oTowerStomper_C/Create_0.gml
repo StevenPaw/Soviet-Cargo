@@ -35,4 +35,4 @@ infoSell = infoCost / 2;
 infoDescription[0] = "This Tower hits underground!";
 infoDescription[1] = "And doesn't shoot";
 infoShortText = "Hits underground";
-infoTargetTypes = targetGround * 1 + targetWater *2 + targetSky * 4 + targetUnderground * 8;
+infoTargetTypes = targetGround * 1 + targetWater * 2 + targetSky * 4 + targetUnderground * 8;

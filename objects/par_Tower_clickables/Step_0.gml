@@ -1,34 +1,31 @@
-if(global.coins < cost)
-{
-	enoughMoney = false;	
+if (global.coins < cost) {
+    enoughMoney = false;
 } else {
-	enoughMoney = true;
+    enoughMoney = true;
 }
 
-if(global.poweruse + powerCost > global.maxPoweruse)
-{
-	enoughEnergy = false;
+if (global.poweruse + powerCost > global.maxPoweruse) {
+    enoughEnergy = false;
 } else {
-	enoughEnergy = true;
+    enoughEnergy = true;
 }
 
 available = true;
-if(instance_exists(oTutorialManager)) {
-	if (!global.tutorialFinished) {
-		available = false;
-	}
+if (instance_exists(oTutorialManager)) {
+    if (!global.tutorialFinished) {
+        available = false;
+    }
 }
 if (oPauseScreen.isActive || oWinScreen.isActive || oFailScreen.isActive) {
-	available = false;
+    available = false;
 }
 
-if(enoughEnergy && enoughMoney && available)
-{
-	if (hovering) {
-		image_index = 1;
-	} else {
-		image_index = 0;
-	}
+if (enoughEnergy && enoughMoney && available) {
+    if (hovering) {
+        image_index = 1;
+    } else {
+        image_index = 0;
+    }
 } else {
-	image_index = 2;	
+    image_index = 2;
 }

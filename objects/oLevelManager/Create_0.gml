@@ -9,15 +9,15 @@ levelPathUnderground[0] = pLevel1underground;
 levelCount = 0;
 
 //Create Function to make new Levels easier
-function newLevel(roomObject, wavecount, levelpath, waterpath, skypath, undergroundpath){
-	levelCount += 1;
-	levelComplete[levelCount] = 0;
-	Room[levelCount] = roomObject;
-	maxWaves[levelCount] = wavecount;
-	levelPath[levelCount] = levelpath;
-	levelPathWater[levelCount] = waterpath;
-	levelPathSky[levelCount] = skypath;
-	levelPathUnderground[levelCount] = undergroundpath;
+function newLevel(roomObject, wavecount, levelpath, waterpath, skypath, undergroundpath) {
+    levelCount += 1;
+    levelComplete[levelCount] = 0;
+    Room[levelCount] = roomObject;
+    maxWaves[levelCount] = wavecount;
+    levelPath[levelCount] = levelpath;
+    levelPathWater[levelCount] = waterpath;
+    levelPathSky[levelCount] = skypath;
+    levelPathUnderground[levelCount] = undergroundpath;
 }
 
 
@@ -35,35 +35,35 @@ newLevel(rLevel9, 15, pLevel9, pLevel9water, pLevel9sky, pLevel9underground);
 
 //Function to get current Level ID
 function getCurrentLevelID(roomObject) {
-	for(i = 0; i <= array_length(Room); i++) {
-		if (Room[i] == roomObject){
-			return i;
-		}
-	}
-	return 0;
+    for (i = 0; i <= array_length(Room); i++) {
+        if (Room[i] == roomObject) {
+            return i;
+        }
+    }
+    return 0;
 }
 
 //Function to get current GroundPath
 function getCurrentPath(pathNum) {
-	return levelPath[pathNum];
+    return levelPath[pathNum];
 }
 
 //Function to get current WaterPath
 function getCurrentWaterPath(pathNum) {
-	return levelPathWater[pathNum];
+    return levelPathWater[pathNum];
 }
 
 //Function to get current SkyPath
 function getCurrentSkyPath(pathNum) {
-	return levelPathSky[pathNum];
+    return levelPathSky[pathNum];
 }
 
 //Function to get current UndergroundPath
 function getCurrentUndergroundPath(pathNum) {
-	return levelPathUnderground[pathNum];
+    return levelPathUnderground[pathNum];
 }
 
 function getMaxWaves(roomObject) {
-	currentID = getCurrentLevelID(roomObject);
-	return maxWaves[currentID];
+    currentID = getCurrentLevelID(roomObject);
+    return maxWaves[currentID];
 }
