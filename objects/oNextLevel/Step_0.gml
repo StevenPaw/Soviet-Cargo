@@ -11,9 +11,10 @@ switch (state){
 		break;
 }
 
-
-if(oLevelManager.getCurrentLevelID(room) < array_length(oLevelManager.Room) - 1){
+if(room != rEndlessLevelEasy && room != rEndlessLevelMedium && room != rEndlessLevelHard) {
+	if(oLevelManager.getCurrentLevelID(room) < array_length(oLevelManager.Room) - 1){
 		text = "NEXT LEVEL";
 	} else {
 		text = "FINISH GAME";
 	}
+}

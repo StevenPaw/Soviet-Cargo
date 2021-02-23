@@ -22,8 +22,14 @@ tower_base = instance_create_layer(x, y, "Traps", obj_TowerBase); //create the b
 move_snap(64, 64); //snap the tower on the grid (doublecheck after gridManager)
 
 //Start Enemy-Waves if first tower is build
-if (!oSpawn.spawnActive) {
-    oSpawn.spawnActive = true;
+if (instance_exists(oSpawn)) {
+	if (!oSpawn.spawnActive) {
+		oSpawn.spawnActive = true;
+	}
+} else if (instance_exists(oSpawnEndless)) {
+	if (!oSpawnEndless.spawnActive) {
+		oSpawnEndless.spawnActive = true;
+	}
 }
 
 //1: Ground. 2:Water. 4:Sky. Add together to allow mutliple target types.

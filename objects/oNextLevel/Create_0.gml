@@ -2,10 +2,12 @@
 state = 0; //0: idle, 1: active, 2: pressed
 buttonText = "NEXT LEVEL";
 
-if(oLevelManager.getCurrentLevelID(room) < array_length(oLevelManager.Room) - 1){
-	buttonText = "NEXT LEVEL";
-} else {
-	buttonText = "FINISH GAME!";
+if(room != rEndlessLevelEasy && room != rEndlessLevelMedium && room != rEndlessLevelHard) {
+	if(oLevelManager.getCurrentLevelID(room) < array_length(oLevelManager.Room) - 1){
+		buttonText = "NEXT LEVEL";
+	} else {
+		buttonText = "FINISH GAME!";
+	}
 }
 
 function onButtonRelease() {
@@ -13,11 +15,13 @@ function onButtonRelease() {
 }
 
 function onButtonPushed() {
-	global.wave = 0;
-	if(oLevelManager.getCurrentLevelID(room) < array_length(oLevelManager.Room) - 1){
-		room_goto(oLevelManager.Room[oLevelManager.getCurrentLevelID(room) + 1]);
-	} else {
-		buttonText = "Finish Game!";
-		room_goto(rMenu);
+	if(room != rEndlessLevelEasy && room != rEndlessLevelMedium && room != rEndlessLevelHard) {
+		global.wave = 0;
+		if(oLevelManager.getCurrentLevelID(room) < array_length(oLevelManager.Room) - 1){
+			room_goto(oLevelManager.Room[oLevelManager.getCurrentLevelID(room) + 1]);
+		} else {
+			buttonText = "Finish Game!";
+			room_goto(rMenu);
+		}
 	}
 }
