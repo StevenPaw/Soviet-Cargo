@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "SpeedEnemy_128px",
-    "path": "sprites/SpeedEnemy_128px/SpeedEnemy_128px.yy",
+    "name": "sEnemySpeed",
+    "path": "sprites/sEnemySpeed/sEnemySpeed.yy",
   },
   "solid": false,
   "visible": true,

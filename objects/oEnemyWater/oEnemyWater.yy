@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "ph_2_128x128",
-    "path": "sprites/ph_2_128x128/ph_2_128x128.yy",
+    "name": "sEnemyWater",
+    "path": "sprites/sEnemyWater/sEnemyWater.yy",
   },
   "solid": false,
   "visible": true,
