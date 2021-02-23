@@ -15,10 +15,6 @@ towerObject = oTowerDouble;
 rspeed = 5; //Speed of the Rotation
 bulletType = oBulletDouble;
 
-//1: Ground. 2:Water. 4:Sky. Add together to allow mutliple target types.
-//3: Ground and Water. 5: Ground and Sky. 6: Water and Sky. 7: everything
-//targetTypes = 3;
-
 targetGround = true;
 targetWater = true;
 targetSky = false;

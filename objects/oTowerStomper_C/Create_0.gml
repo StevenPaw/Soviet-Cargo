@@ -1,7 +1,7 @@
 // Inherit the parent event
 event_inherited();
 
-cost = 50; // cost of tower
+cost = 30; // cost of tower
 powerCost = 0; //energycost of tower
 draggableTower = oTowerStomper_D;
 
@@ -15,10 +15,6 @@ rspeed = 2; //Speed of the Rotation
 maxPowerIncrease = 0;
 bulletType = oBulletDouble;
 fire_rate = room_speed / 1;
-
-//1: Ground. 2:Water. 4:Sky. Add together to allow mutliple target types.
-//3: Ground and Water. 5: Ground and Sky. 6: Water and Sky. 7: everything
-//targetTypes = 3;
 
 targetGround = false;
 targetWater = false;

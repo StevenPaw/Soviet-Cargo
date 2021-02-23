@@ -8,7 +8,7 @@ if (other.type = type) {
 	
 if(BulletHit) {
 	hp -= other.BulletDamage;
-	if(other.BulletSlow > 0) {
+	if(other.BulletSlow < 1) {
 		enemySpeed = startSpeed * other.BulletSlow;
 		isSlowed = true;
 	}
