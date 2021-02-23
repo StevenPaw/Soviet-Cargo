@@ -2,7 +2,7 @@
 event_inherited();
 
 cost = 30; // cost of tower
-powerCost = 0; //energycost of tower
+powerCost = 1; //energycost of tower
 draggableTower = oTowerStomper_D;
 
 // tower "stats"

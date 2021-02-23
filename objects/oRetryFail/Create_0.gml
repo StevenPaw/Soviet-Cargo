@@ -10,5 +10,5 @@ function onButtonRelease() {
 
 function onButtonPushed() {
 	global.wave = 0;
-	room_goto(oLevelManager.Room[oLevelManager.getCurrentLevelID(room)]);
+	room_goto(room);
 }

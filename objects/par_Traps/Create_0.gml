@@ -20,9 +20,15 @@ oAudioManager.playFX(sndImpactPlateHeavy);
 
 move_snap(64, 64);
 
-//Start Enemy-Waves if first tower is build
-if (!oSpawn.spawnActive) {
-    oSpawn.spawnActive = true;
+//Start Enemy-Waves if first trap is build
+if (instance_exists(oSpawn)) {
+	if (!oSpawn.spawnActive) {
+		oSpawn.spawnActive = true;
+	}
+} else if (instance_exists(oSpawnEndless)) {
+	if (!oSpawnEndless.spawnActive) {
+		oSpawnEndless.spawnActive = true;
+	}
 }
 
 alarm[1] = 2;
