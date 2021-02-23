@@ -11,3 +11,7 @@ if(instance_exists(par_Enemy)) {
 		}
 	}
 }
+
+if(instance_exists(oAudioManager)){
+	oAudioManager.playFX(sndExplosion);
+}
