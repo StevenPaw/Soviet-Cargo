@@ -16,8 +16,8 @@
     {"speed":100.0,"x":2048.0,"y":448.0,},
   ],
   "parent": {
-    "name": "Level8",
-    "path": "folders/Paths/Level8.yy",
+    "name": "Level08",
+    "path": "folders/Paths/Level08.yy",
   },
   "resourceVersion": "1.0",
   "name": "pLevel8",

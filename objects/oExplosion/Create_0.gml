@@ -1,6 +1,5 @@
 // invididual tower variables
-explosionDamage = 80;
-
+explosionDamage = 15;
 
 size = 2;
 lifetime = 50;

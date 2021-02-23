@@ -13,8 +13,8 @@
     {"speed":100.0,"x":2112.0,"y":576.0,},
   ],
   "parent": {
-    "name": "Level7",
-    "path": "folders/Paths/Level7.yy",
+    "name": "Level07",
+    "path": "folders/Paths/Level07.yy",
   },
   "resourceVersion": "1.0",
   "name": "pLevel7water",

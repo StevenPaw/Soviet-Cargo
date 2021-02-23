@@ -22,15 +22,16 @@ function newLevel(roomObject, wavecount, levelpath, waterpath, skypath, undergro
 
 
 //Create Levels
-newLevel(rLevel1, 15, pLevel1, pLevel1water, pLevel1sky, pLevel1underground);
-newLevel(rLevel2, 10, pLevel2, pLevel2water, pLevel2sky, pLevel2underground);
-newLevel(rLevel3, 10, pLevel3, pLevel3water, pLevel3sky, pLevel3underground);
-newLevel(rLevel4, 15, pLevel4, pLevel4water, pLevel4sky, pLevel4underground);
-newLevel(rLevel5, 15, pLevel5, pLevel5water, pLevel5sky, pLevel5underground);
-newLevel(rLevel6, 15, pLevel6, pLevel6water, pLevel6sky, pLevel6underground);
-newLevel(rLevel7, 15, pLevel7, pLevel7water, pLevel7sky, pLevel7underground);
-newLevel(rLevel8, 15, pLevel8, pLevel8water, pLevel8sky, pLevel8underground);
-newLevel(rLevel9, 15, pLevel9, pLevel9water, pLevel9sky, pLevel9underground);
+newLevel(rLevel01, 15, pLevel1, pLevel1water, pLevel1sky, pLevel1underground);
+newLevel(rLevel02, 10, pLevel2, pLevel2water, pLevel2sky, pLevel2underground);
+newLevel(rLevel03, 10, pLevel3, pLevel3water, pLevel3sky, pLevel3underground);
+newLevel(rLevel04, 15, pLevel4, pLevel4water, pLevel4sky, pLevel4underground);
+newLevel(rLevel05, 15, pLevel5, pLevel5water, pLevel5sky, pLevel5underground);
+newLevel(rLevel06, 15, pLevel6, pLevel6water, pLevel6sky, pLevel6underground);
+newLevel(rLevel07, 15, pLevel7, pLevel7water, pLevel7sky, pLevel7underground);
+newLevel(rLevel08, 15, pLevel8, pLevel8water, pLevel8sky, pLevel8underground);
+newLevel(rLevel09, 15, pLevel9, pLevel9water, pLevel9sky, pLevel9underground);
+newLevel(rLevel10, 15, pLevel10, pLevel10water, pLevel10sky, pLevel10underground);
 
 
 //Function to get current Level ID

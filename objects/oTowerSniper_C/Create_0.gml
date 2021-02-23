@@ -7,7 +7,7 @@ costPlace_y = costPlace_start;
 draggableTower = oTowerSniper_D;
 
 // tower "stats"
-maxrange = 60;
+maxrange = 500;
 minrange = 100;
 fire_rate = room_speed / 0.4;
 draggableObject = oTowerSniper_D;

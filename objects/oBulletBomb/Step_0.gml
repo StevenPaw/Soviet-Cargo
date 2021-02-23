@@ -5,6 +5,7 @@
 event_inherited();
 
 if (distance_to_point(targetX, targetY) <= 5) {
-    instance_create_layer(x, y, "GUI1", oExplosion);
+    spawnedExplosion = instance_create_layer(x, y, "GUI1", oExplosion);
+	spawnedExplosion.explosionDamage = BulletDamage;
     instance_destroy();
 }

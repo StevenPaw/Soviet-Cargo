@@ -4,8 +4,8 @@
 event_inherited();
 
 // invididual tower variables
-BulletDamage = 34;
-BulletSpeed = 8;
+BulletDamage = 15;
+BulletSpeed = 10;
 
 targetX = 0;
 targetY = 0;

@@ -18,8 +18,8 @@
     {"speed":100.0,"x":2016.0,"y":576.0,},
   ],
   "parent": {
-    "name": "Level6",
-    "path": "folders/Paths/Level6.yy",
+    "name": "Level06",
+    "path": "folders/Paths/Level06.yy",
   },
   "resourceVersion": "1.0",
   "name": "pLevel6",
