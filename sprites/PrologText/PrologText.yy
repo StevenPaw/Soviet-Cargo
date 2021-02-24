@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"79da306b-95f4-43f8-b9ed-2637db8d1e04","path":"sprites/PrologText/PrologText.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"79da306b-95f4-43f8-b9ed-2637db8d1e04","path":"sprites/PrologText/PrologText.yy",},"LayerId":{"name":"4c6be261-1cf4-4946-84a6-4e3930c0b25c","path":"sprites/PrologText/PrologText.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"PrologText","path":"sprites/PrologText/PrologText.yy",},"resourceVersion":"1.0","name":"79da306b-95f4-43f8-b9ed-2637db8d1e04","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ca691179-3f65-4ea9-a947-504fd588cf33","path":"sprites/PrologText/PrologText.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ca691179-3f65-4ea9-a947-504fd588cf33","path":"sprites/PrologText/PrologText.yy",},"LayerId":{"name":"a45096bb-495a-4fbf-8913-c63dd0fa6888","path":"sprites/PrologText/PrologText.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"PrologText","path":"sprites/PrologText/PrologText.yy",},"resourceVersion":"1.0","name":"ca691179-3f65-4ea9-a947-504fd588cf33","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"PrologText","path":"sprites/PrologText/PrologText.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"779957d5-2d09-4082-94c4-061f6a5d4016","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"79da306b-95f4-43f8-b9ed-2637db8d1e04","path":"sprites/PrologText/PrologText.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"45c18eb9-795e-471d-a4a0-ebb6018b8259","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ca691179-3f65-4ea9-a947-504fd588cf33","path":"sprites/PrologText/PrologText.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4c6be261-1cf4-4946-84a6-4e3930c0b25c","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a45096bb-495a-4fbf-8913-c63dd0fa6888","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Prolog",
