@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "sEnemyFly",
-    "path": "sprites/sEnemyFly/sEnemyFly.yy",
+    "name": "Double_Tower_Head",
+    "path": "sprites/Double_Tower_Head/Double_Tower_Head.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "par_EnemySky",
-    "path": "objects/par_EnemySky/par_EnemySky.yy",
+    "name": "par_Tower_Dragged",
+    "path": "objects/par_Tower_Dragged/par_Tower_Dragged.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,16 +24,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oEnemySky","path":"objects/oEnemySky/oEnemySky.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oTowerDouble_D","path":"objects/oTowerDouble_D/oTowerDouble_D.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Enemies.yy",
+    "name": "Tower Dragged",
+    "path": "folders/Objects/Tower Dragged.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oEnemySky",
+  "name": "oTowerDouble_D",
   "tags": [],
   "resourceType": "GMObject",
 }

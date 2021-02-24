@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "sEnemyFly",
-    "path": "sprites/sEnemyFly/sEnemyFly.yy",
+    "name": "Double_Tower_Head",
+    "path": "sprites/Double_Tower_Head/Double_Tower_Head.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "par_EnemySky",
-    "path": "objects/par_EnemySky/par_EnemySky.yy",
+    "name": "par_Tower",
+    "path": "objects/par_Tower/par_Tower.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,16 +24,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oEnemySky","path":"objects/oEnemySky/oEnemySky.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oTowerFLAK","path":"objects/oTowerFLAK/oTowerFLAK.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Enemies.yy",
+    "name": "Towers",
+    "path": "folders/Objects/Towers.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oEnemySky",
+  "name": "oTowerFLAK",
   "tags": [],
   "resourceType": "GMObject",
 }

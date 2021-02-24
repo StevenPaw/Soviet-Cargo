@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "sEnemyFly",
-    "path": "sprites/sEnemyFly/sEnemyFly.yy",
+    "name": "SniperBullet",
+    "path": "sprites/SniperBullet/SniperBullet.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "par_EnemySky",
-    "path": "objects/par_EnemySky/par_EnemySky.yy",
+    "name": "par_Bullet",
+    "path": "objects/par_Bullet/par_Bullet.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,16 +24,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oEnemySky","path":"objects/oEnemySky/oEnemySky.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oBulletFLAK","path":"objects/oBulletFLAK/oBulletFLAK.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Enemies.yy",
+    "name": "Bullets",
+    "path": "folders/Objects/Bullets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oEnemySky",
+  "name": "oBulletFLAK",
   "tags": [],
   "resourceType": "GMObject",
 }

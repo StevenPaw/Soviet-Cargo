@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "sEnemyFly",
-    "path": "sprites/sEnemyFly/sEnemyFly.yy",
+    "name": "sDouble_Tower_Inv",
+    "path": "sprites/sDouble_Tower_Inv/sDouble_Tower_Inv.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "par_EnemySky",
-    "path": "objects/par_EnemySky/par_EnemySky.yy",
+    "name": "par_Tower_clickables",
+    "path": "objects/par_Tower_clickables/par_Tower_clickables.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,16 +24,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oEnemySky","path":"objects/oEnemySky/oEnemySky.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oTowerDouble_C","path":"objects/oTowerDouble_C/oTowerDouble_C.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Enemies.yy",
+    "name": "Tower Clickables",
+    "path": "folders/Objects/GUI/Tower Clickables.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oEnemySky",
+  "name": "oTowerDouble_C",
   "tags": [],
   "resourceType": "GMObject",
 }
