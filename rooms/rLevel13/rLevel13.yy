@@ -49,6 +49,7 @@
       ],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Paths","tags":[],"resourceType":"GMRLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oSpawn","path":"objects/oSpawn/oSpawn.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":-384.0,"resourceVersion":"1.0","name":"inst_130B0AE0","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oThunderstormGenerator","path":"objects/oThunderstormGenerator/oThunderstormGenerator.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":-320.0,"resourceVersion":"1.0","name":"inst_7AD75B3A","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oRestriction","path":"objects/oRestriction/oRestriction.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":9.126983,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":959.999756,"y":960.0,"resourceVersion":"1.0","name":"inst_62212400","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oRestriction","path":"objects/oRestriction/oRestriction.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.999998331,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-1152.0,"y":1088.0,"resourceVersion":"1.0","name":"inst_3D708D86","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oRestriction","path":"objects/oRestriction/oRestriction.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":11.1587305,"scaleY":1.00000024,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1216.0,"y":64.0,"resourceVersion":"1.0","name":"inst_2821909F","tags":[],"resourceType":"GMRInstance",},
@@ -248,6 +249,7 @@
     {"name":"inst_63160CAD","path":"rooms/rLevel13/rLevel13.yy",},
     {"name":"inst_775AE486","path":"rooms/rLevel13/rLevel13.yy",},
     {"name":"inst_6F76B67D","path":"rooms/rLevel13/rLevel13.yy",},
+    {"name":"inst_7AD75B3A","path":"rooms/rLevel13/rLevel13.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
