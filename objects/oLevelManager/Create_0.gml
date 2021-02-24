@@ -33,6 +33,7 @@ newLevel(rLevel08, 15, pLevel8, pLevel8water, pLevel8sky, pLevel8underground);
 newLevel(rLevel09, 15, pLevel9, pLevel9water, pLevel9sky, pLevel9underground);
 newLevel(rLevel10, 15, pLevel10, pLevel10water, pLevel10sky, pLevel10underground);
 newLevel(rLevel11, 15, pLevel11, pLevel11water, pLevel11sky, pLevel11underground);
+newLevel(rLevel12, 15, pLevel12, pLevel12water, pLevel12sky, pLevel12underground);
 
 
 //Function to get current Level ID
