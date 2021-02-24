@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Double_Tower_Head",
-    "path": "sprites/Double_Tower_Head/Double_Tower_Head.yy",
+    "name": "FLAK_Tower_Head",
+    "path": "sprites/FLAK_Tower_Head/FLAK_Tower_Head.yy",
   },
   "solid": false,
   "visible": true,

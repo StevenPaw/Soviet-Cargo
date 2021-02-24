@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "SniperBullet",
-    "path": "sprites/SniperBullet/SniperBullet.yy",
+    "name": "FLAKBullet",
+    "path": "sprites/FLAKBullet/FLAKBullet.yy",
   },
   "solid": false,
   "visible": true,

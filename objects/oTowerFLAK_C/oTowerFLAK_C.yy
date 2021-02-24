@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sDouble_Tower_Inv",
-    "path": "sprites/sDouble_Tower_Inv/sDouble_Tower_Inv.yy",
+    "name": "sFLAK_Tower_Inv",
+    "path": "sprites/sFLAK_Tower_Inv/sFLAK_Tower_Inv.yy",
   },
   "solid": false,
   "visible": true,
