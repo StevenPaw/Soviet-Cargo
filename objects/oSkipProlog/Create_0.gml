@@ -5,7 +5,7 @@ direction = 180;
 speed = 5;
 
 function onButtonRelease() {
-	room_goto(rLevel1);
+	room_goto(rLevel01);
 	oAudioManager.playButtonClick();
 }
 
