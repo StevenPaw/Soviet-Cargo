@@ -1,0 +1,26 @@
+{
+  "kind": 0,
+  "closed": false,
+  "precision": 4,
+  "points": [
+    {"speed":100.0,"x":320.0,"y":-64.0,},
+    {"speed":100.0,"x":320.0,"y":448.0,},
+    {"speed":100.0,"x":64.0,"y":448.0,},
+    {"speed":100.0,"x":64.0,"y":960.0,},
+    {"speed":100.0,"x":320.0,"y":960.0,},
+    {"speed":100.0,"x":320.0,"y":832.0,},
+    {"speed":100.0,"x":1344.0,"y":832.0,},
+    {"speed":100.0,"x":1344.0,"y":704.0,},
+    {"speed":100.0,"x":1728.0,"y":704.0,},
+    {"speed":100.0,"x":1728.0,"y":448.0,},
+    {"speed":100.0,"x":2048.0,"y":448.0,},
+  ],
+  "parent": {
+    "name": "Level8",
+    "path": "folders/Paths/Level8.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "pLevel8",
+  "tags": [],
+  "resourceType": "GMPath",
+}

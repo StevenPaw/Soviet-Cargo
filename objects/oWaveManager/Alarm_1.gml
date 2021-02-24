@@ -154,4 +154,22 @@ ds_list_add(waveList[12], ";4;3;4;4;4;3;4;4;4;3;4;4;");
 ds_list_add(waveList[12], ";4;2;2;4;0;0;0;0;0;0;");
 ds_list_add(waveList[12], ";1;3;1;5;0;1;0;5;2;2;5;1;0;2;");
 
+//Level 13:
+ds_list_add(waveList[13], "Level 13");
+ds_list_add(waveList[13], ";0;0;");
+ds_list_add(waveList[13], ";0;0;0;");
+ds_list_add(waveList[13], ";0;0;0;0;");
+ds_list_add(waveList[13], ";0;0;0;0;0;");
+ds_list_add(waveList[13], ";0;0;0;0;0;0;0;0;");
+ds_list_add(waveList[13], ";1;0;0;1;0;0;");
+ds_list_add(waveList[13], ";4;4;4;4;");
+ds_list_add(waveList[13], ";4;2;2;4;0;0;0;0;0;0;");
+ds_list_add(waveList[13], ";1;0;1;0;0;1;0;0;2;2;0;1;0;2;");
+ds_list_add(waveList[13], ";4;0;4;1;4;0;4;1;4;0;");
+ds_list_add(waveList[13], ";0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0");
+ds_list_add(waveList[13], ";1;0;0;1;3;0;0;1;3;0;0;1;3;0;");
+ds_list_add(waveList[13], ";4;3;4;4;4;3;4;4;4;3;4;4;");
+ds_list_add(waveList[13], ";4;2;2;4;0;0;0;0;0;0;");
+ds_list_add(waveList[13], ";1;3;1;5;0;1;0;5;2;2;5;1;0;2;");
+
 alarm[0] = 1;

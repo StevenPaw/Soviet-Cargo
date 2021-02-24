@@ -20,20 +20,21 @@ function newLevel(roomObject, wavecount, levelpath, waterpath, skypath, undergro
     levelPathUnderground[levelCount] = undergroundpath;
 }
 
-
+//maxWaves is deprecated
 //Create Levels
-newLevel(rLevel01, 15, pLevel1, pLevel1water, pLevel1sky, pLevel1underground);
-newLevel(rLevel02, 10, pLevel2, pLevel2water, pLevel2sky, pLevel2underground);
-newLevel(rLevel03, 10, pLevel3, pLevel3water, pLevel3sky, pLevel3underground);
-newLevel(rLevel04, 15, pLevel4, pLevel4water, pLevel4sky, pLevel4underground);
-newLevel(rLevel05, 15, pLevel5, pLevel5water, pLevel5sky, pLevel5underground);
-newLevel(rLevel06, 15, pLevel6, pLevel6water, pLevel6sky, pLevel6underground);
-newLevel(rLevel07, 15, pLevel7, pLevel7water, pLevel7sky, pLevel7underground);
-newLevel(rLevel08, 15, pLevel8, pLevel8water, pLevel8sky, pLevel8underground);
-newLevel(rLevel09, 15, pLevel9, pLevel9water, pLevel9sky, pLevel9underground);
-newLevel(rLevel10, 15, pLevel10, pLevel10water, pLevel10sky, pLevel10underground);
-newLevel(rLevel11, 15, pLevel11, pLevel11water, pLevel11sky, pLevel11underground);
-newLevel(rLevel12, 15, pLevel12, pLevel12water, pLevel12sky, pLevel12underground);
+newLevel(rLevel01, 999, pLevel1, pLevel1water, pLevel1sky, pLevel1underground);
+newLevel(rLevel02, 999, pLevel2, pLevel2water, pLevel2sky, pLevel2underground);
+newLevel(rLevel03, 999, pLevel3, pLevel3water, pLevel3sky, pLevel3underground);
+newLevel(rLevel04, 999, pLevel4, pLevel4water, pLevel4sky, pLevel4underground);
+newLevel(rLevel05, 999, pLevel5, pLevel5water, pLevel5sky, pLevel5underground);
+newLevel(rLevel06, 999, pLevel6, pLevel6water, pLevel6sky, pLevel6underground);
+newLevel(rLevel07, 999, pLevel7, pLevel7water, pLevel7sky, pLevel7underground);
+newLevel(rLevel08, 999, pLevel8, pLevel8water, pLevel8sky, pLevel8underground);
+newLevel(rLevel09, 999, pLevel9, pLevel9water, pLevel9sky, pLevel9underground);
+newLevel(rLevel10, 999, pLevel10, pLevel10water, pLevel10sky, pLevel10underground);
+newLevel(rLevel11, 999, pLevel11, pLevel11water, pLevel11sky, pLevel11underground);
+newLevel(rLevel12, 999, pLevel12, pLevel12water, pLevel12sky, pLevel12underground);
+newLevel(rLevel13, 999, pLevel13, pLevel13water, pLevel13sky, pLevel13underground);
 
 
 //Function to get current Level ID

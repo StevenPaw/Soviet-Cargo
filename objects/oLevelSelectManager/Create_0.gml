@@ -8,7 +8,7 @@ curY = 0;
 maxY = 0;
 scrollableDown = true;
 scrollableUp = false;
-scrollSpeed = 10;
+scrollSpeed = 30;
 
 for (i = 1; i < array_length(Roomlist); i++) {
     if (curX = 0) {
